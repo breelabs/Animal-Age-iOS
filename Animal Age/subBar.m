@@ -1,15 +1,14 @@
 //
-//  topBar.m
+//  subBar.m
 //  Animal Age
 //
-//  Created by Jon Brown on 2/16/14.
+//  Created by Jon Brown on 2/20/14.
 //  Copyright (c) 2014 Jon Brown. All rights reserved.
 //
 
-#import "topBar.h"
+#import "subBar.h"
 
-@implementation topBar
-
+@implementation subBar
 
 - (void)drawRect:(CGRect)rect
 {
@@ -19,7 +18,7 @@
     CGColorSpaceRef rgbColorspace;
     size_t num_locations = 2;
     CGFloat locations[2] = { 0.0, 1.0 };
-    CGFloat components[8] = { 0.80, 0.80, 0.80, 1.0,  // Start color
+    CGFloat components[8] = { 0.70, 0.70, 0.70, 1.0,  // Start color
         0.47, 0.47, 0.47, 1.0 }; // End color
     
     rgbColorspace = CGColorSpaceCreateDeviceRGB();

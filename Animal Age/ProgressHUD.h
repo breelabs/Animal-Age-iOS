@@ -21,8 +21,8 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 //#define sheme_white
-//#define sheme_black
-#define sheme_color
+#define sheme_black
+//#define sheme_color
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 #define HUD_STATUS_FONT			[UIFont boldSystemFontOfSize:16]
@@ -40,7 +40,7 @@
 #ifdef sheme_black
 #define HUD_STATUS_COLOR		[UIColor blackColor]
 #define HUD_SPINNER_COLOR		[UIColor blackColor]
-#define HUD_BACKGROUND_COLOR	[UIColor colorWithWhite:0 alpha:0.1]
+#define HUD_BACKGROUND_COLOR	[UIColor colorWithWhite:0 alpha:0.5]
 #define HUD_IMAGE_SUCCESS		[UIImage imageNamed:@"ProgressHUD.bundle/success-black.png"]
 #define HUD_IMAGE_ERROR			[UIImage imageNamed:@"ProgressHUD.bundle/error-black.png"]
 #endif

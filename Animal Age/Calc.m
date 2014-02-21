@@ -9,6 +9,55 @@
 #import "Calc.h"
 
 @implementation Calc
+@synthesize displayingFront;
+
+
+- (void)viewDidLoad
+{
+    self.displayingFront = YES;
+    
+}
+
+-(IBAction)showflip:(id)sender {
+        
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    NSString*  flipin = [defaults objectForKey:@"flipPref"];
+    int flipValue = [flipin doubleValue];
+    
+    [UIView transitionWithView:self->masterFlip
+                      duration:1.0
+                       options:(displayingFront ? UIViewAnimationOptionTransitionFlipFromRight :
+                                UIViewAnimationOptionTransitionFlipFromLeft)
+                    animations: ^{
+                        if(displayingFront)
+                        {
+                            self->frontView.hidden = true;
+                            self->backView.hidden = false;
+                            
+                            NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+                            [defaults setBool:YES forKey:@"flipPref"];
+                            NSLog(@"Flip Status 1: %d", flipValue);
+                        }
+                        else
+                        {
+                            self->frontView.hidden = false;
+                            self->backView.hidden = true;
+                            
+                            NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+                            [defaults setBool:NO forKey:@"flipPref"];
+                            NSLog(@"Flip Status 2: %d", flipValue);
+                        }
+                    }
+     
+                    completion:^(BOOL finished) {
+                        if (finished) {
+                            displayingFront = !displayingFront;
+                            [self calcTapped];
+                        }
+                    }];
+    
+    
+}
 
 -(IBAction)closeKeyboard {
 	//Here we are closing the keyboard for both of the textfields.
@@ -28,17 +77,32 @@
     
 }
 
+- (IBAction)calcWithProg {
+    
+    [ProgressHUD show:nil];
+    [self calcTapped];
+    [self performSelector:@selector(dogAnswer:) withObject:nil afterDelay:.50];
+    
+}
+
 
 - (IBAction)calcTapped {
     
-    [ProgressHUD show:nil];
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    NSString*  flipin = [defaults objectForKey:@"flipPref"];
+    int flipValue = [flipin doubleValue];
+    
+    
+    
     
     calcText.lineBreakMode = NSLineBreakByWordWrapping;
     calcText.numberOfLines = 0;
     
     NSString *buttonTitle = AnimalButt.currentTitle;
 
+    
 	NSString *secondString = PeopleString.text;
+    NSString *thirdString = PeopleString2.text;
     
     //Here we are creating three doubles
 	float num2;
@@ -47,21 +111,60 @@
     
 	//Here we are assigning the values
 
-	num2 = [secondString doubleValue];
+    if (flipValue == 0 ) {
+        
+        NSLog(@"Flip Status 1: %d", flipValue);
+        num2 = [thirdString floatValue];
+        
+    } else {
+        
+        NSLog(@"Flip Status 2: %d", flipValue);
+        num2 = [secondString floatValue];
+    }
+
     
     // Dog Calculation
     
     if ([buttonTitle isEqualToString: @"Dog"]) {
         
+        if (flipValue == 0 ) {
+            
             // People Age to Animal
         
             y = ((num2>=21) ? ((num2-21)/4+2) : (num2/10.5));
             answer = (y * 100)/100;
+            
+            // Perform Conversion
+            
+            NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+            [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+            NSString *numField1 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+            
+            
+             NSLog(@"Answer: %@", numField1);
+            [PeopleString setText:numField1];
+
+        } else {
+            
+            // Animal Age to People
+            
+            y = ((num2>=2) ? (21 + ((num2 - 2) * 4)) : (num2*10.5));
+            answer = (y * 100)/100;
+            
+            // Perform Conversion
+            
+            NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+            [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+            NSString *numField2 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+            
+            NSLog(@"Answer: %@", numField2);
+            [PeopleString2 setText:numField2];
+            
+        }
         
-            // Trigger Web View Graph
+        // Trigger Web View Graph
         
-            [webView stringByEvaluatingJavaScriptFromString: @"loadDogData()" ];
-    
+        [webView stringByEvaluatingJavaScriptFromString: @"loadDogData()" ];
         
     // Cat Calculation
         
@@ -69,20 +172,60 @@
         
             // People Age to Animal
         
-        
-        if ((num2 >= 0) && (num2 <= 15)) {
+        if (flipValue == 0 ) {
             
-            answer = 1;
+            if ((num2 >= 0) && (num2 <= 15)) {
+                
+                answer = 1;
+                
+                
+            } else if ((num2 >= 16) && (num2 <= 24)) {
+                
+                answer = 2;
+                
+                
+            } else {
+                answer = ((num2 - 24)/4)+(2);
+                
+            }
             
+            // Perform Conversion
             
-        } else if ((num2 >= 16) && (num2 <= 24)) {
-            
-            answer = 2;
-            
+            NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+            [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+            NSString *numField1 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+
+            NSLog(@"Answer: %@", numField1);
+            [PeopleString setText:numField1];
             
         } else {
-            answer = ((num2 - 24)/4)+(2);
             
+            // Animal Age to People
+            
+            
+            if ((num2 >= 0) && (num2 <= 1)) {
+                
+                answer = 15;
+                
+                
+            } else if ((num2 >= 1) && (num2 <= 2)) {
+                
+                answer = 24;
+                
+                
+            } else {
+                answer = ((num2 - 2)*4)+(24);
+                
+            }
+            
+            // Perform Conversion
+            
+            NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+            [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+            NSString *numField2 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+            
+            NSLog(@"Answer: %@", numField2);
+            [PeopleString2 setText:numField2];
         }
         
             // Trigger Web View Graph
@@ -94,10 +237,39 @@
         
     } else if ([buttonTitle isEqualToString: @"Cow"]) {
         
-            // People Age to Animal
-        
-            answer = num2 * 6;
-        
+         if (flipValue == 0 ) {
+             
+             // People Age to Animal
+             
+             answer = num2 * 6;
+             
+             // Perform Conversion
+             
+             NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+             [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+             NSString *numField1 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+             
+             NSLog(@"Answer: %@", numField1);
+             [PeopleString setText:numField1];
+             
+             
+         } else {
+             
+             // Animal Age to People
+             
+             answer = num2 / 6;
+             
+             // Perform Conversion
+             
+             NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+             [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+             NSString *numField2 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+             
+             NSLog(@"Answer: %@", numField2);
+             [PeopleString2 setText:numField2];
+             
+         }
+
             // Trigger Web View Graph
         
             [webView stringByEvaluatingJavaScriptFromString: @"loadCowData()" ];
@@ -106,9 +278,38 @@
         
     } else if ([buttonTitle isEqualToString: @"Rabbit"]) {
         
-        // People Age to Animal
+        if (flipValue == 0 ) {
+            
+            // People Age to Animal
+            
+            answer = num2 * 9.25;
+            
+            // Perform Conversion
+            
+            NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+            [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+            NSString *numField1 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+            
+            NSLog(@"Answer: %@", numField1);
+            [PeopleString setText:numField1];
+            
+        } else {
+            
+            // Animal Age to People
+            
+            answer = num2 / 9.25;
+            
+            // Perform Conversion
+            
+            NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+            [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+            NSString *numField2 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+            
+            NSLog(@"Answer: %@", numField2);
+            [PeopleString2 setText:numField2];
+            
+        }
         
-        answer = num2 * 9.25;
         
         // Trigger Web View Graph
         
@@ -118,9 +319,38 @@
         
     } else if ([buttonTitle isEqualToString: @"Duck"]) {
         
-        // People Age to Animal
+        if (flipValue == 0 ) {
+            
+            // People Age to Animal
+            
+            answer = num2 * 6.25;
+            
+            // Perform Conversion
+            
+            NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+            [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+            NSString *numField1 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+            
+            NSLog(@"Answer: %@", numField1);
+            [PeopleString setText:numField1];
+            
+        } else {
+            
+            // Animal Age to People
+            
+            answer = num2 / 6.25;
+            
+            // Perform Conversion
+            
+            NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+            [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+            NSString *numField2 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+            
+            NSLog(@"Answer: %@", numField2);
+            [PeopleString2 setText:numField2];
+            
+        }
         
-        answer = num2 * 6.25;
         
         // Trigger Web View Graph
         
@@ -130,9 +360,37 @@
         
     } else {
         
-        // People Age to Animal
-        
-        answer = num2 * 8.12;
+        if (flipValue == 0 ) {
+            
+            // People Age to Animal
+            
+            answer = num2 * 8.12;
+            
+            // Perform Conversion
+            
+            NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+            [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+            NSString *numField1 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+            
+            NSLog(@"Answer: %@", numField1);
+            [PeopleString setText:numField1];
+            
+        } else {
+            
+            // Animal Age to People
+            
+            answer = num2 / 8.12;
+            
+            // Perform Conversion
+            
+            NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
+            [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
+            NSString *numField2 = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+            
+            NSLog(@"Answer: %@", numField2);
+            [PeopleString2 setText:numField2];
+            
+        }
         
         // Trigger Web View Graph
         
@@ -143,19 +401,25 @@
     
     NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
     [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
-    NSString *string = [answerFormatter stringFromNumber:[NSNumber numberWithInt:answer]];
+    NSString *string = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
     resultLabel.text =[NSString stringWithFormat:@"%@", string];
     
     if ([UIScreen mainScreen].scale == 2.f && [[UIScreen mainScreen] bounds].size.height-568)
     { [calcText setText:@""]; }
     else
     {
-        NSString *results = resultLabel.text;
-        NSString *animal = AnimalButt.currentTitle;
-        [calcText setText:[NSString stringWithFormat:@"You are %@ years old in %@ years!", results, animal]];
+        if (flipValue == 0 ) {
+            NSString *results = resultLabel.text;
+            NSString *animal = AnimalButt.currentTitle;
+            [calcText setText:[NSString stringWithFormat:@"You are %@ years old in %@ years", results, animal]];
+        } else {
+            NSString *results = resultLabel.text;
+            NSString *animal = AnimalButt2.currentTitle;
+            [calcText setText:[NSString stringWithFormat:@"Your %@ is %@ years old in Human years", animal, results]];
+        }
     }
     
-    [self performSelector:@selector(dogAnswer:) withObject:nil afterDelay:.50];
+   
     
     
     

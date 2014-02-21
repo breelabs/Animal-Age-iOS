@@ -7,7 +7,7 @@
 //
 
 #import "AnimalPicker.h"
-#import "Calc.h"
+
 
 @interface AnimalPicker ()
 
@@ -20,19 +20,34 @@
 
 - (void)viewDidLoad
 {
+
     [super viewDidLoad];
+
     
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setBool:YES forKey:@"flipPref"];
+    NSString*  flipin = [defaults objectForKey:@"flipPref"];
+    int flipValue = [flipin doubleValue];
+    NSLog(@"Flip Status: %d", flipValue);
+    
+
     calcText.lineBreakMode = NSLineBreakByWordWrapping;
     calcText.numberOfLines = 0;
-    NSString *results = resultLabel.text;
-    NSString *animal = AnimalButt.currentTitle;
+    
     
     if ([UIScreen mainScreen].scale == 2.f && [[UIScreen mainScreen] bounds].size.height-568)
     { [calcText setText:@""]; }
     else
     {
-
-        [calcText setText:[NSString stringWithFormat:@"You are %@ years old in %@ years!", results, animal]];
+        if (flipValue == 0 ) {
+            NSString *results = resultLabel.text;
+            NSString *animal = AnimalButt.currentTitle;
+            [calcText setText:[NSString stringWithFormat:@"You are %@ years old in %@ years", results, animal]];
+        } else {
+            NSString *results = resultLabel.text;
+            NSString *animal = AnimalButt2.currentTitle;
+            [calcText setText:[NSString stringWithFormat:@"You are %@ years old in %@ years", results, animal]];
+        }
         
     }
     
@@ -48,12 +63,20 @@
     [layer setBorderWidth:1.0];
     [layer setBorderColor:[buttColor CGColor]];
     
+    CALayer * layer2 = [AnimalButt2 layer];
+    [layer2 setMasksToBounds:YES];
+    [layer2 setCornerRadius:4.0]; //when radius is 0, the border is a rectangle
+    [layer2 setBorderWidth:1.0];
+    [layer2 setBorderColor:[buttColor CGColor]];
+    
     CALayer * calcLayer = [AgeButt layer];
     [calcLayer setMasksToBounds:YES];
     [calcLayer setCornerRadius:4.0]; //when radius is 0, the border is a rectangle
     [calcLayer setBorderWidth:1.0];
     [calcLayer setBorderColor:[butbackcolor CGColor]];
     AgeButt.backgroundColor = butbackcolor;
+  
+    
     
     #pragma mark - Set WebView
     
@@ -67,8 +90,6 @@
     UIColor *myColor = [UIColor colorWithRed:(190.0 / 255.0) green:(190.0 / 255.0) blue:(190.0 / 255.0) alpha: 1];
     
     [mainArea setBackgroundColor:myColor];
-    bottomView.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.0];
-    bottomView.opaque = NO;
     
     #pragma mark - Set Animal Array
     
@@ -77,12 +98,20 @@
     
      #pragma mark - Set Buttons / View Colors
     
-    HumanAge.backgroundColor = myColor;
+    
+    ManView2.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.0];
+    ManView2.opaque = NO;
     ManView.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.0];
     ManView.opaque = NO;
+    
+    HumanAge.backgroundColor = myColor;
     HumanAge.leftView = ManView;
     HumanAge.leftViewMode = UITextFieldViewModeAlways;
     
+    
+    HumanAge2.backgroundColor = myColor;
+    HumanAge2.leftView = ManView2;
+    HumanAge2.leftViewMode = UITextFieldViewModeAlways;
     
      #pragma mark - Set Done Button on Number Pad
     
@@ -94,11 +123,23 @@
                            [[UIBarButtonItem alloc]initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(doneWithNumberPad)],
                            nil];
     [numberToolbar sizeToFit];
+    
+    
+    
     HumanAge.inputAccessoryView = numberToolbar;
-
-   
+    
+    UIToolbar* numberToolbar2 = [[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, 320, 50)];
+    numberToolbar2.barStyle = UIBarStyleDefault;
+    numberToolbar2.items = [NSArray arrayWithObjects:
+                            [[UIBarButtonItem alloc]initWithTitle:@"Cancel" style:UIBarButtonItemStyleBordered target:self action:@selector(cancelNumberPad2)],
+                            [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil],
+                            [[UIBarButtonItem alloc]initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(doneWithNumberPad2)],
+                            nil];
+    [numberToolbar2 sizeToFit];
+    HumanAge2.inputAccessoryView = numberToolbar2;
 
 }
+
 
 -(void)cancelNumberPad{
     [HumanAge resignFirstResponder];
@@ -108,9 +149,24 @@
     
 }
 
+-(void)cancelNumberPad2{
+    [HumanAge2 resignFirstResponder];
+    HumanAge2.text = @"";
+    Calc *theInstance = [[Calc alloc] init];
+    [theInstance calcTapped];
+    
+}
+
 -(void)doneWithNumberPad{
    // NSString *numberFromTheKeyboard = HumanAge.text;
     [HumanAge resignFirstResponder];
+    Calc *theInstance = [[Calc alloc] init];
+    [theInstance calcTapped];
+}
+
+-(void)doneWithNumberPad2{
+    // NSString *numberFromTheKeyboard = HumanAge.text;
+    [HumanAge2 resignFirstResponder];
     Calc *theInstance = [[Calc alloc] init];
     [theInstance calcTapped];
 }
@@ -137,7 +193,7 @@
     
     NSLog(@"row %lu selected", (unsigned long)row);
     [self->AnimalButt setTitle:[self.animalArray objectAtIndex:row] forState:UIControlStateNormal];
-
+    [self->AnimalButt2 setTitle:[self.animalArray objectAtIndex:row] forState:UIControlStateNormal];
 }
 
 
