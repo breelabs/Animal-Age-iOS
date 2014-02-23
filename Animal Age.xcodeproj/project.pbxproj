@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC30E46D18B70D5400458013 /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30E46C18B70D5400458013 /* subBar.m */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
 		FC41100618B2864B00228D78 /* iphone_line.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100518B2864A00228D78 /* iphone_line.png */; };
 		FC41100818B286CF00228D78 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100718B286CF00228D78 /* logo.png */; };
@@ -58,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC30E46B18B70D5400458013 /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar.h; sourceTree = "<group>"; };
+		FC30E46C18B70D5400458013 /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar.m; sourceTree = "<group>"; };
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC41100518B2864A00228D78 /* iphone_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_line.png; sourceTree = "<group>"; };
 		FC41100718B286CF00228D78 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
@@ -190,6 +193,8 @@
 				FCEA451A18B061320009B4DC /* AppDelegate.h */,
 				FCEFEABD18B1741A008B33B8 /* topBar.h */,
 				FCEFEABE18B1741A008B33B8 /* topBar.m */,
+				FC30E46B18B70D5400458013 /* subBar.h */,
+				FC30E46C18B70D5400458013 /* subBar.m */,
 				FCEFEACF18B1DE59008B33B8 /* Calc.h */,
 				FCEFEAD018B1DE59008B33B8 /* Calc.m */,
 				FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */,
@@ -369,6 +374,7 @@
 			files = (
 				FCEFEAD118B1DE59008B33B8 /* Calc.m in Sources */,
 				FCEFEAD518B1E14C008B33B8 /* PickerTableView.m in Sources */,
+				FC30E46D18B70D5400458013 /* subBar.m in Sources */,
 				FCEA451C18B061320009B4DC /* AppDelegate.m in Sources */,
 				FCEA451818B061320009B4DC /* main.m in Sources */,
 				FCEFEABF18B1741A008B33B8 /* topBar.m in Sources */,
@@ -520,7 +526,7 @@
 				INFOPLIST_FILE = "Animal Age/Animal Age-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "9EC2C1B6-8044-4E5A-AC74-178B2EEE8867";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -533,10 +539,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animal Age/Animal Age-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Animal Age/Animal Age-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "9EC2C1B6-8044-4E5A-AC74-178B2EEE8867";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
