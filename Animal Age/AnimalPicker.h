@@ -10,6 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "PickerTableView.h"
 #import "Calc.h"
+#import "RFRateMe.h"
 
 @interface AnimalPicker : UIViewController <AnimalPickerControllerDelegate, UIActionSheetDelegate, UITextFieldDelegate>
 {
@@ -31,5 +32,7 @@
     IBOutlet UIView *frontView;
     IBOutlet UIView *masterFlip;
 }
+
+@property(nonatomic, strong) UITableViewController *SimpleTableVC;
 
 @end

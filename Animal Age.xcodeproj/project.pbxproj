@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC15D18819CE88E6002E73CA /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCEFEAC118B1BD38008B33B8 /* jquery-1.7.1.min.js */; };
 		FC30E46D18B70D5400458013 /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30E46C18B70D5400458013 /* subBar.m */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
 		FC41100618B2864B00228D78 /* iphone_line.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100518B2864A00228D78 /* iphone_line.png */; };
 		FC41100818B286CF00228D78 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100718B286CF00228D78 /* logo.png */; };
 		FC41100D18B29CCD00228D78 /* trasnfer.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100C18B29CCD00228D78 /* trasnfer.png */; };
 		FC41100F18B2A3BD00228D78 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100E18B2A3BD00228D78 /* man.png */; };
-		FC41101718B2EF8400228D78 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC41101618B2EF8400228D78 /* ProgressHUD.bundle */; };
-		FC54B2C618B2FD5B00F084E2 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC54B2BF18B2FD5B00F084E2 /* ProgressHUD.m */; };
 		FC54B2C718B2FD5B00F084E2 /* Launch640X1136.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C118B2FD5B00F084E2 /* Launch640X1136.png */; };
 		FC54B2C818B2FD5B00F084E2 /* Launch640X960.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C218B2FD5B00F084E2 /* Launch640X960.png */; };
 		FC54B2C918B2FD5B00F084E2 /* AppIcon120X120.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */; };
 		FC54B2CA18B2FD5B00F084E2 /* AppIcon80X80.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C418B2FD5B00F084E2 /* AppIcon80X80.png */; };
 		FC54B2CB18B2FD5B00F084E2 /* AppIcon58X58.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C518B2FD5B00F084E2 /* AppIcon58X58.png */; };
+		FCD1069219B6ED59002C0265 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCD1068F19B6ED59002C0265 /* ProgressHUD.bundle */; };
+		FCD1069319B6ED59002C0265 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD1069119B6ED59002C0265 /* ProgressHUD.m */; };
+		FCDB527E18BAEF2600924C35 /* RFRateMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDB527C18BAEF2600924C35 /* RFRateMe.m */; };
+		FCDB528118BAEF4000924C35 /* UIAlertView+NSCookbook.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDB527F18BAEF4000924C35 /* UIAlertView+NSCookbook.m */; };
+		FCDB528418BAF16700924C35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDB528318BAF16700924C35 /* Default-568h@2x.png */; };
 		FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450B18B061320009B4DC /* Foundation.framework */; };
 		FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450D18B061320009B4DC /* CoreGraphics.framework */; };
 		FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
@@ -39,7 +43,6 @@
 		FCEFEAC418B1BD38008B33B8 /* jquery-1.7.1.min.js in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEAC118B1BD38008B33B8 /* jquery-1.7.1.min.js */; };
 		FCEFEAC518B1BD38008B33B8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCEFEAC218B1BD38008B33B8 /* index.html */; };
 		FCEFEAC618B1BD38008B33B8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCEFEAC218B1BD38008B33B8 /* index.html */; };
-		FCEFEAC718B1BD52008B33B8 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCEFEAC118B1BD38008B33B8 /* jquery-1.7.1.min.js */; };
 		FCEFEACD18B1DBA2008B33B8 /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEACC18B1DBA2008B33B8 /* AnimalPicker.m */; };
 		FCEFEACE18B1DBA2008B33B8 /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEACC18B1DBA2008B33B8 /* AnimalPicker.m */; };
 		FCEFEAD118B1DE59008B33B8 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEAD018B1DE59008B33B8 /* Calc.m */; };
@@ -66,14 +69,19 @@
 		FC41100718B286CF00228D78 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FC41100C18B29CCD00228D78 /* trasnfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trasnfer.png; sourceTree = "<group>"; };
 		FC41100E18B2A3BD00228D78 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
-		FC41101618B2EF8400228D78 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
-		FC54B2BF18B2FD5B00F084E2 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
-		FC54B2C018B2FD5B00F084E2 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		FC54B2C118B2FD5B00F084E2 /* Launch640X1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch640X1136.png; sourceTree = "<group>"; };
 		FC54B2C218B2FD5B00F084E2 /* Launch640X960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch640X960.png; sourceTree = "<group>"; };
 		FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon120X120.png; sourceTree = "<group>"; };
 		FC54B2C418B2FD5B00F084E2 /* AppIcon80X80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon80X80.png; sourceTree = "<group>"; };
 		FC54B2C518B2FD5B00F084E2 /* AppIcon58X58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon58X58.png; sourceTree = "<group>"; };
+		FCD1068F19B6ED59002C0265 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		FCD1069019B6ED59002C0265 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		FCD1069119B6ED59002C0265 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		FCDB527C18BAEF2600924C35 /* RFRateMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFRateMe.m; sourceTree = "<group>"; };
+		FCDB527D18BAEF2600924C35 /* RFRateMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFRateMe.h; sourceTree = "<group>"; };
+		FCDB527F18BAEF4000924C35 /* UIAlertView+NSCookbook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+NSCookbook.m"; sourceTree = "<group>"; };
+		FCDB528018BAEF4000924C35 /* UIAlertView+NSCookbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+NSCookbook.h"; sourceTree = "<group>"; };
+		FCDB528318BAF16700924C35 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		FCEA450818B061320009B4DC /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA450B18B061320009B4DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCEA450D18B061320009B4DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -143,14 +151,26 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		FC54B2CD18B36AFC00F084E2 /* ProgressHUD */ = {
+		FCD1068E19B6ED59002C0265 /* ProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				FC54B2BF18B2FD5B00F084E2 /* ProgressHUD.m */,
-				FC54B2C018B2FD5B00F084E2 /* ProgressHUD.h */,
-				FC41101618B2EF8400228D78 /* ProgressHUD.bundle */,
+				FCD1068F19B6ED59002C0265 /* ProgressHUD.bundle */,
+				FCD1069019B6ED59002C0265 /* ProgressHUD.h */,
+				FCD1069119B6ED59002C0265 /* ProgressHUD.m */,
 			);
-			name = ProgressHUD;
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		FCDB528218BAEF4500924C35 /* RFRateMe */ = {
+			isa = PBXGroup;
+			children = (
+				FCDB527F18BAEF4000924C35 /* UIAlertView+NSCookbook.m */,
+				FCDB528018BAEF4000924C35 /* UIAlertView+NSCookbook.h */,
+				FCDB527C18BAEF2600924C35 /* RFRateMe.m */,
+				FCDB527D18BAEF2600924C35 /* RFRateMe.h */,
+			);
+			name = RFRateMe;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		FCEA44FF18B061320009B4DC = {
@@ -187,7 +207,8 @@
 		FCEA451118B061320009B4DC /* Animal Age */ = {
 			isa = PBXGroup;
 			children = (
-				FC54B2CD18B36AFC00F084E2 /* ProgressHUD */,
+				FCD1068E19B6ED59002C0265 /* ProgressHUD */,
+				FCDB528218BAEF4500924C35 /* RFRateMe */,
 				FCEFEAD718B1E2F8008B33B8 /* Animal Picker */,
 				FCEA451B18B061320009B4DC /* AppDelegate.m */,
 				FCEA451A18B061320009B4DC /* AppDelegate.h */,
@@ -209,6 +230,7 @@
 		FCEA451218B061320009B4DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FCDB528318BAF16700924C35 /* Default-568h@2x.png */,
 				FC41100718B286CF00228D78 /* logo.png */,
 				FC41100518B2864A00228D78 /* iphone_line.png */,
 				FCEA451318B061320009B4DC /* Animal Age-Info.plist */,
@@ -302,7 +324,7 @@
 		FCEA450018B061320009B4DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Jon Brown";
 				TargetAttributes = {
 					FCEA450718B061320009B4DC = {
@@ -337,19 +359,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC15D18819CE88E6002E73CA /* jquery-1.7.1.min.js in Resources */,
 				FC54B2CB18B2FD5B00F084E2 /* AppIcon58X58.png in Resources */,
-				FC41101718B2EF8400228D78 /* ProgressHUD.bundle in Resources */,
 				FC41100D18B29CCD00228D78 /* trasnfer.png in Resources */,
-				FCEFEAC718B1BD52008B33B8 /* jquery-1.7.1.min.js in Resources */,
 				FC41100818B286CF00228D78 /* logo.png in Resources */,
 				FC54B2C818B2FD5B00F084E2 /* Launch640X960.png in Resources */,
 				FC54B2C918B2FD5B00F084E2 /* AppIcon120X120.png in Resources */,
 				FCEFEAC518B1BD38008B33B8 /* index.html in Resources */,
+				FCDB528418BAF16700924C35 /* Default-568h@2x.png in Resources */,
 				FC54B2C718B2FD5B00F084E2 /* Launch640X1136.png in Resources */,
 				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
 				FC41100618B2864B00228D78 /* iphone_line.png in Resources */,
 				FC41100F18B2A3BD00228D78 /* man.png in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
+				FCD1069219B6ED59002C0265 /* ProgressHUD.bundle in Resources */,
 				FC54B2CA18B2FD5B00F084E2 /* AppIcon80X80.png in Resources */,
 				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
 				FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */,
@@ -372,13 +395,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDB527E18BAEF2600924C35 /* RFRateMe.m in Sources */,
 				FCEFEAD118B1DE59008B33B8 /* Calc.m in Sources */,
+				FCD1069319B6ED59002C0265 /* ProgressHUD.m in Sources */,
 				FCEFEAD518B1E14C008B33B8 /* PickerTableView.m in Sources */,
 				FC30E46D18B70D5400458013 /* subBar.m in Sources */,
 				FCEA451C18B061320009B4DC /* AppDelegate.m in Sources */,
+				FCDB528118BAEF4000924C35 /* UIAlertView+NSCookbook.m in Sources */,
 				FCEA451818B061320009B4DC /* main.m in Sources */,
 				FCEFEABF18B1741A008B33B8 /* topBar.m in Sources */,
-				FC54B2C618B2FD5B00F084E2 /* ProgressHUD.m in Sources */,
 				FCEFEACD18B1DBA2008B33B8 /* AnimalPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +471,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -486,7 +510,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -519,15 +542,15 @@
 		FCEA453E18B061320009B4DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jonathan Brown (2D4Z7WQ7RS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jonathan Brown (2D4Z7WQ7RS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animal Age/Animal Age-Prefix.pch";
 				INFOPLIST_FILE = "Animal Age/Animal Age-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9EC2C1B6-8044-4E5A-AC74-178B2EEE8867";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "931146e6-268f-4cb2-9546-66094ec9aa92";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -535,16 +558,16 @@
 		FCEA453F18B061320009B4DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jonathan Brown (2D4Z7WQ7RS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jonathan Brown (2D4Z7WQ7RS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animal Age/Animal Age-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Animal Age/Animal Age-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9EC2C1B6-8044-4E5A-AC74-178B2EEE8867";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "931146e6-268f-4cb2-9546-66094ec9aa92";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -552,7 +575,6 @@
 		FCEA454118B061320009B4DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animal Age.app/Animal Age";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -575,7 +597,6 @@
 		FCEA454218B061320009B4DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animal Age.app/Animal Age";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
