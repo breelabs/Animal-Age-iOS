@@ -13,24 +13,13 @@
 
 - (void)drawRect:(CGRect)rect
 {
-    CGContextRef currentContext = UIGraphicsGetCurrentContext();
+    CGContextRef context = UIGraphicsGetCurrentContext ();
     
-    CGGradientRef glossGradient;
-    CGColorSpaceRef rgbColorspace;
-    size_t num_locations = 2;
-    CGFloat locations[2] = { 0.0, 1.0 };
-    CGFloat components[8] = { 0.80, 0.80, 0.80, 1.0,  // Start color
-        0.47, 0.47, 0.47, 1.0 }; // End color
+    // The color to fill the rectangle (in this case black)
+    CGContextSetRGBFillColor(context, 0.679, 0.679, 0.679, 1.0);
     
-    rgbColorspace = CGColorSpaceCreateDeviceRGB();
-    glossGradient = CGGradientCreateWithColorComponents(rgbColorspace, components, locations, num_locations);
-    
-    CGPoint startPoint = CGPointMake(CGRectGetMidX(rect), CGRectGetMinY(rect));
-    CGPoint endPoint = CGPointMake(CGRectGetMidX(rect), CGRectGetMaxY(rect));
-    CGContextDrawLinearGradient(currentContext, glossGradient, startPoint, endPoint, 0);
-    
-    CGGradientRelease(glossGradient);
-    CGColorSpaceRelease(rgbColorspace);
+    // draw the filled rectangle
+    CGContextFillRect (context, self.bounds);
 }
 
 @end

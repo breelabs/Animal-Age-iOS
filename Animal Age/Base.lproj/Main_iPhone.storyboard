@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6249" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
     </dependencies>
     <scenes>
         <!--Animal Picker-->
@@ -23,7 +23,7 @@
                                         <color key="textColor" red="0.20611884120000001" green="0.2044936131" blue="0.21826528279999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" red="0.20611884120000001" green="0.2044936131" blue="0.21826528279999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <size key="shadowOffset" width="-1" height="0.0"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
                                     <view contentMode="scaleToFill" id="nHr-7u-M9K">
                                         <rect key="frame" x="0.0" y="172" width="320" height="254"/>
@@ -41,7 +41,7 @@
                                                 </connections>
                                             </button>
                                             <webView userInteractionEnabled="NO" contentMode="center" allowsInlineMediaPlayback="NO" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" keyboardDisplayRequiresUserAction="NO" id="0MK-Wo-7CY">
-                                                <rect key="frame" x="0.0" y="147" width="320" height="107"/>
+                                                <rect key="frame" x="0.0" y="147" width="320" height="113"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <dataDetectorType key="dataDetectorTypes"/>
@@ -51,6 +51,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <nil key="highlightedColor"/>
+                                                <size key="shadowOffset" width="0.0" height="0.0"/>
                                             </label>
                                         </subviews>
                                     </view>
@@ -83,7 +84,7 @@
                                                 <rect key="frame" x="147" y="22" width="25" height="19"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <state key="normal" image="trasnfer.png">
+                                                <state key="normal" image="Opposite_Arrows.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -125,7 +126,7 @@
                                                 <rect key="frame" x="147" y="22" width="25" height="19"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <state key="normal" image="trasnfer.png">
+                                                <state key="normal" image="Opposite_Arrows.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -213,7 +214,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="32" height="26"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="man.png" id="9R4-d4-WQb">
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Contact.png" id="9R4-d4-WQb">
                             <rect key="frame" x="8" y="0.0" width="24" height="26"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </imageView>
@@ -223,7 +224,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="32" height="26"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="man.png" id="0ip-Df-NeH">
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Contact.png" id="0ip-Df-NeH">
                             <rect key="frame" x="8" y="0.0" width="24" height="26"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </imageView>
@@ -286,10 +287,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Contact.png" width="25" height="25"/>
+        <image name="Opposite_Arrows.png" width="24" height="22"/>
         <image name="iphone_line.png" width="578" height="2"/>
         <image name="logo.png" width="284" height="55"/>
-        <image name="man.png" width="28" height="26"/>
-        <image name="trasnfer.png" width="55" height="42"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

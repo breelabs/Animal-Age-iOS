@@ -402,6 +402,10 @@
     NSNumberFormatter *answerFormatter = [[NSNumberFormatter alloc] init];
     [answerFormatter setPositiveFormat: @"#,###;0;(#,##0)"];
     NSString *string = [answerFormatter stringFromNumber:[NSNumber numberWithFloat:answer]];
+    
+    resultLabel.numberOfLines = 1;
+    [resultLabel setMinimumScaleFactor:10.0/[UIFont labelFontSize]];
+    resultLabel.adjustsFontSizeToFitWidth = YES;
     resultLabel.text =[NSString stringWithFormat:@"%@", string];
     
     if ([UIScreen mainScreen].scale == 2.f && [[UIScreen mainScreen] bounds].size.height-568)

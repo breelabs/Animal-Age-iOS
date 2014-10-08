@@ -19,6 +19,8 @@
 		FC54B2C918B2FD5B00F084E2 /* AppIcon120X120.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */; };
 		FC54B2CA18B2FD5B00F084E2 /* AppIcon80X80.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C418B2FD5B00F084E2 /* AppIcon80X80.png */; };
 		FC54B2CB18B2FD5B00F084E2 /* AppIcon58X58.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C518B2FD5B00F084E2 /* AppIcon58X58.png */; };
+		FC744A8B19E4FB58002C799A /* Contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC744A8919E4FB58002C799A /* Contact@2x.png */; };
+		FC744A8C19E4FB58002C799A /* Opposite_Arrows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC744A8A19E4FB58002C799A /* Opposite_Arrows@2x.png */; };
 		FCD1069219B6ED59002C0265 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCD1068F19B6ED59002C0265 /* ProgressHUD.bundle */; };
 		FCD1069319B6ED59002C0265 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD1069119B6ED59002C0265 /* ProgressHUD.m */; };
 		FCDB527E18BAEF2600924C35 /* RFRateMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDB527C18BAEF2600924C35 /* RFRateMe.m */; };
@@ -74,6 +76,8 @@
 		FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon120X120.png; sourceTree = "<group>"; };
 		FC54B2C418B2FD5B00F084E2 /* AppIcon80X80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon80X80.png; sourceTree = "<group>"; };
 		FC54B2C518B2FD5B00F084E2 /* AppIcon58X58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon58X58.png; sourceTree = "<group>"; };
+		FC744A8919E4FB58002C799A /* Contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact@2x.png"; sourceTree = "<group>"; };
+		FC744A8A19E4FB58002C799A /* Opposite_Arrows@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Opposite_Arrows@2x.png"; sourceTree = "<group>"; };
 		FCD1068F19B6ED59002C0265 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		FCD1069019B6ED59002C0265 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		FCD1069119B6ED59002C0265 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 		FC54B2CC18B2FD7400F084E2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FC744A8919E4FB58002C799A /* Contact@2x.png */,
+				FC744A8A19E4FB58002C799A /* Opposite_Arrows@2x.png */,
 				FC54B2C118B2FD5B00F084E2 /* Launch640X1136.png */,
 				FC54B2C218B2FD5B00F084E2 /* Launch640X960.png */,
 				FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */,
@@ -149,6 +155,15 @@
 				FC41100C18B29CCD00228D78 /* trasnfer.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		FC744A8819E4F712002C799A /* Premade Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1068E19B6ED59002C0265 /* ProgressHUD */,
+				FCDB528218BAEF4500924C35 /* RFRateMe */,
+			);
+			name = "Premade Classes";
 			sourceTree = "<group>";
 		};
 		FCD1068E19B6ED59002C0265 /* ProgressHUD */ = {
@@ -207,8 +222,7 @@
 		FCEA451118B061320009B4DC /* Animal Age */ = {
 			isa = PBXGroup;
 			children = (
-				FCD1068E19B6ED59002C0265 /* ProgressHUD */,
-				FCDB528218BAEF4500924C35 /* RFRateMe */,
+				FC744A8819E4F712002C799A /* Premade Classes */,
 				FCEFEAD718B1E2F8008B33B8 /* Animal Picker */,
 				FCEA451B18B061320009B4DC /* AppDelegate.m */,
 				FCEA451A18B061320009B4DC /* AppDelegate.h */,
@@ -363,7 +377,9 @@
 				FC54B2CB18B2FD5B00F084E2 /* AppIcon58X58.png in Resources */,
 				FC41100D18B29CCD00228D78 /* trasnfer.png in Resources */,
 				FC41100818B286CF00228D78 /* logo.png in Resources */,
+				FC744A8C19E4FB58002C799A /* Opposite_Arrows@2x.png in Resources */,
 				FC54B2C818B2FD5B00F084E2 /* Launch640X960.png in Resources */,
+				FC744A8B19E4FB58002C799A /* Contact@2x.png in Resources */,
 				FC54B2C918B2FD5B00F084E2 /* AppIcon120X120.png in Resources */,
 				FCEFEAC518B1BD38008B33B8 /* index.html in Resources */,
 				FCDB528418BAF16700924C35 /* Default-568h@2x.png in Resources */,

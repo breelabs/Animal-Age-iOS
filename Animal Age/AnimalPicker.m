@@ -54,7 +54,7 @@
     #pragma mark - Button Style
     
     // R: 76 G: 76 B: 76
-    UIColor *buttColor = [UIColor colorWithRed:(76.0 / 255.0) green:(76.0 / 255.0) blue:(76.0 / 255.0) alpha: 1];
+    UIColor *buttColor = [UIColor colorWithRed:(116 / 255.0) green:(116 / 255.0) blue:(116 / 255.0) alpha: 1];
     UIColor *butbackcolor = [UIColor colorWithRed:(150.0 / 255.0) green:(150.0 / 255.0) blue:(150.0 / 255.0) alpha: 1];
     
     CALayer * layer = [AnimalButt layer];
