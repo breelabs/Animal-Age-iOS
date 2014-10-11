@@ -31,8 +31,10 @@
     NSLog(@"Flip Status: %d", flipValue);
     
 
+    calcText.numberOfLines = 2;
+    [calcText setMinimumScaleFactor:3.0/[UIFont labelFontSize]];
+    calcText.adjustsFontSizeToFitWidth = YES;
     calcText.lineBreakMode = NSLineBreakByWordWrapping;
-    calcText.numberOfLines = 0;
     
     
     if ([UIScreen mainScreen].scale == 2.f && [[UIScreen mainScreen] bounds].size.height-568)

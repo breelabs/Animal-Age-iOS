@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface subBar : UIView
+{
+
+}
+@property (nonatomic, weak) IBOutlet subBar *myView;
 
 @end

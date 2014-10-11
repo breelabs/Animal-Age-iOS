@@ -10,10 +10,7 @@
 		FC15D18819CE88E6002E73CA /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCEFEAC118B1BD38008B33B8 /* jquery-1.7.1.min.js */; };
 		FC30E46D18B70D5400458013 /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30E46C18B70D5400458013 /* subBar.m */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
-		FC41100618B2864B00228D78 /* iphone_line.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100518B2864A00228D78 /* iphone_line.png */; };
 		FC41100818B286CF00228D78 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100718B286CF00228D78 /* logo.png */; };
-		FC41100D18B29CCD00228D78 /* trasnfer.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100C18B29CCD00228D78 /* trasnfer.png */; };
-		FC41100F18B2A3BD00228D78 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100E18B2A3BD00228D78 /* man.png */; };
 		FC54B2C718B2FD5B00F084E2 /* Launch640X1136.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C118B2FD5B00F084E2 /* Launch640X1136.png */; };
 		FC54B2C818B2FD5B00F084E2 /* Launch640X960.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C218B2FD5B00F084E2 /* Launch640X960.png */; };
 		FC54B2C918B2FD5B00F084E2 /* AppIcon120X120.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */; };
@@ -67,10 +64,7 @@
 		FC30E46B18B70D5400458013 /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar.h; sourceTree = "<group>"; };
 		FC30E46C18B70D5400458013 /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar.m; sourceTree = "<group>"; };
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		FC41100518B2864A00228D78 /* iphone_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_line.png; sourceTree = "<group>"; };
 		FC41100718B286CF00228D78 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		FC41100C18B29CCD00228D78 /* trasnfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trasnfer.png; sourceTree = "<group>"; };
-		FC41100E18B2A3BD00228D78 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
 		FC54B2C118B2FD5B00F084E2 /* Launch640X1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch640X1136.png; sourceTree = "<group>"; };
 		FC54B2C218B2FD5B00F084E2 /* Launch640X960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch640X960.png; sourceTree = "<group>"; };
 		FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon120X120.png; sourceTree = "<group>"; };
@@ -151,8 +145,6 @@
 				FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */,
 				FC54B2C418B2FD5B00F084E2 /* AppIcon80X80.png */,
 				FC54B2C518B2FD5B00F084E2 /* AppIcon58X58.png */,
-				FC41100E18B2A3BD00228D78 /* man.png */,
-				FC41100C18B29CCD00228D78 /* trasnfer.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -246,7 +238,6 @@
 			children = (
 				FCDB528318BAF16700924C35 /* Default-568h@2x.png */,
 				FC41100718B286CF00228D78 /* logo.png */,
-				FC41100518B2864A00228D78 /* iphone_line.png */,
 				FCEA451318B061320009B4DC /* Animal Age-Info.plist */,
 				FCEA451418B061320009B4DC /* InfoPlist.strings */,
 				FCEA451718B061320009B4DC /* main.m */,
@@ -375,7 +366,6 @@
 			files = (
 				FC15D18819CE88E6002E73CA /* jquery-1.7.1.min.js in Resources */,
 				FC54B2CB18B2FD5B00F084E2 /* AppIcon58X58.png in Resources */,
-				FC41100D18B29CCD00228D78 /* trasnfer.png in Resources */,
 				FC41100818B286CF00228D78 /* logo.png in Resources */,
 				FC744A8C19E4FB58002C799A /* Opposite_Arrows@2x.png in Resources */,
 				FC54B2C818B2FD5B00F084E2 /* Launch640X960.png in Resources */,
@@ -385,8 +375,6 @@
 				FCDB528418BAF16700924C35 /* Default-568h@2x.png in Resources */,
 				FC54B2C718B2FD5B00F084E2 /* Launch640X1136.png in Resources */,
 				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
-				FC41100618B2864B00228D78 /* iphone_line.png in Resources */,
-				FC41100F18B2A3BD00228D78 /* man.png in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
 				FCD1069219B6ED59002C0265 /* ProgressHUD.bundle in Resources */,
 				FC54B2CA18B2FD5B00F084E2 /* AppIcon80X80.png in Resources */,
@@ -558,14 +546,14 @@
 		FCEA453E18B061320009B4DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jonathan Brown (2D4Z7WQ7RS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jonathan Brown (2D4Z7WQ7RS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animal Age/Animal Age-Prefix.pch";
 				INFOPLIST_FILE = "Animal Age/Animal Age-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "931146e6-268f-4cb2-9546-66094ec9aa92";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -574,15 +562,15 @@
 		FCEA453F18B061320009B4DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jonathan Brown (2D4Z7WQ7RS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jonathan Brown (2D4Z7WQ7RS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animal Age/Animal Age-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Animal Age/Animal Age-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "931146e6-268f-4cb2-9546-66094ec9aa92";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

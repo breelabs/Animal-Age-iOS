@@ -19,6 +19,15 @@
     
     // draw the filled rectangle
     CGContextFillRect (context, self.bounds);
+    
+    CALayer *bottomBorder = [CALayer layer];
+    
+    bottomBorder.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 1.0f);
+    
+    bottomBorder.backgroundColor = [UIColor colorWithWhite:0.8f
+                                                     alpha:1.0f].CGColor;
+    
+    [self.layer addSublayer:bottomBorder];
 }
 
 @end

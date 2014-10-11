@@ -16,6 +16,11 @@
 {
     self.displayingFront = YES;
     
+    calcText.numberOfLines = 2;
+    [calcText setMinimumScaleFactor:3.0/[UIFont labelFontSize]];
+    calcText.adjustsFontSizeToFitWidth = YES;
+    calcText.lineBreakMode = NSLineBreakByWordWrapping;
+    
 }
 
 -(IBAction)showflip:(id)sender {
@@ -95,8 +100,6 @@
     
     
     
-    calcText.lineBreakMode = NSLineBreakByWordWrapping;
-    calcText.numberOfLines = 0;
     
     NSString *buttonTitle = AnimalButt.currentTitle;
 
