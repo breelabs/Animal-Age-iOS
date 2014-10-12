@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
+		FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */; };
+		FC4E63F419EB39160079C0A3 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4E63F219EB39160079C0A3 /* ProgressHUD.m */; };
 		FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450B18B061320009B4DC /* Foundation.framework */; };
 		FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450D18B061320009B4DC /* CoreGraphics.framework */; };
 		FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
@@ -20,8 +22,6 @@
 		FCEA453018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
 		FCEA453818B061320009B4DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA453618B061320009B4DC /* InfoPlist.strings */; };
 		FCEA453A18B061320009B4DC /* Animal_AgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA453918B061320009B4DC /* Animal_AgeTests.m */; };
-		FCEA8B0A19EB32CE00D00340 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B0719EB32CE00D00340 /* ProgressHUD.bundle */; };
-		FCEA8B0B19EB32CE00D00340 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B0919EB32CE00D00340 /* ProgressHUD.m */; };
 		FCEA8B0E19EB32E300D00340 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B0D19EB32E300D00340 /* Calc.m */; };
 		FCEA8B1319EB32F800D00340 /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1019EB32F800D00340 /* AnimalPicker.m */; };
 		FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1219EB32F800D00340 /* AppDelegate.m */; };
@@ -47,6 +47,9 @@
 
 /* Begin PBXFileReference section */
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = classes/ProgressHUD/ProgressHUD.bundle; sourceTree = "<group>"; };
+		FC4E63F119EB39160079C0A3 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = classes/ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
+		FC4E63F219EB39160079C0A3 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = classes/ProgressHUD/ProgressHUD.m; sourceTree = "<group>"; };
 		FCEA450818B061320009B4DC /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA450B18B061320009B4DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCEA450D18B061320009B4DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +65,6 @@
 		FCEA453518B061320009B4DC /* Animal AgeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal AgeTests-Info.plist"; sourceTree = "<group>"; };
 		FCEA453718B061320009B4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCEA453918B061320009B4DC /* Animal_AgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal_AgeTests.m; sourceTree = "<group>"; };
-		FCEA8B0719EB32CE00D00340 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = ../classes/ProgressHUD/ProgressHUD.bundle; sourceTree = "<group>"; };
-		FCEA8B0819EB32CE00D00340 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = ../classes/ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
-		FCEA8B0919EB32CE00D00340 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = ../classes/ProgressHUD/ProgressHUD.m; sourceTree = "<group>"; };
 		FCEA8B0C19EB32E300D00340 /* Calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calc.h; path = classes/Calc.h; sourceTree = "<group>"; };
 		FCEA8B0D19EB32E300D00340 /* Calc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calc.m; path = classes/Calc.m; sourceTree = "<group>"; };
 		FCEA8B0F19EB32F800D00340 /* AnimalPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalPicker.h; path = classes/AnimalPicker.h; sourceTree = "<group>"; };
@@ -111,23 +111,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC4E63F519EB391B0079C0A3 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */,
+				FC4E63F119EB39160079C0A3 /* ProgressHUD.h */,
+				FC4E63F219EB39160079C0A3 /* ProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			sourceTree = "<group>";
+		};
 		FC744A8819E4F712002C799A /* Premade Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FCD1068E19B6ED59002C0265 /* ProgressHUD */,
+				FC4E63F519EB391B0079C0A3 /* ProgressHUD */,
 				FCDB528218BAEF4500924C35 /* RFRateMe */,
 			);
 			name = "Premade Classes";
-			sourceTree = "<group>";
-		};
-		FCD1068E19B6ED59002C0265 /* ProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				FCEA8B0719EB32CE00D00340 /* ProgressHUD.bundle */,
-				FCEA8B0819EB32CE00D00340 /* ProgressHUD.h */,
-				FCEA8B0919EB32CE00D00340 /* ProgressHUD.m */,
-			);
-			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
 		FCDB528218BAEF4500924C35 /* RFRateMe */ = {
@@ -325,8 +325,8 @@
 			files = (
 				FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */,
 				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
+				FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */,
 				FCEA8B2319EB337600D00340 /* index.html in Resources */,
-				FCEA8B0A19EB32CE00D00340 /* ProgressHUD.bundle in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
 				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
 				FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */,
@@ -350,9 +350,9 @@
 			files = (
 				FCEA8B1319EB32F800D00340 /* AnimalPicker.m in Sources */,
 				FCEA8B0E19EB32E300D00340 /* Calc.m in Sources */,
+				FC4E63F419EB39160079C0A3 /* ProgressHUD.m in Sources */,
 				FCEA8B1F19EB334700D00340 /* RFRateMe.m in Sources */,
 				FCEA8B1A19EB332900D00340 /* PickerTableView.m in Sources */,
-				FCEA8B0B19EB32CE00D00340 /* ProgressHUD.m in Sources */,
 				FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */,
 				FCEA8B2919EB338D00D00340 /* subBar.m in Sources */,
 				FCEA8B2019EB334700D00340 /* UIAlertView+NSCookbook.m in Sources */,
