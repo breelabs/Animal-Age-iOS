@@ -7,28 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC15D18819CE88E6002E73CA /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCEFEAC118B1BD38008B33B8 /* jquery-1.7.1.min.js */; };
-		FC30E46D18B70D5400458013 /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30E46C18B70D5400458013 /* subBar.m */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
-		FC41100818B286CF00228D78 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC41100718B286CF00228D78 /* logo.png */; };
-		FC54B2C718B2FD5B00F084E2 /* Launch640X1136.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C118B2FD5B00F084E2 /* Launch640X1136.png */; };
-		FC54B2C818B2FD5B00F084E2 /* Launch640X960.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C218B2FD5B00F084E2 /* Launch640X960.png */; };
-		FC54B2C918B2FD5B00F084E2 /* AppIcon120X120.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */; };
-		FC54B2CA18B2FD5B00F084E2 /* AppIcon80X80.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C418B2FD5B00F084E2 /* AppIcon80X80.png */; };
-		FC54B2CB18B2FD5B00F084E2 /* AppIcon58X58.png in Resources */ = {isa = PBXBuildFile; fileRef = FC54B2C518B2FD5B00F084E2 /* AppIcon58X58.png */; };
-		FC744A8B19E4FB58002C799A /* Contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC744A8919E4FB58002C799A /* Contact@2x.png */; };
-		FC744A8C19E4FB58002C799A /* Opposite_Arrows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC744A8A19E4FB58002C799A /* Opposite_Arrows@2x.png */; };
-		FCD1069219B6ED59002C0265 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCD1068F19B6ED59002C0265 /* ProgressHUD.bundle */; };
-		FCD1069319B6ED59002C0265 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD1069119B6ED59002C0265 /* ProgressHUD.m */; };
-		FCDB527E18BAEF2600924C35 /* RFRateMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDB527C18BAEF2600924C35 /* RFRateMe.m */; };
-		FCDB528118BAEF4000924C35 /* UIAlertView+NSCookbook.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDB527F18BAEF4000924C35 /* UIAlertView+NSCookbook.m */; };
-		FCDB528418BAF16700924C35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDB528318BAF16700924C35 /* Default-568h@2x.png */; };
 		FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450B18B061320009B4DC /* Foundation.framework */; };
 		FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450D18B061320009B4DC /* CoreGraphics.framework */; };
 		FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
 		FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA451418B061320009B4DC /* InfoPlist.strings */; };
-		FCEA451818B061320009B4DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA451718B061320009B4DC /* main.m */; };
-		FCEA451C18B061320009B4DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA451B18B061320009B4DC /* AppDelegate.m */; };
 		FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */; };
 		FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEA452018B061320009B4DC /* Main_iPad.storyboard */; };
 		FCEA452718B061320009B4DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEA452618B061320009B4DC /* Images.xcassets */; };
@@ -37,17 +20,19 @@
 		FCEA453018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
 		FCEA453818B061320009B4DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA453618B061320009B4DC /* InfoPlist.strings */; };
 		FCEA453A18B061320009B4DC /* Animal_AgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA453918B061320009B4DC /* Animal_AgeTests.m */; };
-		FCEFEABF18B1741A008B33B8 /* topBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEABE18B1741A008B33B8 /* topBar.m */; };
-		FCEFEAC018B1741A008B33B8 /* topBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEABE18B1741A008B33B8 /* topBar.m */; };
-		FCEFEAC418B1BD38008B33B8 /* jquery-1.7.1.min.js in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEAC118B1BD38008B33B8 /* jquery-1.7.1.min.js */; };
-		FCEFEAC518B1BD38008B33B8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCEFEAC218B1BD38008B33B8 /* index.html */; };
-		FCEFEAC618B1BD38008B33B8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCEFEAC218B1BD38008B33B8 /* index.html */; };
-		FCEFEACD18B1DBA2008B33B8 /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEACC18B1DBA2008B33B8 /* AnimalPicker.m */; };
-		FCEFEACE18B1DBA2008B33B8 /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEACC18B1DBA2008B33B8 /* AnimalPicker.m */; };
-		FCEFEAD118B1DE59008B33B8 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEAD018B1DE59008B33B8 /* Calc.m */; };
-		FCEFEAD218B1DE59008B33B8 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEAD018B1DE59008B33B8 /* Calc.m */; };
-		FCEFEAD518B1E14C008B33B8 /* PickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEAD418B1E14C008B33B8 /* PickerTableView.m */; };
-		FCEFEAD618B1E14C008B33B8 /* PickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFEAD418B1E14C008B33B8 /* PickerTableView.m */; };
+		FCEA8B0A19EB32CE00D00340 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B0719EB32CE00D00340 /* ProgressHUD.bundle */; };
+		FCEA8B0B19EB32CE00D00340 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B0919EB32CE00D00340 /* ProgressHUD.m */; };
+		FCEA8B0E19EB32E300D00340 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B0D19EB32E300D00340 /* Calc.m */; };
+		FCEA8B1319EB32F800D00340 /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1019EB32F800D00340 /* AnimalPicker.m */; };
+		FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1219EB32F800D00340 /* AppDelegate.m */; };
+		FCEA8B1A19EB332900D00340 /* PickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1919EB332900D00340 /* PickerTableView.m */; };
+		FCEA8B1F19EB334700D00340 /* RFRateMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1C19EB334700D00340 /* RFRateMe.m */; };
+		FCEA8B2019EB334700D00340 /* UIAlertView+NSCookbook.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1E19EB334700D00340 /* UIAlertView+NSCookbook.m */; };
+		FCEA8B2319EB337600D00340 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B2119EB337600D00340 /* index.html */; };
+		FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */; };
+		FCEA8B2919EB338D00D00340 /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B2619EB338D00D00340 /* subBar.m */; };
+		FCEA8B2A19EB338D00D00340 /* topBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B2819EB338D00D00340 /* topBar.m */; };
+		FCEA8B2C19EB33A600D00340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B2B19EB33A600D00340 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,35 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC30E46B18B70D5400458013 /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar.h; sourceTree = "<group>"; };
-		FC30E46C18B70D5400458013 /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar.m; sourceTree = "<group>"; };
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		FC41100718B286CF00228D78 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		FC54B2C118B2FD5B00F084E2 /* Launch640X1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch640X1136.png; sourceTree = "<group>"; };
-		FC54B2C218B2FD5B00F084E2 /* Launch640X960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch640X960.png; sourceTree = "<group>"; };
-		FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon120X120.png; sourceTree = "<group>"; };
-		FC54B2C418B2FD5B00F084E2 /* AppIcon80X80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon80X80.png; sourceTree = "<group>"; };
-		FC54B2C518B2FD5B00F084E2 /* AppIcon58X58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon58X58.png; sourceTree = "<group>"; };
-		FC744A8919E4FB58002C799A /* Contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact@2x.png"; sourceTree = "<group>"; };
-		FC744A8A19E4FB58002C799A /* Opposite_Arrows@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Opposite_Arrows@2x.png"; sourceTree = "<group>"; };
-		FCD1068F19B6ED59002C0265 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
-		FCD1069019B6ED59002C0265 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
-		FCD1069119B6ED59002C0265 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
-		FCDB527C18BAEF2600924C35 /* RFRateMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFRateMe.m; sourceTree = "<group>"; };
-		FCDB527D18BAEF2600924C35 /* RFRateMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFRateMe.h; sourceTree = "<group>"; };
-		FCDB527F18BAEF4000924C35 /* UIAlertView+NSCookbook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+NSCookbook.m"; sourceTree = "<group>"; };
-		FCDB528018BAEF4000924C35 /* UIAlertView+NSCookbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+NSCookbook.h"; sourceTree = "<group>"; };
-		FCDB528318BAF16700924C35 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		FCEA450818B061320009B4DC /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA450B18B061320009B4DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCEA450D18B061320009B4DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FCEA450F18B061320009B4DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCEA451318B061320009B4DC /* Animal Age-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal Age-Info.plist"; sourceTree = "<group>"; };
 		FCEA451518B061320009B4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FCEA451718B061320009B4DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCEA451918B061320009B4DC /* Animal Age-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal Age-Prefix.pch"; sourceTree = "<group>"; };
-		FCEA451A18B061320009B4DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FCEA451B18B061320009B4DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FCEA451E18B061320009B4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		FCEA452118B061320009B4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		FCEA452618B061320009B4DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -98,16 +62,28 @@
 		FCEA453518B061320009B4DC /* Animal AgeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal AgeTests-Info.plist"; sourceTree = "<group>"; };
 		FCEA453718B061320009B4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCEA453918B061320009B4DC /* Animal_AgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal_AgeTests.m; sourceTree = "<group>"; };
-		FCEFEABD18B1741A008B33B8 /* topBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topBar.h; sourceTree = "<group>"; };
-		FCEFEABE18B1741A008B33B8 /* topBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topBar.m; sourceTree = "<group>"; };
-		FCEFEAC118B1BD38008B33B8 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.1.min.js"; sourceTree = "<group>"; };
-		FCEFEAC218B1BD38008B33B8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		FCEFEACB18B1DBA2008B33B8 /* AnimalPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalPicker.h; sourceTree = "<group>"; };
-		FCEFEACC18B1DBA2008B33B8 /* AnimalPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalPicker.m; sourceTree = "<group>"; };
-		FCEFEACF18B1DE59008B33B8 /* Calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
-		FCEFEAD018B1DE59008B33B8 /* Calc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calc.m; sourceTree = "<group>"; };
-		FCEFEAD318B1E14C008B33B8 /* PickerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerTableView.h; sourceTree = "<group>"; };
-		FCEFEAD418B1E14C008B33B8 /* PickerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerTableView.m; sourceTree = "<group>"; };
+		FCEA8B0719EB32CE00D00340 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = ../classes/ProgressHUD/ProgressHUD.bundle; sourceTree = "<group>"; };
+		FCEA8B0819EB32CE00D00340 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = ../classes/ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
+		FCEA8B0919EB32CE00D00340 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = ../classes/ProgressHUD/ProgressHUD.m; sourceTree = "<group>"; };
+		FCEA8B0C19EB32E300D00340 /* Calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calc.h; path = classes/Calc.h; sourceTree = "<group>"; };
+		FCEA8B0D19EB32E300D00340 /* Calc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calc.m; path = classes/Calc.m; sourceTree = "<group>"; };
+		FCEA8B0F19EB32F800D00340 /* AnimalPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalPicker.h; path = classes/AnimalPicker.h; sourceTree = "<group>"; };
+		FCEA8B1019EB32F800D00340 /* AnimalPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalPicker.m; path = classes/AnimalPicker.m; sourceTree = "<group>"; };
+		FCEA8B1119EB32F800D00340 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = classes/AppDelegate.h; sourceTree = "<group>"; };
+		FCEA8B1219EB32F800D00340 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = classes/AppDelegate.m; sourceTree = "<group>"; };
+		FCEA8B1819EB332900D00340 /* PickerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerTableView.h; path = classes/PickerTableView.h; sourceTree = "<group>"; };
+		FCEA8B1919EB332900D00340 /* PickerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerTableView.m; path = classes/PickerTableView.m; sourceTree = "<group>"; };
+		FCEA8B1B19EB334700D00340 /* RFRateMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFRateMe.h; path = "Animal Age/classes/RFRateMe/RFRateMe.h"; sourceTree = "<group>"; };
+		FCEA8B1C19EB334700D00340 /* RFRateMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFRateMe.m; path = "Animal Age/classes/RFRateMe/RFRateMe.m"; sourceTree = "<group>"; };
+		FCEA8B1D19EB334700D00340 /* UIAlertView+NSCookbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+NSCookbook.h"; path = "Animal Age/classes/RFRateMe/UIAlertView+NSCookbook.h"; sourceTree = "<group>"; };
+		FCEA8B1E19EB334700D00340 /* UIAlertView+NSCookbook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+NSCookbook.m"; path = "Animal Age/classes/RFRateMe/UIAlertView+NSCookbook.m"; sourceTree = "<group>"; };
+		FCEA8B2119EB337600D00340 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = htdocs/index.html; sourceTree = "<group>"; };
+		FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "htdocs/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
+		FCEA8B2519EB338D00D00340 /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subBar.h; path = classes/subBar.h; sourceTree = "<group>"; };
+		FCEA8B2619EB338D00D00340 /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = subBar.m; path = classes/subBar.m; sourceTree = "<group>"; };
+		FCEA8B2719EB338D00D00340 /* topBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = topBar.h; path = classes/topBar.h; sourceTree = "<group>"; };
+		FCEA8B2819EB338D00D00340 /* topBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = topBar.m; path = classes/topBar.m; sourceTree = "<group>"; };
+		FCEA8B2B19EB33A600D00340 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = classes/main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,20 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC54B2CC18B2FD7400F084E2 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				FC744A8919E4FB58002C799A /* Contact@2x.png */,
-				FC744A8A19E4FB58002C799A /* Opposite_Arrows@2x.png */,
-				FC54B2C118B2FD5B00F084E2 /* Launch640X1136.png */,
-				FC54B2C218B2FD5B00F084E2 /* Launch640X960.png */,
-				FC54B2C318B2FD5B00F084E2 /* AppIcon120X120.png */,
-				FC54B2C418B2FD5B00F084E2 /* AppIcon80X80.png */,
-				FC54B2C518B2FD5B00F084E2 /* AppIcon58X58.png */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
 		FC744A8819E4F712002C799A /* Premade Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,9 +123,9 @@
 		FCD1068E19B6ED59002C0265 /* ProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				FCD1068F19B6ED59002C0265 /* ProgressHUD.bundle */,
-				FCD1069019B6ED59002C0265 /* ProgressHUD.h */,
-				FCD1069119B6ED59002C0265 /* ProgressHUD.m */,
+				FCEA8B0719EB32CE00D00340 /* ProgressHUD.bundle */,
+				FCEA8B0819EB32CE00D00340 /* ProgressHUD.h */,
+				FCEA8B0919EB32CE00D00340 /* ProgressHUD.m */,
 			);
 			path = ProgressHUD;
 			sourceTree = "<group>";
@@ -171,10 +133,10 @@
 		FCDB528218BAEF4500924C35 /* RFRateMe */ = {
 			isa = PBXGroup;
 			children = (
-				FCDB527F18BAEF4000924C35 /* UIAlertView+NSCookbook.m */,
-				FCDB528018BAEF4000924C35 /* UIAlertView+NSCookbook.h */,
-				FCDB527C18BAEF2600924C35 /* RFRateMe.m */,
-				FCDB527D18BAEF2600924C35 /* RFRateMe.h */,
+				FCEA8B1B19EB334700D00340 /* RFRateMe.h */,
+				FCEA8B1C19EB334700D00340 /* RFRateMe.m */,
+				FCEA8B1D19EB334700D00340 /* UIAlertView+NSCookbook.h */,
+				FCEA8B1E19EB334700D00340 /* UIAlertView+NSCookbook.m */,
 			);
 			name = RFRateMe;
 			path = ..;
@@ -216,14 +178,14 @@
 			children = (
 				FC744A8819E4F712002C799A /* Premade Classes */,
 				FCEFEAD718B1E2F8008B33B8 /* Animal Picker */,
-				FCEA451B18B061320009B4DC /* AppDelegate.m */,
-				FCEA451A18B061320009B4DC /* AppDelegate.h */,
-				FCEFEABD18B1741A008B33B8 /* topBar.h */,
-				FCEFEABE18B1741A008B33B8 /* topBar.m */,
-				FC30E46B18B70D5400458013 /* subBar.h */,
-				FC30E46C18B70D5400458013 /* subBar.m */,
-				FCEFEACF18B1DE59008B33B8 /* Calc.h */,
-				FCEFEAD018B1DE59008B33B8 /* Calc.m */,
+				FCEA8B1119EB32F800D00340 /* AppDelegate.h */,
+				FCEA8B1219EB32F800D00340 /* AppDelegate.m */,
+				FCEA8B2519EB338D00D00340 /* subBar.h */,
+				FCEA8B2619EB338D00D00340 /* subBar.m */,
+				FCEA8B2719EB338D00D00340 /* topBar.h */,
+				FCEA8B2819EB338D00D00340 /* topBar.m */,
+				FCEA8B0C19EB32E300D00340 /* Calc.h */,
+				FCEA8B0D19EB32E300D00340 /* Calc.m */,
 				FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */,
 				FCEA452018B061320009B4DC /* Main_iPad.storyboard */,
 				FCEFEAC818B1BF6C008B33B8 /* htdocs */,
@@ -236,11 +198,9 @@
 		FCEA451218B061320009B4DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FCDB528318BAF16700924C35 /* Default-568h@2x.png */,
-				FC41100718B286CF00228D78 /* logo.png */,
 				FCEA451318B061320009B4DC /* Animal Age-Info.plist */,
 				FCEA451418B061320009B4DC /* InfoPlist.strings */,
-				FCEA451718B061320009B4DC /* main.m */,
+				FCEA8B2B19EB33A600D00340 /* main.m */,
 				FCEA451918B061320009B4DC /* Animal Age-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -267,8 +227,8 @@
 		FCEFEAC818B1BF6C008B33B8 /* htdocs */ = {
 			isa = PBXGroup;
 			children = (
-				FCEFEAC118B1BD38008B33B8 /* jquery-1.7.1.min.js */,
-				FCEFEAC218B1BD38008B33B8 /* index.html */,
+				FCEA8B2119EB337600D00340 /* index.html */,
+				FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */,
 			);
 			name = htdocs;
 			sourceTree = "<group>";
@@ -276,11 +236,10 @@
 		FCEFEAD718B1E2F8008B33B8 /* Animal Picker */ = {
 			isa = PBXGroup;
 			children = (
-				FC54B2CC18B2FD7400F084E2 /* Images */,
-				FCEFEAD318B1E14C008B33B8 /* PickerTableView.h */,
-				FCEFEAD418B1E14C008B33B8 /* PickerTableView.m */,
-				FCEFEACB18B1DBA2008B33B8 /* AnimalPicker.h */,
-				FCEFEACC18B1DBA2008B33B8 /* AnimalPicker.m */,
+				FCEA8B1819EB332900D00340 /* PickerTableView.h */,
+				FCEA8B1919EB332900D00340 /* PickerTableView.m */,
+				FCEA8B0F19EB32F800D00340 /* AnimalPicker.h */,
+				FCEA8B1019EB32F800D00340 /* AnimalPicker.m */,
 			);
 			name = "Animal Picker";
 			sourceTree = "<group>";
@@ -364,20 +323,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC15D18819CE88E6002E73CA /* jquery-1.7.1.min.js in Resources */,
-				FC54B2CB18B2FD5B00F084E2 /* AppIcon58X58.png in Resources */,
-				FC41100818B286CF00228D78 /* logo.png in Resources */,
-				FC744A8C19E4FB58002C799A /* Opposite_Arrows@2x.png in Resources */,
-				FC54B2C818B2FD5B00F084E2 /* Launch640X960.png in Resources */,
-				FC744A8B19E4FB58002C799A /* Contact@2x.png in Resources */,
-				FC54B2C918B2FD5B00F084E2 /* AppIcon120X120.png in Resources */,
-				FCEFEAC518B1BD38008B33B8 /* index.html in Resources */,
-				FCDB528418BAF16700924C35 /* Default-568h@2x.png in Resources */,
-				FC54B2C718B2FD5B00F084E2 /* Launch640X1136.png in Resources */,
+				FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */,
 				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
+				FCEA8B2319EB337600D00340 /* index.html in Resources */,
+				FCEA8B0A19EB32CE00D00340 /* ProgressHUD.bundle in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
-				FCD1069219B6ED59002C0265 /* ProgressHUD.bundle in Resources */,
-				FC54B2CA18B2FD5B00F084E2 /* AppIcon80X80.png in Resources */,
 				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
 				FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */,
 			);
@@ -388,7 +338,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEA453818B061320009B4DC /* InfoPlist.strings in Resources */,
-				FCEFEAC618B1BD38008B33B8 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,16 +348,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCDB527E18BAEF2600924C35 /* RFRateMe.m in Sources */,
-				FCEFEAD118B1DE59008B33B8 /* Calc.m in Sources */,
-				FCD1069319B6ED59002C0265 /* ProgressHUD.m in Sources */,
-				FCEFEAD518B1E14C008B33B8 /* PickerTableView.m in Sources */,
-				FC30E46D18B70D5400458013 /* subBar.m in Sources */,
-				FCEA451C18B061320009B4DC /* AppDelegate.m in Sources */,
-				FCDB528118BAEF4000924C35 /* UIAlertView+NSCookbook.m in Sources */,
-				FCEA451818B061320009B4DC /* main.m in Sources */,
-				FCEFEABF18B1741A008B33B8 /* topBar.m in Sources */,
-				FCEFEACD18B1DBA2008B33B8 /* AnimalPicker.m in Sources */,
+				FCEA8B1319EB32F800D00340 /* AnimalPicker.m in Sources */,
+				FCEA8B0E19EB32E300D00340 /* Calc.m in Sources */,
+				FCEA8B1F19EB334700D00340 /* RFRateMe.m in Sources */,
+				FCEA8B1A19EB332900D00340 /* PickerTableView.m in Sources */,
+				FCEA8B0B19EB32CE00D00340 /* ProgressHUD.m in Sources */,
+				FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */,
+				FCEA8B2919EB338D00D00340 /* subBar.m in Sources */,
+				FCEA8B2019EB334700D00340 /* UIAlertView+NSCookbook.m in Sources */,
+				FCEA8B2C19EB33A600D00340 /* main.m in Sources */,
+				FCEA8B2A19EB338D00D00340 /* topBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,12 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEFEAD218B1DE59008B33B8 /* Calc.m in Sources */,
 				FCEA453A18B061320009B4DC /* Animal_AgeTests.m in Sources */,
-				FCEFEACE18B1DBA2008B33B8 /* AnimalPicker.m in Sources */,
-				FCEFEAD618B1E14C008B33B8 /* PickerTableView.m in Sources */,
-				FCEFEAC418B1BD38008B33B8 /* jquery-1.7.1.min.js in Sources */,
-				FCEFEAC018B1741A008B33B8 /* topBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +490,8 @@
 		FCEA453E18B061320009B4DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -562,6 +508,8 @@
 		FCEA453F18B061320009B4DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
