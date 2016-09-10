@@ -140,7 +140,6 @@
     [numberToolbar2 sizeToFit];
     HumanAge2.inputAccessoryView = numberToolbar2;
     
-    [RFRateMe showRateAlert];
 
 }
 

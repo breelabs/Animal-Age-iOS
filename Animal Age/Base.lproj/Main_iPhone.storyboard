@@ -123,7 +123,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="133" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pI4-br-fWE">
-                                        <rect key="frame" x="15" y="3" width="290" height="138"/>
+                                        <rect key="frame" x="12" y="8" width="290" height="138"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <inset key="insetFor6xAndEarlier" minX="0.0" minY="16" maxX="0.0" maxY="-16"/>
                                         <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="130"/>
@@ -137,7 +137,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OUI-BJ-tlx">
-                                                <rect key="frame" x="9" y="71" width="302" height="50"/>
+                                                <rect key="frame" x="10" y="71" width="302" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Calculate Age">
