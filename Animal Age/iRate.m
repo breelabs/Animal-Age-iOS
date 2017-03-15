@@ -1108,6 +1108,7 @@ static NSString *const iRateMacAppStoreURLFormat = @"macappstore://itunes.apple.
         UIApplication *application = [UIApplication sharedApplication];
         [application openURL:self.ratingsURL options:@{} completionHandler:nil];
         
+        
         if ([self.delegate respondsToSelector:@selector(iRateDidOpenAppStore)])
         {
             [self.delegate iRateDidOpenAppStore];

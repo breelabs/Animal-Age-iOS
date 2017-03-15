@@ -16,8 +16,7 @@
     CGContextRef context = UIGraphicsGetCurrentContext ();
     
     // The color to fill the rectangle (in this case black)
-    CGContextSetRGBFillColor(context, 0.679, 0.679, 0.679, 1.0);
-    
+    CGContextSetRGBFillColor(context, 0.96, 0.84, 0.09, 1.0);
     // draw the filled rectangle
     CGContextFillRect (context, self.bounds);
 }

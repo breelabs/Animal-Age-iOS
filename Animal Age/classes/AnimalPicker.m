@@ -56,8 +56,9 @@
     #pragma mark - Button Style
     
     // R: 76 G: 76 B: 76
-    UIColor *buttColor = [UIColor colorWithRed:(116 / 255.0) green:(116 / 255.0) blue:(116 / 255.0) alpha: 1];
-    UIColor *butbackcolor = [UIColor colorWithRed:(150.0 / 255.0) green:(150.0 / 255.0) blue:(150.0 / 255.0) alpha: 1];
+    UIColor *buttColor = [UIColor whiteColor];
+    UIColor *butbackcolor = [UIColor clearColor];
+    UIColor *grey = [UIColor colorWithRed:0.74 green:0.76 blue:0.78 alpha:1.0];
     
     CALayer * layer = [AnimalButt layer];
     [layer setMasksToBounds:YES];
@@ -75,8 +76,8 @@
     [calcLayer setMasksToBounds:YES];
     [calcLayer setCornerRadius:4.0]; //when radius is 0, the border is a rectangle
     [calcLayer setBorderWidth:1.0];
-    [calcLayer setBorderColor:[butbackcolor CGColor]];
-    AgeButt.backgroundColor = butbackcolor;
+    [calcLayer setBorderColor:[grey CGColor]];
+    AgeButt.backgroundColor = grey;
   
     
     
@@ -89,13 +90,14 @@
     #pragma mark - Set MainView Color
     
     // R: 190 G: 190 B: 190
-    UIColor *myColor = [UIColor colorWithRed:(190.0 / 255.0) green:(190.0 / 255.0) blue:(190.0 / 255.0) alpha: 1];
+    UIColor *myColor = [UIColor clearColor];
+    UIColor *whiteColor = [UIColor whiteColor];
     
     [mainArea setBackgroundColor:myColor];
     
     #pragma mark - Set Animal Array
     
-    self.animalArray = @[ @"Dog", @"Cat", @"Cow",@"Rabbit", @"Duck", @"Chicken"  ];
+    self.animalArray = @[ @"Dog", @"Cat", @"Cow",@"Rabbit", @"Duck", @"Chicken", @"Goose" ];
     
     
      #pragma mark - Set Buttons / View Colors
@@ -105,6 +107,20 @@
     ManView2.opaque = NO;
     ManView.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.0];
     ManView.opaque = NO;
+    
+    CALayer * layer_man = [HumanAge layer];
+    [layer_man setMasksToBounds:YES];
+    [layer_man setCornerRadius:4.0]; //when radius is 0, the border is a rectangle
+    [layer_man setBorderWidth:1.0];
+    [layer_man setBorderColor:[whiteColor CGColor]];
+    
+    
+    CALayer * layer_man2 = [HumanAge2 layer];
+    [layer_man2 setMasksToBounds:YES];
+    [layer_man2 setCornerRadius:4.0]; //when radius is 0, the border is a rectangle
+    [layer_man2 setBorderWidth:1.0];
+    [layer_man2 setBorderColor:[whiteColor CGColor]];
+    
     
     HumanAge.backgroundColor = myColor;
     HumanAge.leftView = ManView;

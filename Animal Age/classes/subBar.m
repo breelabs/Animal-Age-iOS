@@ -15,7 +15,7 @@
     CGContextRef context = UIGraphicsGetCurrentContext ();
     
     // The color to fill the rectangle (in this case black)
-    CGContextSetRGBFillColor(context, 0.679, 0.679, 0.679, 1.0);
+    CGContextSetRGBFillColor(context, 0.96, 0.84, 0.09, 1.0);
     
     // draw the filled rectangle
     CGContextFillRect (context, self.bounds);
@@ -24,8 +24,7 @@
     
     bottomBorder.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 1.0f);
     
-    bottomBorder.backgroundColor = [UIColor colorWithWhite:0.8f
-                                                     alpha:1.0f].CGColor;
+    bottomBorder.backgroundColor = [UIColor whiteColor].CGColor;
     
     [self.layer addSublayer:bottomBorder];
 }
