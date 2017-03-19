@@ -57,7 +57,7 @@
     
     // R: 76 G: 76 B: 76
     UIColor *buttColor = [UIColor whiteColor];
-    UIColor *butbackcolor = [UIColor clearColor];
+   // UIColor *butbackcolor = [UIColor clearColor];
     UIColor *grey = [UIColor colorWithRed:0.74 green:0.76 blue:0.78 alpha:1.0];
     
     CALayer * layer = [AnimalButt layer];

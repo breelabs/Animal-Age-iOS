@@ -451,6 +451,8 @@
             cellValue = @"1";
         } else if ([selectedValue  isEqual: @"We're Gurus!"]) {
             cellValue = @"2";
+        } else if ([selectedValue  isEqual: @"BeFit Tracker"]) {
+            cellValue = @"3";
         }
         
         [[NSUserDefaults standardUserDefaults] setValue:cellValue forKey:@"cellIndex"];
