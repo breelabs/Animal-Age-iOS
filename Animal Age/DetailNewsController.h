@@ -17,7 +17,8 @@
 @property (nonatomic, retain) UIImage *selectedimage;
 @property (nonatomic, retain) NSString *selectedlabel;
 @property (nonatomic, retain) NSString *selecteddesc;
+
 @property(nonatomic,retain) IBOutlet UIImageView *imgView;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
-@property(nonatomic,retain) IBOutlet UILabel *lablView;
+@property(nonatomic,retain) IBOutlet UITextView *lablView;
 @end

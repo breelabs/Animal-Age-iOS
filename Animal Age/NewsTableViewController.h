@@ -22,6 +22,7 @@
 @property(nonatomic,retain) NSMutableArray *titleArray;
 @property(nonatomic,retain) NSMutableArray *descArray;
 @property(nonatomic,retain) NSMutableArray *imageArray;
+@property(nonatomic,retain) NSMutableArray *linkArray;
 @property(nonatomic,retain) NSMutableArray *contArray;
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationbar;
 

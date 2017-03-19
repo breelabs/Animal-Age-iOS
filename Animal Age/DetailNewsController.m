@@ -23,6 +23,9 @@
     lablView.text = self.selectedlabel;
     textView.text = self.selecteddesc;
     
+    lablView.textContainer.maximumNumberOfLines = 2;
+    lablView.textContainer.lineBreakMode = NSLineBreakByTruncatingTail;
+    
     //NSLog(@"TEST3  %@", self.selectedimage);
     
     [super viewDidLoad];
@@ -52,12 +55,16 @@
     self.lablView.text = self.selectedlabel;
     self.textView.text = self.selecteddesc;
     
-    [imgView setImage:selectedimage];
+    lablView.textContainer.maximumNumberOfLines = 2;
+    lablView.textContainer.lineBreakMode = NSLineBreakByTruncatingTail;
+    
     [lablView setText:selectedlabel];
     [textView setText:selecteddesc];
     
     [textView setFont:[UIFont systemFontOfSize:17]];
     
+    UIImage * randomImage = [ UIImage imageNamed:[ NSString stringWithFormat:@"image%u.jpg", 1+arc4random_uniform(6) ] ] ;
+    [imgView setImage:randomImage];
 }
 
 - (BOOL)prefersStatusBarHidden {

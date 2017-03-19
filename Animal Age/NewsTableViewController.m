@@ -61,6 +61,8 @@
 
 -(void)getData
 {
+    [titleArray removeAllObjects];
+    [descArray removeAllObjects];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:URLFluxXmlNEWS]];
     
@@ -81,6 +83,7 @@
         for (int i=0; i<rxmlIndividualNew.count; i++) {
             NSString *title = [NSString stringWithString:[[rxmlIndividualNew objectAtIndex:i] child:@"title"].text];
             NSString *desc = [NSString stringWithString:[[rxmlIndividualNew objectAtIndex:i] child:@"description"].text];
+            
             [titleArray addObject:title];
             [descArray addObject:desc];
         }
@@ -120,8 +123,8 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"newsCell" forIndexPath:indexPath];
     
-    cell.textLabel.lineBreakMode = NSLineBreakByWordWrapping;
-    cell.textLabel.numberOfLines = 0;
+    cell.textLabel.lineBreakMode = NSLineBreakByTruncatingTail;
+    cell.textLabel.numberOfLines = 1;
     cell.textLabel.font = [UIFont fontWithName:@"Helvetica" size:17.0];
     
     // Configure the cell...

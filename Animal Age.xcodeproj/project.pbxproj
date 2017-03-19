@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1075DF1E7E364200DBA6DF /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075DD1E7E364200DBA6DF /* image2.jpg */; };
+		FC1075E01E7E364200DBA6DF /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075DE1E7E364200DBA6DF /* image1.jpg */; };
+		FC1075E51E7E3CE400DBA6DF /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075E11E7E3CE400DBA6DF /* image6.jpg */; };
+		FC1075E61E7E3CE400DBA6DF /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075E21E7E3CE400DBA6DF /* image5.jpg */; };
+		FC1075E71E7E3CE400DBA6DF /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075E31E7E3CE400DBA6DF /* image4.jpg */; };
+		FC1075E81E7E3CE400DBA6DF /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075E41E7E3CE400DBA6DF /* image3.jpg */; };
 		FC2C86631C5F200600FFFACD /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1019EB32F800D00340 /* AnimalPicker.m */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
 		FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */; };
@@ -60,6 +66,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1075DD1E7E364200DBA6DF /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		FC1075DE1E7E364200DBA6DF /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		FC1075E11E7E3CE400DBA6DF /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		FC1075E21E7E3CE400DBA6DF /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		FC1075E31E7E3CE400DBA6DF /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		FC1075E41E7E3CE400DBA6DF /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = classes/ProgressHUD/ProgressHUD.bundle; sourceTree = "<group>"; };
 		FC4E63F119EB39160079C0A3 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = classes/ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
@@ -191,6 +203,12 @@
 		FC7E5F991E784ED900434E11 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				FC1075DD1E7E364200DBA6DF /* image2.jpg */,
+				FC1075DE1E7E364200DBA6DF /* image1.jpg */,
+				FC1075E11E7E3CE400DBA6DF /* image6.jpg */,
+				FC1075E21E7E3CE400DBA6DF /* image5.jpg */,
+				FC1075E31E7E3CE400DBA6DF /* image4.jpg */,
+				FC1075E41E7E3CE400DBA6DF /* image3.jpg */,
 				FC7E5FA01E7850C800434E11 /* MBProgressHUD-Prefix.pch */,
 				FC7E5FA11E7850C800434E11 /* MBProgressHUD.h */,
 				FC7E5FA21E7850C800434E11 /* MBProgressHUD.m */,
@@ -405,9 +423,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */,
+				FC1075E61E7E3CE400DBA6DF /* image5.jpg in Resources */,
+				FC1075E01E7E364200DBA6DF /* image1.jpg in Resources */,
+				FC1075E51E7E3CE400DBA6DF /* image6.jpg in Resources */,
 				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
+				FC1075E81E7E3CE400DBA6DF /* image3.jpg in Resources */,
 				FC7E5F8A1E78464900434E11 /* CustomCell.xib in Resources */,
 				FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */,
+				FC1075E71E7E3CE400DBA6DF /* image4.jpg in Resources */,
+				FC1075DF1E7E364200DBA6DF /* image2.jpg in Resources */,
 				FCEA8B2319EB337600D00340 /* index.html in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
 				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
