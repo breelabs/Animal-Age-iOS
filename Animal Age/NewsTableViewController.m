@@ -41,7 +41,7 @@
         HUD.delegate = self;
     });
     
-    [self getData];
+    [self initData];
     //[self setTitle:@"Latest News"];
     
     
@@ -59,10 +59,54 @@
     return UIBarPositionTopAttached;
 }
 
+-(void)initData
+{
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:URLFluxXmlNEWS]];
+    
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+    
+    NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        
+        
+        _responseData = [[NSMutableData alloc] init];
+        [_responseData appendData:data];
+        
+        RXMLElement *rootXML = [RXMLElement elementFromXMLData:_responseData];
+        
+        RXMLElement *rxmlNews = [rootXML child:@"channel"];
+        
+        NSArray *rxmlIndividualNew = [rxmlNews children:@"item"];
+        
+        for (int i=0; i<rxmlIndividualNew.count; i++) {
+            NSString *title = [NSString stringWithString:[[rxmlIndividualNew objectAtIndex:i] child:@"title"].text];
+            NSString *desc = [NSString stringWithString:[[rxmlIndividualNew objectAtIndex:i] child:@"description"].text];
+            
+            [titleArray addObject:title];
+            [descArray addObject:desc];
+        }
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.tableView reloadData];
+            [MBProgressHUD hideHUDForView:self.tableView.superview animated:YES];
+        });
+        
+        [self.refreshControl endRefreshing];
+        
+    }];
+    [dataTask resume];
+    
+    
+    
+}
+
 -(void)getData
 {
     [titleArray removeAllObjects];
     [descArray removeAllObjects];
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.tableView reloadData];
+    });
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:URLFluxXmlNEWS]];
     
