@@ -33,6 +33,7 @@
 		FC7E5FA91E78517800434E11 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA81E78517800434E11 /* libz.tbd */; };
 		FC7E5FAB1E78518200434E11 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FAA1E78518200434E11 /* libstdc++.tbd */; };
 		FC8FD3711D84ABB200CBA1D1 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8FD3701D84ABB200CBA1D1 /* iRate.m */; };
+		FCD699A01E89C70600D4ED3C /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCD6999F1E89C70600D4ED3C /* iRate.bundle */; };
 		FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450B18B061320009B4DC /* Foundation.framework */; };
 		FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450D18B061320009B4DC /* CoreGraphics.framework */; };
 		FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
@@ -104,6 +105,7 @@
 		FC7E5FAA1E78518200434E11 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		FC8FD36F1D84ABB200CBA1D1 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
 		FC8FD3701D84ABB200CBA1D1 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		FCD6999F1E89C70600D4ED3C /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
 		FCEA450818B061320009B4DC /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA450B18B061320009B4DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCEA450D18B061320009B4DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -257,6 +259,7 @@
 		FCEA450A18B061320009B4DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCD6999F1E89C70600D4ED3C /* iRate.bundle */,
 				FC7E5FAA1E78518200434E11 /* libstdc++.tbd */,
 				FC7E5FA81E78517800434E11 /* libz.tbd */,
 				FC7E5FA61E78516A00434E11 /* libxml2.2.dylib */,
@@ -430,6 +433,7 @@
 				FC1075E81E7E3CE400DBA6DF /* image3.jpg in Resources */,
 				FC7E5F8A1E78464900434E11 /* CustomCell.xib in Resources */,
 				FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */,
+				FCD699A01E89C70600D4ED3C /* iRate.bundle in Resources */,
 				FC1075E71E7E3CE400DBA6DF /* image4.jpg in Resources */,
 				FC1075DF1E7E364200DBA6DF /* image2.jpg in Resources */,
 				FCEA8B2319EB337600D00340 /* index.html in Resources */,
