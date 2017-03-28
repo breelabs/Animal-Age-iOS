@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import <CoreData/CoreData.h>
 #import "PickerTableView.h"
 #import "Calc.h"
+#import "ProgressHUD.h"
 
 @interface AnimalPicker : UIViewController <AnimalPickerControllerDelegate, UIActionSheetDelegate, UITextFieldDelegate>
 {
@@ -19,6 +21,7 @@
     IBOutlet UIButton *AnimalButt;
     IBOutlet UIButton *AnimalButt2;
     IBOutlet UIButton *AgeButt;
+    IBOutlet UIButton *AddButt;
     IBOutlet UIButton *convertButt;
     IBOutlet UITextField *HumanAge;
     IBOutlet UITextField *HumanAge2;
@@ -33,5 +36,5 @@
 }
 
 @property(nonatomic, strong) UITableViewController *SimpleTableVC;
-
+- (IBAction)save:(id)sender;
 @end

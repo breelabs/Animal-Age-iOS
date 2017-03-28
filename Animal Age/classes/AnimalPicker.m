@@ -7,7 +7,7 @@
 //
 
 #import "AnimalPicker.h"
-
+#import "AppDelegate.h"
 
 @interface AnimalPicker ()
 
@@ -16,6 +16,74 @@
 @end
 
 @implementation AnimalPicker
+
+-(NSManagedObjectContext *)managedObjectContext{
+    
+    NSManagedObjectContext *context = nil;
+    id delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    // call "persistentContainer" not "managedObjectContext"
+    if( [delegate performSelector:@selector(persistentContainer)] ){
+        // call viewContext from persistentContainer not "managedObjectContext"
+        context = [[delegate persistentContainer] viewContext];
+    }
+    
+    return context;
+}
+
+- (IBAction)save:(id)sender {
+    
+    [ProgressHUD show:nil];
+    
+    
+    NSManagedObjectContext *context = [self managedObjectContext];
+    
+    NSDate *currDate = [NSDate date];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+    [dateFormatter setDateFormat:@"MM/dd/YY"];
+    NSString *dateString = [dateFormatter stringFromDate:currDate];
+    
+    
+    
+    // Create a new managed object
+    NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"List" inManagedObjectContext:context];
+    [newDevice setValue:self->resultLabel.text forKey:@"age"];
+    [newDevice setValue:self->AnimalButt.currentTitle forKey:@"name"];
+    [newDevice setValue:dateString forKey:@"date"];
+    [newDevice setValue:@"Notes" forKey:@"notes"];
+    [newDevice setValue:@"Pet Name" forKey:@"pet_name"];
+    
+    UIImage *image = [UIImage imageNamed:@"question.png"];
+    NSData *imageData = UIImagePNGRepresentation(image);
+    [newDevice setValue:imageData forKey:@"img"];
+    
+    
+    
+    [self performSelector:@selector(dogAnswer:) withObject:nil afterDelay:.50];
+    
+    NSError *error = nil;
+    // Save the object to persistent store
+    if (![context save:&error]) {
+        NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
+    }
+    
+}
+
+
+-(void)hideHud:(NSTimer *)timer {
+    
+    [ProgressHUD dismiss];
+}
+
+-(void)dogAnswer:(NSTimer *)timer {
+    
+    [ProgressHUD showSuccess:nil];
+    
+    [self performSelector:@selector(hideHud:) withObject:nil afterDelay:.85];
+    
+}
+
+
+
 
 
 - (void)viewDidLoad
@@ -66,6 +134,12 @@
     [layer setBorderWidth:1.0];
     [layer setBorderColor:[buttColor CGColor]];
     
+    CALayer * addlayer = [AddButt layer];
+    [addlayer setMasksToBounds:YES];
+    [addlayer setCornerRadius:4.0]; //when radius is 0, the border is a rectangle
+    [addlayer setBorderWidth:1.0];
+    [addlayer setBorderColor:[buttColor CGColor]];
+    
     CALayer * layer2 = [AnimalButt2 layer];
     [layer2 setMasksToBounds:YES];
     [layer2 setCornerRadius:4.0]; //when radius is 0, the border is a rectangle
@@ -91,9 +165,10 @@
     
     // R: 190 G: 190 B: 190
     UIColor *myColor = [UIColor clearColor];
+    UIColor *backSilver = [UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.0];
     UIColor *whiteColor = [UIColor whiteColor];
     
-    [mainArea setBackgroundColor:myColor];
+    [mainArea setBackgroundColor:backSilver];
     
     #pragma mark - Set Animal Array
     
