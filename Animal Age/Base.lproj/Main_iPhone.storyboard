@@ -46,10 +46,10 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DQH-jk-yFR">
-                                        <rect key="frame" x="328" y="38" width="34" height="22"/>
+                                        <rect key="frame" x="329" y="32" width="32" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <state key="normal" title="Add">
+                                        <state key="normal" image="Plus Math_ffffff_32" backgroundImage="Plus Math_ffffff_32">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -216,7 +216,6 @@
                     <tabBarItem key="tabBarItem" title="Animal Age" image="Dog Footprint_000000_25" selectedImage="Dog Footprint_000000_25" id="J3j-F7-44A"/>
                     <navigationItem key="navigationItem" id="OIB-G7-9XL"/>
                     <connections>
-                        <outlet property="AddButt" destination="DQH-jk-yFR" id="ohb-yZ-6IM"/>
                         <outlet property="AgeButt" destination="OUI-BJ-tlx" id="kp3-gk-E4W"/>
                         <outlet property="AnimalButt" destination="Pnp-QM-8Wh" id="f1c-cV-yB0"/>
                         <outlet property="AnimalButt2" destination="bIm-1u-jFM" id="ku8-wn-Bej"/>
@@ -607,28 +606,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="bYD-nl-qqj" detailTextLabel="RZ1-LG-GoI" style="IBUITableViewCellStyleValue1" id="AOj-fJ-jPR">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="AOj-fJ-jPR" customClass="NewsTableViewCell">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AOj-fJ-jPR" id="WyS-1C-41i">
                                     <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bYD-nl-qqj">
-                                            <rect key="frame" x="15" y="11" width="34" height="21"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RZ1-LG-GoI">
-                                            <rect key="frame" x="296" y="11" width="44" height="21"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -760,7 +743,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="GsO-Ay-N71">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="GsO-Ay-N71">
                                                 <rect key="frame" x="21" y="550" width="130" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             </imageView>
@@ -1019,6 +1002,7 @@
         <image name="Google News_000000_25" width="25" height="25"/>
         <image name="Logo" width="142" height="27"/>
         <image name="Open Book_000000_25" width="25" height="25"/>
+        <image name="Plus Math_ffffff_32" width="32" height="32"/>
         <image name="Sorting Arrows Horizontal_ffffff_25" width="25" height="25"/>
         <image name="Star" width="23" height="22"/>
         <image name="download" width="32" height="32"/>

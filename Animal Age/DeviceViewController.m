@@ -76,12 +76,15 @@
     
     // Configure the cell...
     NSManagedObject *device = [self.devices objectAtIndex:indexPath.row];
-    [cell.textLabel setText:[NSString stringWithFormat:@"Animal: %@  --  Age: %@", [device valueForKey:@"name"], [device valueForKey:@"age"]]];
+    [cell.textLabel setText:[NSString stringWithFormat:@"%@ - Age: %@", [device valueForKey:@"pet_name"], [device valueForKey:@"age"]]];
     
     cell.textLabel.numberOfLines = 1; // set the numberOfLines
     cell.textLabel.lineBreakMode = NSLineBreakByTruncatingTail;
     
     [cell.detailTextLabel setText:[NSString stringWithFormat:@"%@", [device valueForKey:@"date"]]];
+    
+    UIImage *image = [UIImage imageWithData:[device valueForKey:@"img"]];
+    cell.imageView.image = image;
     
     return cell;
 }

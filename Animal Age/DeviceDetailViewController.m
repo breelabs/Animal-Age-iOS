@@ -117,8 +117,9 @@
     [layer9 setCornerRadius:4.0]; //when radius is 0, the border is a rectangle
     [layer9 setBorderWidth:1.0];
     [layer9 setBorderColor:[grey CGColor]];
+    _clear.backgroundColor = grey;
     
-    // Do any additional setup after loading the view.
+
 }
 
 - (UIBarPosition)positionForBar:(id<UIBarPositioning>)bar {
@@ -234,6 +235,6 @@
     
 }
 - (IBAction)clearPhoto:(UIButton *)sender {
-    [_imageView setImage:[UIImage imageNamed:@"question.png"]];
+    [_imageView setImage:[UIImage imageNamed:@"cute.png"]];
 }
 @end

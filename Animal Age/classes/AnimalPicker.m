@@ -30,41 +30,68 @@
     return context;
 }
 
+
+
 - (IBAction)save:(id)sender {
     
-    [ProgressHUD show:nil];
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"What is your pets name?" message:@"Save your pets name in the database." preferredStyle:UIAlertControllerStyleAlert]; // 7
+    
+    UIAlertAction *defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+        NSLog(@"You pressed button OK");
+        
+        
+        
+        [ProgressHUD show:nil];
+        
+        
+        NSManagedObjectContext *context = [self managedObjectContext];
+        
+        NSDate *currDate = [NSDate date];
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+        [dateFormatter setDateFormat:@"MM/dd/YY"];
+        NSString *dateString = [dateFormatter stringFromDate:currDate];
+        
+        
+        
+        // Create a new managed object
+        NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"List" inManagedObjectContext:context];
+        [newDevice setValue:self->resultLabel.text forKey:@"age"];
+        [newDevice setValue:self->AnimalButt.currentTitle forKey:@"name"];
+        [newDevice setValue:dateString forKey:@"date"];
+        [newDevice setValue:self->calcText.text forKey:@"notes"];
+        [newDevice setValue:alert.textFields[0].text forKey:@"pet_name"];
+        
+        UIImage *image = [UIImage imageNamed:@"cute.png"];
+        NSData *imageData = UIImagePNGRepresentation(image);
+        [newDevice setValue:imageData forKey:@"img"];
+        
+        
+        
+        [self performSelector:@selector(dogAnswer:) withObject:nil afterDelay:.50];
+        
+        NSError *error = nil;
+        // Save the object to persistent store
+        if (![context save:&error]) {
+            NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
+        }
+        
+        
+        
+        
+    }]; // 8
+    
+    [alert addAction:defaultAction]; // 9
+    
+    [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+        textField.placeholder = @"Pet Name";
+    }]; // 10
+    
+    [self presentViewController:alert animated:YES completion:nil]; // 11
     
     
-    NSManagedObjectContext *context = [self managedObjectContext];
     
-    NSDate *currDate = [NSDate date];
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
-    [dateFormatter setDateFormat:@"MM/dd/YY"];
-    NSString *dateString = [dateFormatter stringFromDate:currDate];
-    
-    
-    
-    // Create a new managed object
-    NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"List" inManagedObjectContext:context];
-    [newDevice setValue:self->resultLabel.text forKey:@"age"];
-    [newDevice setValue:self->AnimalButt.currentTitle forKey:@"name"];
-    [newDevice setValue:dateString forKey:@"date"];
-    [newDevice setValue:@"Notes" forKey:@"notes"];
-    [newDevice setValue:@"Pet Name" forKey:@"pet_name"];
-    
-    UIImage *image = [UIImage imageNamed:@"question.png"];
-    NSData *imageData = UIImagePNGRepresentation(image);
-    [newDevice setValue:imageData forKey:@"img"];
-    
-    
-    
-    [self performSelector:@selector(dogAnswer:) withObject:nil afterDelay:.50];
-    
-    NSError *error = nil;
-    // Save the object to persistent store
-    if (![context save:&error]) {
-        NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
-    }
+   
     
 }
 

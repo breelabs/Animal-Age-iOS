@@ -302,6 +302,32 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		FC4074781E8A806700D163F5 /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				FC4074411E8A0DDD00D163F5 /* DeviceDetailViewController.h */,
+				FC4074421E8A0DDD00D163F5 /* DeviceDetailViewController.m */,
+				FC4074181E89F77600D163F5 /* DeviceViewController.h */,
+				FC4074191E89F77600D163F5 /* DeviceViewController.m */,
+			);
+			name = Tracker;
+			sourceTree = "<group>";
+		};
+		FC4074791E8A807400D163F5 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA8B1219EB32F800D00340 /* AppDelegate.m */,
+				FCEA8B1119EB32F800D00340 /* AppDelegate.h */,
+				FCEA8B2519EB338D00D00340 /* subBar.h */,
+				FCEA8B2619EB338D00D00340 /* subBar.m */,
+				FCEA8B2719EB338D00D00340 /* topBar.h */,
+				FCEA8B2819EB338D00D00340 /* topBar.m */,
+				FCEA8B0C19EB32E300D00340 /* Calc.h */,
+				FCEA8B0D19EB32E300D00340 /* Calc.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
 		FC4E63F519EB391B0079C0A3 /* ProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,18 +442,8 @@
 				FC744A8819E4F712002C799A /* Premade Classes */,
 				FCEFEAD718B1E2F8008B33B8 /* Animal Picker */,
 				FC7E5F8C1E78464F00434E11 /* More */,
-				FCEA8B1219EB32F800D00340 /* AppDelegate.m */,
-				FCEA8B1119EB32F800D00340 /* AppDelegate.h */,
-				FCEA8B2519EB338D00D00340 /* subBar.h */,
-				FCEA8B2619EB338D00D00340 /* subBar.m */,
-				FCEA8B2719EB338D00D00340 /* topBar.h */,
-				FCEA8B2819EB338D00D00340 /* topBar.m */,
-				FCEA8B0C19EB32E300D00340 /* Calc.h */,
-				FCEA8B0D19EB32E300D00340 /* Calc.m */,
-				FC4074411E8A0DDD00D163F5 /* DeviceDetailViewController.h */,
-				FC4074421E8A0DDD00D163F5 /* DeviceDetailViewController.m */,
-				FC4074181E89F77600D163F5 /* DeviceViewController.h */,
-				FC4074191E89F77600D163F5 /* DeviceViewController.m */,
+				FC4074791E8A807400D163F5 /* GUI */,
+				FC4074781E8A806700D163F5 /* Tracker */,
 				FC7E5F991E784ED900434E11 /* News */,
 				FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */,
 				FCEA452018B061320009B4DC /* Main_iPad.storyboard */,
