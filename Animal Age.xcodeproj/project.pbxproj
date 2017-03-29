@@ -32,6 +32,7 @@
 		FC4074751E8A186F00D163F5 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074641E8A186F00D163F5 /* IQToolbar.m */; };
 		FC4074761E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074661E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.m */; };
 		FC4074771E8A186F00D163F5 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4074681E8A186F00D163F5 /* IQKeyboardManager.bundle */; };
+		FC40747C1E8C5A7100D163F5 /* UISnapNav.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40747B1E8C5A7100D163F5 /* UISnapNav.m */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
 		FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */; };
 		FC4E63F419EB39160079C0A3 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4E63F219EB39160079C0A3 /* ProgressHUD.m */; };
@@ -70,8 +71,6 @@
 		FCEA8B1A19EB332900D00340 /* PickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1919EB332900D00340 /* PickerTableView.m */; };
 		FCEA8B2319EB337600D00340 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B2119EB337600D00340 /* index.html */; };
 		FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */; };
-		FCEA8B2919EB338D00D00340 /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B2619EB338D00D00340 /* subBar.m */; };
-		FCEA8B2A19EB338D00D00340 /* topBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B2819EB338D00D00340 /* topBar.m */; };
 		FCEA8B2C19EB33A600D00340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B2B19EB33A600D00340 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +127,8 @@
 		FC4074651E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
 		FC4074661E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
 		FC4074681E8A186F00D163F5 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		FC40747A1E8C5A7100D163F5 /* UISnapNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISnapNav.h; sourceTree = "<group>"; };
+		FC40747B1E8C5A7100D163F5 /* UISnapNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISnapNav.m; sourceTree = "<group>"; };
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = classes/ProgressHUD/ProgressHUD.bundle; sourceTree = "<group>"; };
 		FC4E63F119EB39160079C0A3 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = classes/ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
@@ -187,10 +188,6 @@
 		FCEA8B1919EB332900D00340 /* PickerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerTableView.m; path = classes/PickerTableView.m; sourceTree = "<group>"; };
 		FCEA8B2119EB337600D00340 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = htdocs/index.html; sourceTree = "<group>"; };
 		FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "htdocs/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
-		FCEA8B2519EB338D00D00340 /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subBar.h; path = classes/subBar.h; sourceTree = "<group>"; };
-		FCEA8B2619EB338D00D00340 /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = subBar.m; path = classes/subBar.m; sourceTree = "<group>"; };
-		FCEA8B2719EB338D00D00340 /* topBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = topBar.h; path = classes/topBar.h; sourceTree = "<group>"; };
-		FCEA8B2819EB338D00D00340 /* topBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = topBar.m; path = classes/topBar.m; sourceTree = "<group>"; };
 		FCEA8B2B19EB33A600D00340 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = classes/main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -318,10 +315,8 @@
 			children = (
 				FCEA8B1219EB32F800D00340 /* AppDelegate.m */,
 				FCEA8B1119EB32F800D00340 /* AppDelegate.h */,
-				FCEA8B2519EB338D00D00340 /* subBar.h */,
-				FCEA8B2619EB338D00D00340 /* subBar.m */,
-				FCEA8B2719EB338D00D00340 /* topBar.h */,
-				FCEA8B2819EB338D00D00340 /* topBar.m */,
+				FC40747A1E8C5A7100D163F5 /* UISnapNav.h */,
+				FC40747B1E8C5A7100D163F5 /* UISnapNav.m */,
 				FCEA8B0C19EB32E300D00340 /* Calc.h */,
 				FCEA8B0D19EB32E300D00340 /* Calc.m */,
 			);
@@ -627,6 +622,7 @@
 				FC4074761E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				FC4074691E8A186F00D163F5 /* IQNSArray+Sort.m in Sources */,
 				FC4E63F419EB39160079C0A3 /* ProgressHUD.m in Sources */,
+				FC40747C1E8C5A7100D163F5 /* UISnapNav.m in Sources */,
 				FCEA8B1A19EB332900D00340 /* PickerTableView.m in Sources */,
 				FC7E5F871E78464900434E11 /* AppGalleryView.m in Sources */,
 				FC4074741E8A186F00D163F5 /* IQTitleBarButtonItem.m in Sources */,
@@ -634,12 +630,10 @@
 				FC4074711E8A186F00D163F5 /* IQTextView.m in Sources */,
 				FC7E5FA31E7850C800434E11 /* MBProgressHUD.m in Sources */,
 				FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */,
-				FCEA8B2919EB338D00D00340 /* subBar.m in Sources */,
 				FC7E5F971E784ED300434E11 /* NewsTableViewController.m in Sources */,
 				FC8FD3711D84ABB200CBA1D1 /* iRate.m in Sources */,
 				FC40746D1E8A186F00D163F5 /* IQUIViewController+Additions.m in Sources */,
 				FCEA8B2C19EB33A600D00340 /* main.m in Sources */,
-				FCEA8B2A19EB338D00D00340 /* topBar.m in Sources */,
 				FC4074431E8A0DDD00D163F5 /* DeviceDetailViewController.m in Sources */,
 				FC7E5F9C1E784EF900434E11 /* RXMLElement.m in Sources */,
 				FC4074731E8A186F00D163F5 /* IQPreviousNextView.m in Sources */,

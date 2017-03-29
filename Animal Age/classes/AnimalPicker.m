@@ -111,13 +111,16 @@
 
 
 
-
+- (UIBarPosition)positionForBar:(id<UIBarPositioning>)bar {
+    return UIBarPositionTopAttached;
+}
 
 - (void)viewDidLoad
 {
 
     [super viewDidLoad];
 
+    self.navigationbar.delegate = self;
     
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     [defaults setBool:YES forKey:@"flipPref"];

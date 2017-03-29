@@ -19,7 +19,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="lCI-S2-JLt"/>
+                        <segue destination="vMQ-fe-MDr" kind="relationship" relationship="viewControllers" id="xsk-O9-sl5"/>
                         <segue destination="TRh-Ih-zGv" kind="relationship" relationship="viewControllers" id="g9h-Ys-Gau"/>
                         <segue destination="lTl-n1-7Po" kind="relationship" relationship="viewControllers" id="XUy-QM-wyh"/>
                         <segue destination="xaT-yv-bem" kind="relationship" relationship="viewControllers" id="ll9-pm-RG2"/>
@@ -27,49 +27,31 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J9v-wf-Eqz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="151" y="150"/>
+            <point key="canvasLocation" x="-9" y="150"/>
         </scene>
-        <!--Animal Age-->
+        <!--Animal Age Calculator-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="AnimalPicker" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="zJG-Od-ijC" customClass="topBar">
-                                <rect key="frame" x="0.0" y="-1" width="375" height="144"/>
+                            <view contentMode="scaleToFill" misplaced="YES" id="zQb-l2-jSu">
+                                <rect key="frame" x="0.0" y="-65" width="375" height="144"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="Logo" id="K7l-Za-iLx">
-                                        <rect key="frame" x="82" y="34" width="139" height="26"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DQH-jk-yFR">
-                                        <rect key="frame" x="329" y="32" width="32" height="32"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <state key="normal" image="Plus Math_ffffff_32" backgroundImage="Plus Math_ffffff_32">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="save:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iCp-je-WNc"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.96470588235294119" green="0.83529411764705885" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.96449060819999999" green="0.83531383940000004" blue="0.095854650890000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" id="VBp-u0-mjc" userLabel="Master Flip">
-                                <rect key="frame" x="0.0" y="81" width="320" height="75"/>
+                            <view contentMode="scaleToFill" misplaced="YES" id="VBp-u0-mjc" userLabel="Master Flip">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" id="qo3-eh-mnF" userLabel="Back Nav Bar" customClass="subBar">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" id="qo3-eh-mnF" userLabel="Back Nav Bar">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Gix-CN-o8u">
-                                                <rect key="frame" x="147" y="22" width="25" height="19"/>
+                                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Gix-CN-o8u">
+                                                <rect key="frame" x="154" y="22" width="25" height="19"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="Sorting Arrows Horizontal_ffffff_25">
@@ -79,8 +61,8 @@
                                                     <action selector="showflip:" destination="Sy5-p0-O41" eventType="touchDown" id="TUO-9Q-zCI"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bIm-1u-jFM">
-                                                <rect key="frame" x="188" y="16" width="121" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bIm-1u-jFM">
+                                                <rect key="frame" x="202" y="16" width="107" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -104,17 +86,15 @@
                                                 </connections>
                                             </textField>
                                         </subviews>
-                                        <connections>
-                                            <outlet property="myView" destination="D6C-VO-SRO" id="I0i-BP-ZRI"/>
-                                        </connections>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view contentMode="scaleToFill" id="D6C-VO-SRO" userLabel="Front Nav Bar" customClass="subBar">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" id="D6C-VO-SRO" userLabel="Front Nav Bar">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Q55-HT-Ksn">
-                                                <rect key="frame" x="147" y="22" width="25" height="19"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <rect key="frame" x="154" y="22" width="25" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="Sorting Arrows Horizontal_ffffff_25">
                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -136,8 +116,8 @@
                                                 </connections>
                                             </button>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="30" borderStyle="roundedRect" minimumFontSize="17" id="Han-7B-n8w">
-                                                <rect key="frame" x="187" y="16" width="121" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <rect key="frame" x="202" y="16" width="107" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
@@ -148,6 +128,7 @@
                                                 </connections>
                                             </textField>
                                         </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
                             </view>
@@ -163,11 +144,11 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" misplaced="YES" id="I6s-yu-IAd" userLabel="Main View">
-                                <rect key="frame" x="0.0" y="142" width="375" height="476"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="490"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="133" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pI4-br-fWE">
-                                        <rect key="frame" x="34" y="13" width="290" height="94"/>
+                                        <rect key="frame" x="8" y="13" width="359" height="94"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <inset key="insetFor6xAndEarlier" minX="0.0" minY="16" maxX="0.0" maxY="-16"/>
                                         <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="93"/>
@@ -177,12 +158,12 @@
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
                                     <view contentMode="scaleToFill" misplaced="YES" id="nHr-7u-M9K">
-                                        <rect key="frame" x="0.0" y="222" width="375" height="259"/>
+                                        <rect key="frame" x="0.0" y="236" width="375" height="259"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OUI-BJ-tlx">
-                                                <rect key="frame" x="10" y="71" width="302" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OUI-BJ-tlx">
+                                                <rect key="frame" x="10" y="71" width="357" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Calculate Age">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -198,7 +179,7 @@
                                                 <dataDetectorType key="dataDetectorTypes"/>
                                             </webView>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You are 133 years old in Dog Years." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" id="uk7-w3-ofa">
-                                                <rect key="frame" x="15" y="-17" width="345" height="80"/>
+                                                <rect key="frame" x="15" y="-17" width="352" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="highlightedColor"/>
@@ -213,8 +194,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Animal Age" image="Dog Footprint_000000_25" selectedImage="Dog Footprint_000000_25" id="J3j-F7-44A"/>
-                    <navigationItem key="navigationItem" id="OIB-G7-9XL"/>
+                    <navigationItem key="navigationItem" title="Animal Age Calculator" id="OIB-G7-9XL">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="9Ln-wb-Btr">
+                            <connections>
+                                <action selector="save:" destination="vXZ-lx-hvc" id="cPl-C1-MZW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="AgeButt" destination="OUI-BJ-tlx" id="kp3-gk-E4W"/>
                         <outlet property="AnimalButt" destination="Pnp-QM-8Wh" id="f1c-cV-yB0"/>
@@ -273,14 +259,14 @@
                     </subviews>
                 </view>
             </objects>
-            <point key="canvasLocation" x="737.5" y="149.5"/>
+            <point key="canvasLocation" x="1324.5" y="149.5"/>
         </scene>
         <!--Animals-->
         <scene sceneID="A0A-Jz-Xxb">
             <objects>
                 <tableViewController id="Wwl-Xn-lf3" customClass="PickerTableView" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="JQI-qe-7YX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
@@ -309,25 +295,31 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQh-pr-1Jn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1760" y="150"/>
+            <point key="canvasLocation" x="2346.5" y="149.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="alX-Le-Cag">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rU9-0u-a1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="SimpleTableVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zfx-wx-7Lu" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vtn-eO-lGQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Vtn-eO-lGQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.96449060819999999" green="0.83531383940000004" blue="0.095854650890000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="Wwl-Xn-lf3" kind="relationship" relationship="rootViewController" id="raR-Dx-jhk"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rU9-0u-a1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1228" y="150"/>
+            <point key="canvasLocation" x="1814.5" y="149.5"/>
         </scene>
         <!--More Apps-->
         <scene sceneID="fhs-Yr-7pM">
@@ -602,7 +594,7 @@
             <objects>
                 <tableViewController id="EcF-Nt-GYf" customClass="DeviceViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="IOd-W2-BVV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -610,7 +602,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AOj-fJ-jPR" id="WyS-1C-41i">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -638,7 +630,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" misplaced="YES" id="c6Z-OA-EwF">
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translucent="NO" id="c6Z-OA-EwF">
                                 <rect key="frame" x="0.0" y="23" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -825,7 +817,7 @@
             <objects>
                 <navigationController id="TRh-Ih-zGv" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Age Tracker" image="Open Book_000000_25" selectedImage="Open Book_000000_25" id="LDs-nB-HsT"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1W9-LF-cUV">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="1W9-LF-cUV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -976,7 +968,7 @@
             <objects>
                 <navigationController id="lTl-n1-7Po" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Animal News" image="Google News_000000_25" selectedImage="Google News_000000_25" id="LNV-qc-FrN"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5OU-66-DcH">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="5OU-66-DcH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.96449060819999999" green="0.83531383940000004" blue="0.095854650890000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -995,14 +987,38 @@
             </objects>
             <point key="canvasLocation" x="151" y="2177"/>
         </scene>
+        <!--Animal Age-->
+        <scene sceneID="ndI-q6-8E4">
+            <objects>
+                <navigationController title="Animal Age" automaticallyAdjustsScrollViewInsets="NO" id="vMQ-fe-MDr" customClass="UISnapNav" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Animal Age" image="Dog Footprint_000000_25" selectedImage="Dog Footprint_000000_25" id="J3j-F7-44A"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="KL9-xn-evK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.96449060819999999" green="0.83531383940000004" blue="0.095854650890000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <outlet property="delegate" destination="KL9-xn-evK" id="qJg-qV-9Ot"/>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="zXk-62-5fA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kIJ-ao-cua" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737.5" y="149.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="App Symbol_000000_25" width="25" height="25"/>
         <image name="Dog Footprint_000000_25" width="25" height="25"/>
         <image name="Google News_000000_25" width="25" height="25"/>
-        <image name="Logo" width="142" height="27"/>
         <image name="Open Book_000000_25" width="25" height="25"/>
-        <image name="Plus Math_ffffff_32" width="32" height="32"/>
         <image name="Sorting Arrows Horizontal_ffffff_25" width="25" height="25"/>
         <image name="Star" width="23" height="22"/>
         <image name="download" width="32" height="32"/>

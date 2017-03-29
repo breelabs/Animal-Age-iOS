@@ -13,7 +13,7 @@
 #import "Calc.h"
 #import "ProgressHUD.h"
 
-@interface AnimalPicker : UIViewController <AnimalPickerControllerDelegate, UIActionSheetDelegate, UITextFieldDelegate>
+@interface AnimalPicker : UIViewController <AnimalPickerControllerDelegate, UIActionSheetDelegate, UITextFieldDelegate, UIBarPositioningDelegate, UINavigationBarDelegate>
 {
 
     IBOutlet UIView *mainArea;
@@ -34,7 +34,7 @@
     IBOutlet UIView *frontView;
     IBOutlet UIView *masterFlip;
 }
-
+@property (weak, nonatomic) IBOutlet UINavigationBar *navigationbar;
 @property(nonatomic, strong) UITableViewController *SimpleTableVC;
 - (IBAction)save:(id)sender;
 @end
