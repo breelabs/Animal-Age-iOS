@@ -16,11 +16,13 @@
 {
     self.displayingFront = YES;
     
+    
+    
     calcText.numberOfLines = 2;
     [calcText setMinimumScaleFactor:3.0/[UIFont labelFontSize]];
     calcText.adjustsFontSizeToFitWidth = YES;
     calcText.lineBreakMode = NSLineBreakByWordWrapping;
-    
+    [self showflip:nil];
 }
 
 -(IBAction)showflip:(id)sender {

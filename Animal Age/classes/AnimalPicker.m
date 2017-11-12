@@ -134,6 +134,7 @@
     calcText.adjustsFontSizeToFitWidth = YES;
     calcText.lineBreakMode = NSLineBreakByWordWrapping;
     
+    [backView setHidden:YES];
     
     if ([UIScreen mainScreen].scale == 2.f && [[UIScreen mainScreen] bounds].size.height-568)
     { [calcText setText:@""]; }
@@ -262,6 +263,33 @@
     HumanAge2.inputAccessoryView = numberToolbar2;
     
 
+    
+    if (@available(iOS 11, *)) {
+        UIEdgeInsets insets = [UIApplication sharedApplication].delegate.window.safeAreaInsets;
+        if (insets.top > 0) {
+            // We're running on an iPhone with a notch.
+            
+            [resultLabel setFont:[UIFont systemFontOfSize:200]];
+            
+            CGRect mycviewFrame = graphView.frame;
+            mycviewFrame.origin.y = 100;
+            mycviewFrame.origin.x = 0;
+            graphView.frame = mycviewFrame;
+            
+            CGRect ageFrame = AgeButt.frame;
+            ageFrame.origin.y = 41;
+            ageFrame.origin.x = 10;
+            AgeButt.frame = ageFrame;
+            
+            CGRect textFrame = calcText.frame;
+            textFrame.origin.y = -47;
+            textFrame.origin.x = 10;
+            calcText.frame = textFrame;
+            
+        }
+    }
+    
+    
 }
 
 
