@@ -53,8 +53,14 @@
 		FC7E5FA91E78517800434E11 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA81E78517800434E11 /* libz.tbd */; };
 		FC7E5FAB1E78518200434E11 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FAA1E78518200434E11 /* libstdc++.tbd */; };
 		FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */; };
-		FC8FD3711D84ABB200CBA1D1 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8FD3701D84ABB200CBA1D1 /* iRate.m */; };
-		FCD699A01E89C70600D4ED3C /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCD6999F1E89C70600D4ED3C /* iRate.bundle */; };
+		FC8F8C911FB8D46B0015E5E8 /* star-gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C851FB8D46B0015E5E8 /* star-gray@2x.png */; };
+		FC8F8C921FB8D46B0015E5E8 /* SARate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8F8C861FB8D46B0015E5E8 /* SARate.m */; };
+		FC8F8C931FB8D46B0015E5E8 /* SARateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8F8C871FB8D46B0015E5E8 /* SARateViewController.m */; };
+		FC8F8C941FB8D46B0015E5E8 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C891FB8D46B0015E5E8 /* iRate.bundle */; };
+		FC8F8C951FB8D46B0015E5E8 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8F8C8A1FB8D46B0015E5E8 /* iRate.m */; };
+		FC8F8C961FB8D46B0015E5E8 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C8C1FB8D46B0015E5E8 /* star@2x.png */; };
+		FC8F8C971FB8D46B0015E5E8 /* star-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C8E1FB8D46B0015E5E8 /* star-gray.png */; };
+		FC8F8C981FB8D46B0015E5E8 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C901FB8D46B0015E5E8 /* star.png */; };
 		FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450B18B061320009B4DC /* Foundation.framework */; };
 		FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450D18B061320009B4DC /* CoreGraphics.framework */; };
 		FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
@@ -162,9 +168,17 @@
 		FC7E5FA81E78517800434E11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		FC7E5FAA1E78518200434E11 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FC8FD36F1D84ABB200CBA1D1 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
-		FC8FD3701D84ABB200CBA1D1 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
-		FCD6999F1E89C70600D4ED3C /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = ../iRate.bundle; sourceTree = "<group>"; };
+		FC8F8C851FB8D46B0015E5E8 /* star-gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-gray@2x.png"; sourceTree = "<group>"; };
+		FC8F8C861FB8D46B0015E5E8 /* SARate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARate.m; sourceTree = "<group>"; };
+		FC8F8C871FB8D46B0015E5E8 /* SARateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARateViewController.m; sourceTree = "<group>"; };
+		FC8F8C891FB8D46B0015E5E8 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
+		FC8F8C8A1FB8D46B0015E5E8 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		FC8F8C8B1FB8D46B0015E5E8 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		FC8F8C8C1FB8D46B0015E5E8 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		FC8F8C8D1FB8D46B0015E5E8 /* SARate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARate.h; sourceTree = "<group>"; };
+		FC8F8C8E1FB8D46B0015E5E8 /* star-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-gray.png"; sourceTree = "<group>"; };
+		FC8F8C8F1FB8D46B0015E5E8 /* SARateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARateViewController.h; sourceTree = "<group>"; };
+		FC8F8C901FB8D46B0015E5E8 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		FCEA450818B061320009B4DC /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA450B18B061320009B4DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCEA450D18B061320009B4DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -338,9 +352,8 @@
 		FC744A8819E4F712002C799A /* Premade Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FC8F8C841FB8D46B0015E5E8 /* SARate */,
 				FC4074441E8A186F00D163F5 /* IQKeyboardManager */,
-				FCD6999F1E89C70600D4ED3C /* iRate.bundle */,
-				FC8FD3721D84ABB600CBA1D1 /* iRate */,
 				FC4E63F519EB391B0079C0A3 /* ProgressHUD */,
 			);
 			name = "Premade Classes";
@@ -388,13 +401,30 @@
 			name = News;
 			sourceTree = "<group>";
 		};
-		FC8FD3721D84ABB600CBA1D1 /* iRate */ = {
+		FC8F8C841FB8D46B0015E5E8 /* SARate */ = {
 			isa = PBXGroup;
 			children = (
-				FC8FD36F1D84ABB200CBA1D1 /* iRate.h */,
-				FC8FD3701D84ABB200CBA1D1 /* iRate.m */,
+				FC8F8C851FB8D46B0015E5E8 /* star-gray@2x.png */,
+				FC8F8C861FB8D46B0015E5E8 /* SARate.m */,
+				FC8F8C871FB8D46B0015E5E8 /* SARateViewController.m */,
+				FC8F8C881FB8D46B0015E5E8 /* iRate */,
+				FC8F8C8C1FB8D46B0015E5E8 /* star@2x.png */,
+				FC8F8C8D1FB8D46B0015E5E8 /* SARate.h */,
+				FC8F8C8E1FB8D46B0015E5E8 /* star-gray.png */,
+				FC8F8C8F1FB8D46B0015E5E8 /* SARateViewController.h */,
+				FC8F8C901FB8D46B0015E5E8 /* star.png */,
 			);
-			name = iRate;
+			path = SARate;
+			sourceTree = "<group>";
+		};
+		FC8F8C881FB8D46B0015E5E8 /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				FC8F8C891FB8D46B0015E5E8 /* iRate.bundle */,
+				FC8F8C8A1FB8D46B0015E5E8 /* iRate.m */,
+				FC8F8C8B1FB8D46B0015E5E8 /* iRate.h */,
+			);
+			path = iRate;
 			sourceTree = "<group>";
 		};
 		FCEA44FF18B061320009B4DC = {
@@ -582,21 +612,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */,
+				FC8F8C961FB8D46B0015E5E8 /* star@2x.png in Resources */,
 				FC1075E61E7E3CE400DBA6DF /* image5.jpg in Resources */,
 				FC1075E01E7E364200DBA6DF /* image1.jpg in Resources */,
+				FC8F8C911FB8D46B0015E5E8 /* star-gray@2x.png in Resources */,
 				FC1075E51E7E3CE400DBA6DF /* image6.jpg in Resources */,
+				FC8F8C941FB8D46B0015E5E8 /* iRate.bundle in Resources */,
 				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
 				FC1075E81E7E3CE400DBA6DF /* image3.jpg in Resources */,
 				FC4074771E8A186F00D163F5 /* IQKeyboardManager.bundle in Resources */,
 				FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */,
+				FC8F8C981FB8D46B0015E5E8 /* star.png in Resources */,
 				FC7E5F8A1E78464900434E11 /* CustomCell.xib in Resources */,
 				FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */,
-				FCD699A01E89C70600D4ED3C /* iRate.bundle in Resources */,
 				FC1075E71E7E3CE400DBA6DF /* image4.jpg in Resources */,
 				FC1075DF1E7E364200DBA6DF /* image2.jpg in Resources */,
 				FCEA8B2319EB337600D00340 /* index.html in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
 				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
+				FC8F8C971FB8D46B0015E5E8 /* star-gray.png in Resources */,
 				FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -632,10 +666,10 @@
 				FC4074741E8A186F00D163F5 /* IQTitleBarButtonItem.m in Sources */,
 				FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */,
 				FC4074711E8A186F00D163F5 /* IQTextView.m in Sources */,
+				FC8F8C931FB8D46B0015E5E8 /* SARateViewController.m in Sources */,
 				FC7E5FA31E7850C800434E11 /* MBProgressHUD.m in Sources */,
 				FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */,
 				FC7E5F971E784ED300434E11 /* NewsTableViewController.m in Sources */,
-				FC8FD3711D84ABB200CBA1D1 /* iRate.m in Sources */,
 				FC40746D1E8A186F00D163F5 /* IQUIViewController+Additions.m in Sources */,
 				FCEA8B2C19EB33A600D00340 /* main.m in Sources */,
 				FC4074431E8A0DDD00D163F5 /* DeviceDetailViewController.m in Sources */,
@@ -647,6 +681,8 @@
 				FC40746E1E8A186F00D163F5 /* IQUIWindow+Hierarchy.m in Sources */,
 				FC4074701E8A186F00D163F5 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				FC4074751E8A186F00D163F5 /* IQToolbar.m in Sources */,
+				FC8F8C951FB8D46B0015E5E8 /* iRate.m in Sources */,
+				FC8F8C921FB8D46B0015E5E8 /* SARate.m in Sources */,
 				FC7E5F951E784ED300434E11 /* DetailNewsController.m in Sources */,
 				FC7E5F8B1E78464900434E11 /* DetailView.m in Sources */,
 				FC40741A1E89F77600D163F5 /* DeviceViewController.m in Sources */,
