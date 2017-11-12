@@ -8,6 +8,21 @@
 
 #import "Calc.h"
 
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+#define IS_IPHONE_X  (IS_IPHONE && SCREEN_MAX_LENGTH == 812.0)
+
 @implementation Calc
 @synthesize displayingFront;
 
@@ -413,8 +428,10 @@
     resultLabel.adjustsFontSizeToFitWidth = YES;
     resultLabel.text =[NSString stringWithFormat:@"%@", string];
     
-    if ([UIScreen mainScreen].scale == 2.f && [[UIScreen mainScreen] bounds].size.height-568)
-    { [calcText setText:@""]; }
+    if(IS_IPHONE_4_OR_LESS)
+    {
+        [calcText setText:@""];
+    }
     else
     {
         if (flipValue == 0 ) {
@@ -424,8 +441,9 @@
         } else {
             NSString *results = resultLabel.text;
             NSString *animal = AnimalButt2.currentTitle;
-            [calcText setText:[NSString stringWithFormat:@"Your %@ is %@ years old in Human years", animal, results]];
+            [calcText setText:[NSString stringWithFormat:@"You are %@ years old in %@ years", results, animal]];
         }
+        
     }
     
    
