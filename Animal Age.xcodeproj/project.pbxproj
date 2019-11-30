@@ -37,11 +37,6 @@
 		FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */; };
 		FC4E63F419EB39160079C0A3 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4E63F219EB39160079C0A3 /* ProgressHUD.m */; };
 		FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6F8B5C1E89F3E700DB48F9 /* Model.xcdatamodeld */; };
-		FC7E5F871E78464900434E11 /* AppGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F7F1E78464900434E11 /* AppGalleryView.m */; };
-		FC7E5F881E78464900434E11 /* ARScrollViewEnhancer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F811E78464900434E11 /* ARScrollViewEnhancer.m */; };
-		FC7E5F891E78464900434E11 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F831E78464900434E11 /* CustomCell.m */; };
-		FC7E5F8A1E78464900434E11 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E5F841E78464900434E11 /* CustomCell.xib */; };
-		FC7E5F8B1E78464900434E11 /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F861E78464900434E11 /* DetailView.m */; };
 		FC7E5F951E784ED300434E11 /* DetailNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F8E1E784ED300434E11 /* DetailNewsController.m */; };
 		FC7E5F961E784ED300434E11 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F901E784ED300434E11 /* NewsTableViewCell.m */; };
 		FC7E5F971E784ED300434E11 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F921E784ED300434E11 /* NewsTableViewController.m */; };
@@ -141,15 +136,6 @@
 		FC4E63F119EB39160079C0A3 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = classes/ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
 		FC4E63F219EB39160079C0A3 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = classes/ProgressHUD/ProgressHUD.m; sourceTree = "<group>"; };
 		FC6F8B5D1E89F3E700DB48F9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		FC7E5F7E1E78464900434E11 /* AppGalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppGalleryView.h; sourceTree = "<group>"; };
-		FC7E5F7F1E78464900434E11 /* AppGalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppGalleryView.m; sourceTree = "<group>"; };
-		FC7E5F801E78464900434E11 /* ARScrollViewEnhancer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARScrollViewEnhancer.h; sourceTree = "<group>"; };
-		FC7E5F811E78464900434E11 /* ARScrollViewEnhancer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARScrollViewEnhancer.m; sourceTree = "<group>"; };
-		FC7E5F821E78464900434E11 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
-		FC7E5F831E78464900434E11 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
-		FC7E5F841E78464900434E11 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
-		FC7E5F851E78464900434E11 /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
-		FC7E5F861E78464900434E11 /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
 		FC7E5F8D1E784ED300434E11 /* DetailNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNewsController.h; sourceTree = "<group>"; };
 		FC7E5F8E1E784ED300434E11 /* DetailNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNewsController.m; sourceTree = "<group>"; };
 		FC7E5F8F1E784ED300434E11 /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
@@ -359,22 +345,6 @@
 			name = "Premade Classes";
 			sourceTree = "<group>";
 		};
-		FC7E5F8C1E78464F00434E11 /* More */ = {
-			isa = PBXGroup;
-			children = (
-				FC7E5F7E1E78464900434E11 /* AppGalleryView.h */,
-				FC7E5F7F1E78464900434E11 /* AppGalleryView.m */,
-				FC7E5F801E78464900434E11 /* ARScrollViewEnhancer.h */,
-				FC7E5F811E78464900434E11 /* ARScrollViewEnhancer.m */,
-				FC7E5F821E78464900434E11 /* CustomCell.h */,
-				FC7E5F831E78464900434E11 /* CustomCell.m */,
-				FC7E5F841E78464900434E11 /* CustomCell.xib */,
-				FC7E5F851E78464900434E11 /* DetailView.h */,
-				FC7E5F861E78464900434E11 /* DetailView.m */,
-			);
-			name = More;
-			sourceTree = "<group>";
-		};
 		FC7E5F991E784ED900434E11 /* News */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,7 +438,6 @@
 			children = (
 				FC744A8819E4F712002C799A /* Premade Classes */,
 				FCEFEAD718B1E2F8008B33B8 /* Animal Picker */,
-				FC7E5F8C1E78464F00434E11 /* More */,
 				FC4074791E8A807400D163F5 /* GUI */,
 				FC4074781E8A806700D163F5 /* Tracker */,
 				FC7E5F991E784ED900434E11 /* News */,
@@ -576,7 +545,7 @@
 		FCEA450018B061320009B4DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Jon Brown";
 				TargetAttributes = {
 					FCEA450718B061320009B4DC = {
@@ -589,7 +558,7 @@
 			};
 			buildConfigurationList = FCEA450318B061320009B4DC /* Build configuration list for PBXProject "Animal Age" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -623,7 +592,6 @@
 				FC4074771E8A186F00D163F5 /* IQKeyboardManager.bundle in Resources */,
 				FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */,
 				FC8F8C981FB8D46B0015E5E8 /* star.png in Resources */,
-				FC7E5F8A1E78464900434E11 /* CustomCell.xib in Resources */,
 				FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */,
 				FC1075E71E7E3CE400DBA6DF /* image4.jpg in Resources */,
 				FC1075DF1E7E364200DBA6DF /* image2.jpg in Resources */,
@@ -652,17 +620,14 @@
 			files = (
 				FC7E5F9F1E78505800434E11 /* ACETelPrompt.m in Sources */,
 				FC40746A1E8A186F00D163F5 /* IQUIScrollView+Additions.m in Sources */,
-				FC7E5F881E78464900434E11 /* ARScrollViewEnhancer.m in Sources */,
 				FCEA8B0E19EB32E300D00340 /* Calc.m in Sources */,
 				FC40746C1E8A186F00D163F5 /* IQUIView+Hierarchy.m in Sources */,
-				FC7E5F891E78464900434E11 /* CustomCell.m in Sources */,
 				FC4074721E8A186F00D163F5 /* IQBarButtonItem.m in Sources */,
 				FC4074761E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				FC4074691E8A186F00D163F5 /* IQNSArray+Sort.m in Sources */,
 				FC4E63F419EB39160079C0A3 /* ProgressHUD.m in Sources */,
 				FC40747C1E8C5A7100D163F5 /* UISnapNav.m in Sources */,
 				FCEA8B1A19EB332900D00340 /* PickerTableView.m in Sources */,
-				FC7E5F871E78464900434E11 /* AppGalleryView.m in Sources */,
 				FC4074741E8A186F00D163F5 /* IQTitleBarButtonItem.m in Sources */,
 				FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */,
 				FC4074711E8A186F00D163F5 /* IQTextView.m in Sources */,
@@ -684,7 +649,6 @@
 				FC8F8C951FB8D46B0015E5E8 /* iRate.m in Sources */,
 				FC8F8C921FB8D46B0015E5E8 /* SARate.m in Sources */,
 				FC7E5F951E784ED300434E11 /* DetailNewsController.m in Sources */,
-				FC7E5F8B1E78464900434E11 /* DetailView.m in Sources */,
 				FC40741A1E89F77600D163F5 /* DeviceViewController.m in Sources */,
 				FC2C86631C5F200600FFFACD /* AnimalPicker.m in Sources */,
 			);
@@ -748,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -756,12 +721,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -799,6 +766,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -807,12 +775,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -854,7 +824,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.AnimalAge-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -876,7 +846,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.AnimalAge-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
