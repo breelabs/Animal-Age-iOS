@@ -41,7 +41,6 @@
 		FC7E5F961E784ED300434E11 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F901E784ED300434E11 /* NewsTableViewCell.m */; };
 		FC7E5F971E784ED300434E11 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F921E784ED300434E11 /* NewsTableViewController.m */; };
 		FC7E5F9C1E784EF900434E11 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F9B1E784EF900434E11 /* RXMLElement.m */; };
-		FC7E5F9F1E78505800434E11 /* ACETelPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F9E1E78505800434E11 /* ACETelPrompt.m */; };
 		FC7E5FA31E7850C800434E11 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5FA21E7850C800434E11 /* MBProgressHUD.m */; };
 		FC7E5FA51E78514200434E11 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA41E78514200434E11 /* libxml2.2.tbd */; };
 		FC7E5FA71E78516A00434E11 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA61E78516A00434E11 /* libxml2.2.dylib */; };
@@ -144,8 +143,6 @@
 		FC7E5F921E784ED300434E11 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
 		FC7E5F9A1E784EF900434E11 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
 		FC7E5F9B1E784EF900434E11 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
-		FC7E5F9D1E78505800434E11 /* ACETelPrompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACETelPrompt.h; sourceTree = "<group>"; };
-		FC7E5F9E1E78505800434E11 /* ACETelPrompt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACETelPrompt.m; sourceTree = "<group>"; };
 		FC7E5FA01E7850C800434E11 /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
 		FC7E5FA11E7850C800434E11 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		FC7E5FA21E7850C800434E11 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
@@ -338,6 +335,11 @@
 		FC744A8819E4F712002C799A /* Premade Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FC7E5FA01E7850C800434E11 /* MBProgressHUD-Prefix.pch */,
+				FC7E5FA11E7850C800434E11 /* MBProgressHUD.h */,
+				FC7E5FA21E7850C800434E11 /* MBProgressHUD.m */,
+				FC7E5F9A1E784EF900434E11 /* RXMLElement.h */,
+				FC7E5F9B1E784EF900434E11 /* RXMLElement.m */,
 				FC8F8C841FB8D46B0015E5E8 /* SARate */,
 				FC4074441E8A186F00D163F5 /* IQKeyboardManager */,
 				FC4E63F519EB391B0079C0A3 /* ProgressHUD */,
@@ -354,13 +356,6 @@
 				FC1075E21E7E3CE400DBA6DF /* image5.jpg */,
 				FC1075E31E7E3CE400DBA6DF /* image4.jpg */,
 				FC1075E41E7E3CE400DBA6DF /* image3.jpg */,
-				FC7E5FA01E7850C800434E11 /* MBProgressHUD-Prefix.pch */,
-				FC7E5FA11E7850C800434E11 /* MBProgressHUD.h */,
-				FC7E5FA21E7850C800434E11 /* MBProgressHUD.m */,
-				FC7E5F9D1E78505800434E11 /* ACETelPrompt.h */,
-				FC7E5F9E1E78505800434E11 /* ACETelPrompt.m */,
-				FC7E5F9A1E784EF900434E11 /* RXMLElement.h */,
-				FC7E5F9B1E784EF900434E11 /* RXMLElement.m */,
 				FC7E5F8D1E784ED300434E11 /* DetailNewsController.h */,
 				FC7E5F8E1E784ED300434E11 /* DetailNewsController.m */,
 				FC7E5F8F1E784ED300434E11 /* NewsTableViewCell.h */,
@@ -618,7 +613,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7E5F9F1E78505800434E11 /* ACETelPrompt.m in Sources */,
 				FC40746A1E8A186F00D163F5 /* IQUIScrollView+Additions.m in Sources */,
 				FCEA8B0E19EB32E300D00340 /* Calc.m in Sources */,
 				FC40746C1E8A186F00D163F5 /* IQUIView+Hierarchy.m in Sources */,
