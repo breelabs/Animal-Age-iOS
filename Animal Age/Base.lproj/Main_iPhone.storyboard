@@ -55,7 +55,7 @@
                                                 <rect key="frame" x="184" y="22" width="25" height="19"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <state key="normal" image="Sorting Arrows Horizontal_ffffff_25">
+                                                <state key="normal" image="arrows">
                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -97,7 +97,7 @@
                                                 <rect key="frame" x="184" y="22" width="25" height="19"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <state key="normal" image="Sorting Arrows Horizontal_ffffff_25">
+                                                <state key="normal" image="arrows">
                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -549,7 +549,7 @@
         <scene sceneID="mpW-RA-l1b">
             <objects>
                 <navigationController id="TRh-Ih-zGv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Age Tracker" image="Open Book_000000_25" selectedImage="Open Book_000000_25" id="LDs-nB-HsT"/>
+                    <tabBarItem key="tabBarItem" title="Age Tracker" image="tracker" selectedImage="tracker" id="LDs-nB-HsT"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="1W9-LF-cUV">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -704,7 +704,7 @@
         <scene sceneID="NWh-QO-BW3">
             <objects>
                 <navigationController id="lTl-n1-7Po" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Animal News" image="Google News_000000_25" selectedImage="Google News_000000_25" id="LNV-qc-FrN"/>
+                    <tabBarItem key="tabBarItem" title="Animal News" image="news" selectedImage="news" id="LNV-qc-FrN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="5OU-66-DcH">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -728,7 +728,7 @@
         <scene sceneID="ndI-q6-8E4">
             <objects>
                 <navigationController title="Animal Age" automaticallyAdjustsScrollViewInsets="NO" id="vMQ-fe-MDr" customClass="UISnapNav" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Animal Age" image="Dog Footprint_000000_25" selectedImage="Dog Footprint_000000_25" id="J3j-F7-44A"/>
+                    <tabBarItem key="tabBarItem" title="Animal Age" image="paw" selectedImage="paw" id="J3j-F7-44A"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="KL9-xn-evK">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -752,10 +752,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Dog Footprint_000000_25" width="25" height="25"/>
-        <image name="Google News_000000_25" width="25" height="25"/>
-        <image name="Open Book_000000_25" width="25" height="25"/>
-        <image name="Sorting Arrows Horizontal_ffffff_25" width="25" height="25"/>
+        <image name="arrows" width="25" height="25"/>
+        <image name="news" width="25" height="25"/>
+        <image name="paw" width="25" height="25"/>
+        <image name="tracker" width="25" height="25"/>
         <image name="whitehead" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>

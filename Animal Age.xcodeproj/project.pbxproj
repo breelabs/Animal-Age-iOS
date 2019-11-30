@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC1075DF1E7E364200DBA6DF /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075DD1E7E364200DBA6DF /* image2.jpg */; };
-		FC1075E01E7E364200DBA6DF /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075DE1E7E364200DBA6DF /* image1.jpg */; };
-		FC1075E51E7E3CE400DBA6DF /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075E11E7E3CE400DBA6DF /* image6.jpg */; };
-		FC1075E61E7E3CE400DBA6DF /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075E21E7E3CE400DBA6DF /* image5.jpg */; };
-		FC1075E71E7E3CE400DBA6DF /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075E31E7E3CE400DBA6DF /* image4.jpg */; };
-		FC1075E81E7E3CE400DBA6DF /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1075E41E7E3CE400DBA6DF /* image3.jpg */; };
 		FC2C86631C5F200600FFFACD /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1019EB32F800D00340 /* AnimalPicker.m */; };
 		FC4074171E89F61700D163F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4074161E89F61700D163F5 /* CoreData.framework */; };
 		FC40741A1E89F77600D163F5 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074191E89F77600D163F5 /* DeviceViewController.m */; };
@@ -86,12 +80,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC1075DD1E7E364200DBA6DF /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
-		FC1075DE1E7E364200DBA6DF /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
-		FC1075E11E7E3CE400DBA6DF /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
-		FC1075E21E7E3CE400DBA6DF /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
-		FC1075E31E7E3CE400DBA6DF /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
-		FC1075E41E7E3CE400DBA6DF /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 		FC4074161E89F61700D163F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FC4074181E89F77600D163F5 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
 		FC4074191E89F77600D163F5 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
@@ -350,12 +338,6 @@
 		FC7E5F991E784ED900434E11 /* News */ = {
 			isa = PBXGroup;
 			children = (
-				FC1075DD1E7E364200DBA6DF /* image2.jpg */,
-				FC1075DE1E7E364200DBA6DF /* image1.jpg */,
-				FC1075E11E7E3CE400DBA6DF /* image6.jpg */,
-				FC1075E21E7E3CE400DBA6DF /* image5.jpg */,
-				FC1075E31E7E3CE400DBA6DF /* image4.jpg */,
-				FC1075E41E7E3CE400DBA6DF /* image3.jpg */,
 				FC7E5F8D1E784ED300434E11 /* DetailNewsController.h */,
 				FC7E5F8E1E784ED300434E11 /* DetailNewsController.m */,
 				FC7E5F8F1E784ED300434E11 /* NewsTableViewCell.h */,
@@ -577,19 +559,13 @@
 			files = (
 				FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */,
 				FC8F8C961FB8D46B0015E5E8 /* star@2x.png in Resources */,
-				FC1075E61E7E3CE400DBA6DF /* image5.jpg in Resources */,
-				FC1075E01E7E364200DBA6DF /* image1.jpg in Resources */,
 				FC8F8C911FB8D46B0015E5E8 /* star-gray@2x.png in Resources */,
-				FC1075E51E7E3CE400DBA6DF /* image6.jpg in Resources */,
 				FC8F8C941FB8D46B0015E5E8 /* iRate.bundle in Resources */,
 				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
-				FC1075E81E7E3CE400DBA6DF /* image3.jpg in Resources */,
 				FC4074771E8A186F00D163F5 /* IQKeyboardManager.bundle in Resources */,
 				FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */,
 				FC8F8C981FB8D46B0015E5E8 /* star.png in Resources */,
 				FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */,
-				FC1075E71E7E3CE400DBA6DF /* image4.jpg in Resources */,
-				FC1075DF1E7E364200DBA6DF /* image2.jpg in Resources */,
 				FCEA8B2319EB337600D00340 /* index.html in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
 				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
