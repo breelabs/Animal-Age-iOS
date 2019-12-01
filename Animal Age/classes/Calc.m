@@ -154,7 +154,14 @@
         
         // Trigger Web View Graph
         
-        [webView stringByEvaluatingJavaScriptFromString: @"loadDogData()" ];
+        NSString * scriptSource = [NSString stringWithFormat:@"loadDogData()"];
+        [webView evaluateJavaScript:scriptSource completionHandler:^(NSString *result, NSError *error)
+         {
+             if(result != nil){
+                 NSLog(@"Result: %@",result);
+             }
+
+         }];
         
     // Cat Calculation
         
@@ -220,7 +227,14 @@
         
             // Trigger Web View Graph
 
-            [webView stringByEvaluatingJavaScriptFromString: @"loadCatData()" ];
+        NSString * scriptSource = [NSString stringWithFormat:@"loadCatData()"];
+        [webView evaluateJavaScript:scriptSource completionHandler:^(NSString *result, NSError *error)
+         {
+             if(result != nil){
+                 NSLog(@"Result: %@",result);
+             }
+
+         }];
     
         
     // Cow Calculation
@@ -262,7 +276,14 @@
 
             // Trigger Web View Graph
         
-            [webView stringByEvaluatingJavaScriptFromString: @"loadCowData()" ];
+        NSString * scriptSource = [NSString stringWithFormat:@"loadCowData()"];
+        [webView evaluateJavaScript:scriptSource completionHandler:^(NSString *result, NSError *error)
+         {
+             if(result != nil){
+                 NSLog(@"Result: %@",result);
+             }
+
+         }];
         
      // Rabbit Calculation
         
@@ -303,7 +324,14 @@
         
         // Trigger Web View Graph
         
-        [webView stringByEvaluatingJavaScriptFromString: @"loadRabbitData()" ];
+        NSString * scriptSource = [NSString stringWithFormat:@"loadRabbitData()"];
+        [webView evaluateJavaScript:scriptSource completionHandler:^(NSString *result, NSError *error)
+         {
+             if(result != nil){
+                 NSLog(@"Result: %@",result);
+             }
+
+         }];
         
     // Duck Calculation
         
@@ -344,7 +372,14 @@
         
         // Trigger Web View Graph
         
-        [webView stringByEvaluatingJavaScriptFromString: @"loadDuckData()" ];
+        NSString * scriptSource = [NSString stringWithFormat:@"loadDuckData()"];
+        [webView evaluateJavaScript:scriptSource completionHandler:^(NSString *result, NSError *error)
+         {
+             if(result != nil){
+                 NSLog(@"Result: %@",result);
+             }
+
+         }];
     
     // Chicken Calculation
         
@@ -384,7 +419,14 @@
         
         // Trigger Web View Graph
         
-        [webView stringByEvaluatingJavaScriptFromString: @"loadChickenData()" ];
+        NSString * scriptSource = [NSString stringWithFormat:@"loadChickenData()"];
+        [webView evaluateJavaScript:scriptSource completionHandler:^(NSString *result, NSError *error)
+         {
+             if(result != nil){
+                 NSLog(@"Result: %@",result);
+             }
+
+         }];
     }
     
 

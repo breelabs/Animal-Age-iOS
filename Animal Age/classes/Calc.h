@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <ProgressHUD/ProgressHUD.h>
+#import <WebKit/WebKit.h>
 
 @interface Calc : NSObject {
 
@@ -17,7 +18,7 @@
     IBOutlet UIButton *BigCalc;
     IBOutlet UIButton *AnimalButt;
     IBOutlet UIButton *AnimalButt2;
-    IBOutlet UIWebView *webView;
+    IBOutlet WKWebView *webView;
     IBOutlet UILabel *calcText;
     IBOutlet UIView *view;
     IBOutlet UIView *masterFlip;

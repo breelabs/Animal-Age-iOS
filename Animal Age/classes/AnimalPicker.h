@@ -12,6 +12,7 @@
 #import "PickerTableView.h"
 #import "Calc.h"
 #import <ProgressHUD/ProgressHUD.h>
+#import <WebKit/WebKit.h>
 
 @interface AnimalPicker : UIViewController <AnimalPickerControllerDelegate, UIActionSheetDelegate, UITextFieldDelegate, UIBarPositioningDelegate, UINavigationBarDelegate>
 {
@@ -29,7 +30,7 @@
     IBOutlet UIView *ManView2;
     IBOutlet UILabel *calcText;
     IBOutlet UILabel *resultLabel;
-    IBOutlet UIWebView *webView;
+    IBOutlet WKWebView *webView;
     IBOutlet UIView *backView;
     IBOutlet UIView *frontView;
     IBOutlet UIView *masterFlip;
