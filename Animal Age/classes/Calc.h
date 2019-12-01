@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ProgressHUD.h"
+#import <ProgressHUD/ProgressHUD.h>
 
 @interface Calc : NSObject {
 

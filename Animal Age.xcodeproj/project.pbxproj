@@ -7,33 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E646AC40F9EA169148FE23E /* Pods_Animal_AgeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A2B6832B9FFC342ED6568D /* Pods_Animal_AgeTests.framework */; };
+		D4C3DB00A35ABCB0D8DB7CE0 /* Pods_Animal_Age.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */; };
 		FC2C86631C5F200600FFFACD /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1019EB32F800D00340 /* AnimalPicker.m */; };
 		FC4074171E89F61700D163F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4074161E89F61700D163F5 /* CoreData.framework */; };
 		FC40741A1E89F77600D163F5 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074191E89F77600D163F5 /* DeviceViewController.m */; };
 		FC4074431E8A0DDD00D163F5 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074421E8A0DDD00D163F5 /* DeviceDetailViewController.m */; };
-		FC4074691E8A186F00D163F5 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074471E8A186F00D163F5 /* IQNSArray+Sort.m */; };
-		FC40746A1E8A186F00D163F5 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074491E8A186F00D163F5 /* IQUIScrollView+Additions.m */; };
-		FC40746B1E8A186F00D163F5 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40744B1E8A186F00D163F5 /* IQUITextFieldView+Additions.m */; };
-		FC40746C1E8A186F00D163F5 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40744D1E8A186F00D163F5 /* IQUIView+Hierarchy.m */; };
-		FC40746D1E8A186F00D163F5 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40744F1E8A186F00D163F5 /* IQUIViewController+Additions.m */; };
-		FC40746E1E8A186F00D163F5 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074511E8A186F00D163F5 /* IQUIWindow+Hierarchy.m */; };
-		FC40746F1E8A186F00D163F5 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074561E8A186F00D163F5 /* IQKeyboardManager.m */; };
-		FC4074701E8A186F00D163F5 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074581E8A186F00D163F5 /* IQKeyboardReturnKeyHandler.m */; };
-		FC4074711E8A186F00D163F5 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40745B1E8A186F00D163F5 /* IQTextView.m */; };
-		FC4074721E8A186F00D163F5 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40745E1E8A186F00D163F5 /* IQBarButtonItem.m */; };
-		FC4074731E8A186F00D163F5 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074601E8A186F00D163F5 /* IQPreviousNextView.m */; };
-		FC4074741E8A186F00D163F5 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074621E8A186F00D163F5 /* IQTitleBarButtonItem.m */; };
-		FC4074751E8A186F00D163F5 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074641E8A186F00D163F5 /* IQToolbar.m */; };
-		FC4074761E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074661E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.m */; };
-		FC4074771E8A186F00D163F5 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4074681E8A186F00D163F5 /* IQKeyboardManager.bundle */; };
 		FC40747C1E8C5A7100D163F5 /* UISnapNav.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40747B1E8C5A7100D163F5 /* UISnapNav.m */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
-		FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */; };
-		FC4E63F419EB39160079C0A3 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4E63F219EB39160079C0A3 /* ProgressHUD.m */; };
 		FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6F8B5C1E89F3E700DB48F9 /* Model.xcdatamodeld */; };
 		FC7E5F951E784ED300434E11 /* DetailNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F8E1E784ED300434E11 /* DetailNewsController.m */; };
 		FC7E5F971E784ED300434E11 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F921E784ED300434E11 /* NewsTableViewController.m */; };
-		FC7E5F9C1E784EF900434E11 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F9B1E784EF900434E11 /* RXMLElement.m */; };
 		FC7E5FA51E78514200434E11 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA41E78514200434E11 /* libxml2.2.tbd */; };
 		FC7E5FA71E78516A00434E11 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA61E78516A00434E11 /* libxml2.2.dylib */; };
 		FC7E5FA91E78517800434E11 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA81E78517800434E11 /* libz.tbd */; };
@@ -70,55 +54,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220FEBBA90CA79F447AE0407 /* Pods-Animal Age.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.debug.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.debug.xcconfig"; sourceTree = "<group>"; };
+		4683A661CBC18559919EF827 /* Pods-Animal AgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal AgeTests.debug.xcconfig"; path = "Target Support Files/Pods-Animal AgeTests/Pods-Animal AgeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Age.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A2B6832B9FFC342ED6568D /* Pods_Animal_AgeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_AgeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1AFB3A0FA30C90475CC6FE /* Pods-Animal AgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal AgeTests.release.xcconfig"; path = "Target Support Files/Pods-Animal AgeTests/Pods-Animal AgeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.release.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
 		FC4074161E89F61700D163F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FC4074181E89F77600D163F5 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
 		FC4074191E89F77600D163F5 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
 		FC4074411E8A0DDD00D163F5 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
 		FC4074421E8A0DDD00D163F5 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
-		FC4074461E8A186F00D163F5 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
-		FC4074471E8A186F00D163F5 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
-		FC4074481E8A186F00D163F5 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
-		FC4074491E8A186F00D163F5 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
-		FC40744A1E8A186F00D163F5 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
-		FC40744B1E8A186F00D163F5 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
-		FC40744C1E8A186F00D163F5 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
-		FC40744D1E8A186F00D163F5 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
-		FC40744E1E8A186F00D163F5 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
-		FC40744F1E8A186F00D163F5 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
-		FC4074501E8A186F00D163F5 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
-		FC4074511E8A186F00D163F5 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
-		FC4074531E8A186F00D163F5 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
-		FC4074541E8A186F00D163F5 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
-		FC4074551E8A186F00D163F5 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
-		FC4074561E8A186F00D163F5 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
-		FC4074571E8A186F00D163F5 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
-		FC4074581E8A186F00D163F5 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
-		FC40745A1E8A186F00D163F5 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
-		FC40745B1E8A186F00D163F5 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
-		FC40745D1E8A186F00D163F5 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
-		FC40745E1E8A186F00D163F5 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
-		FC40745F1E8A186F00D163F5 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
-		FC4074601E8A186F00D163F5 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
-		FC4074611E8A186F00D163F5 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
-		FC4074621E8A186F00D163F5 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
-		FC4074631E8A186F00D163F5 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
-		FC4074641E8A186F00D163F5 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
-		FC4074651E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
-		FC4074661E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
-		FC4074681E8A186F00D163F5 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		FC40747A1E8C5A7100D163F5 /* UISnapNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISnapNav.h; sourceTree = "<group>"; };
 		FC40747B1E8C5A7100D163F5 /* UISnapNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISnapNav.m; sourceTree = "<group>"; };
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = classes/ProgressHUD/ProgressHUD.bundle; sourceTree = "<group>"; };
-		FC4E63F119EB39160079C0A3 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = classes/ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
-		FC4E63F219EB39160079C0A3 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = classes/ProgressHUD/ProgressHUD.m; sourceTree = "<group>"; };
 		FC6F8B5D1E89F3E700DB48F9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		FC7E5F8D1E784ED300434E11 /* DetailNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNewsController.h; sourceTree = "<group>"; };
 		FC7E5F8E1E784ED300434E11 /* DetailNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNewsController.m; sourceTree = "<group>"; };
 		FC7E5F911E784ED300434E11 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
 		FC7E5F921E784ED300434E11 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
-		FC7E5F9A1E784EF900434E11 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
-		FC7E5F9B1E784EF900434E11 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
 		FC7E5FA41E78514200434E11 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		FC7E5FA61E78516A00434E11 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
 		FC7E5FA81E78517800434E11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
@@ -166,6 +120,7 @@
 				FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */,
 				FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */,
 				FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */,
+				D4C3DB00A35ABCB0D8DB7CE0 /* Pods_Animal_Age.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,88 +131,22 @@
 				FCEA452E18B061320009B4DC /* XCTest.framework in Frameworks */,
 				FCEA453018B061320009B4DC /* UIKit.framework in Frameworks */,
 				FCEA452F18B061320009B4DC /* Foundation.framework in Frameworks */,
+				4E646AC40F9EA169148FE23E /* Pods_Animal_AgeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC4074441E8A186F00D163F5 /* IQKeyboardManager */ = {
+		01906470615D2149A1B54087 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FC4074451E8A186F00D163F5 /* Categories */,
-				FC4074521E8A186F00D163F5 /* Constants */,
-				FC4074551E8A186F00D163F5 /* IQKeyboardManager.h */,
-				FC4074561E8A186F00D163F5 /* IQKeyboardManager.m */,
-				FC4074571E8A186F00D163F5 /* IQKeyboardReturnKeyHandler.h */,
-				FC4074581E8A186F00D163F5 /* IQKeyboardReturnKeyHandler.m */,
-				FC4074591E8A186F00D163F5 /* IQTextView */,
-				FC40745C1E8A186F00D163F5 /* IQToolbar */,
-				FC4074671E8A186F00D163F5 /* Resources */,
+				220FEBBA90CA79F447AE0407 /* Pods-Animal Age.debug.xcconfig */,
+				F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */,
+				4683A661CBC18559919EF827 /* Pods-Animal AgeTests.debug.xcconfig */,
+				CB1AFB3A0FA30C90475CC6FE /* Pods-Animal AgeTests.release.xcconfig */,
 			);
-			path = IQKeyboardManager;
-			sourceTree = "<group>";
-		};
-		FC4074451E8A186F00D163F5 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				FC4074461E8A186F00D163F5 /* IQNSArray+Sort.h */,
-				FC4074471E8A186F00D163F5 /* IQNSArray+Sort.m */,
-				FC4074481E8A186F00D163F5 /* IQUIScrollView+Additions.h */,
-				FC4074491E8A186F00D163F5 /* IQUIScrollView+Additions.m */,
-				FC40744A1E8A186F00D163F5 /* IQUITextFieldView+Additions.h */,
-				FC40744B1E8A186F00D163F5 /* IQUITextFieldView+Additions.m */,
-				FC40744C1E8A186F00D163F5 /* IQUIView+Hierarchy.h */,
-				FC40744D1E8A186F00D163F5 /* IQUIView+Hierarchy.m */,
-				FC40744E1E8A186F00D163F5 /* IQUIViewController+Additions.h */,
-				FC40744F1E8A186F00D163F5 /* IQUIViewController+Additions.m */,
-				FC4074501E8A186F00D163F5 /* IQUIWindow+Hierarchy.h */,
-				FC4074511E8A186F00D163F5 /* IQUIWindow+Hierarchy.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		FC4074521E8A186F00D163F5 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				FC4074531E8A186F00D163F5 /* IQKeyboardManagerConstants.h */,
-				FC4074541E8A186F00D163F5 /* IQKeyboardManagerConstantsInternal.h */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		FC4074591E8A186F00D163F5 /* IQTextView */ = {
-			isa = PBXGroup;
-			children = (
-				FC40745A1E8A186F00D163F5 /* IQTextView.h */,
-				FC40745B1E8A186F00D163F5 /* IQTextView.m */,
-			);
-			path = IQTextView;
-			sourceTree = "<group>";
-		};
-		FC40745C1E8A186F00D163F5 /* IQToolbar */ = {
-			isa = PBXGroup;
-			children = (
-				FC40745D1E8A186F00D163F5 /* IQBarButtonItem.h */,
-				FC40745E1E8A186F00D163F5 /* IQBarButtonItem.m */,
-				FC40745F1E8A186F00D163F5 /* IQPreviousNextView.h */,
-				FC4074601E8A186F00D163F5 /* IQPreviousNextView.m */,
-				FC4074611E8A186F00D163F5 /* IQTitleBarButtonItem.h */,
-				FC4074621E8A186F00D163F5 /* IQTitleBarButtonItem.m */,
-				FC4074631E8A186F00D163F5 /* IQToolbar.h */,
-				FC4074641E8A186F00D163F5 /* IQToolbar.m */,
-				FC4074651E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.h */,
-				FC4074661E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.m */,
-			);
-			path = IQToolbar;
-			sourceTree = "<group>";
-		};
-		FC4074671E8A186F00D163F5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FC4074681E8A186F00D163F5 /* IQKeyboardManager.bundle */,
-			);
-			path = Resources;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		FC4074781E8A806700D163F5 /* Tracker */ = {
@@ -284,27 +173,6 @@
 			name = GUI;
 			sourceTree = "<group>";
 		};
-		FC4E63F519EB391B0079C0A3 /* ProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				FC4E63F019EB39160079C0A3 /* ProgressHUD.bundle */,
-				FC4E63F119EB39160079C0A3 /* ProgressHUD.h */,
-				FC4E63F219EB39160079C0A3 /* ProgressHUD.m */,
-			);
-			name = ProgressHUD;
-			sourceTree = "<group>";
-		};
-		FC744A8819E4F712002C799A /* Premade Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FC7E5F9A1E784EF900434E11 /* RXMLElement.h */,
-				FC7E5F9B1E784EF900434E11 /* RXMLElement.m */,
-				FC4074441E8A186F00D163F5 /* IQKeyboardManager */,
-				FC4E63F519EB391B0079C0A3 /* ProgressHUD */,
-			);
-			name = "Premade Classes";
-			sourceTree = "<group>";
-		};
 		FC7E5F991E784ED900434E11 /* News */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +191,7 @@
 				FCEA453318B061320009B4DC /* Animal AgeTests */,
 				FCEA450A18B061320009B4DC /* Frameworks */,
 				FCEA450918B061320009B4DC /* Products */,
+				01906470615D2149A1B54087 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -348,6 +217,8 @@
 				FCEA450D18B061320009B4DC /* CoreGraphics.framework */,
 				FCEA450F18B061320009B4DC /* UIKit.framework */,
 				FCEA452D18B061320009B4DC /* XCTest.framework */,
+				5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */,
+				81A2B6832B9FFC342ED6568D /* Pods_Animal_AgeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -355,7 +226,6 @@
 		FCEA451118B061320009B4DC /* Animal Age */ = {
 			isa = PBXGroup;
 			children = (
-				FC744A8819E4F712002C799A /* Premade Classes */,
 				FCEFEAD718B1E2F8008B33B8 /* Animal Picker */,
 				FC4074791E8A807400D163F5 /* GUI */,
 				FC4074781E8A806700D163F5 /* Tracker */,
@@ -427,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEA453D18B061320009B4DC /* Build configuration list for PBXNativeTarget "Animal Age" */;
 			buildPhases = (
+				13F1147D2FEBB05024DC5840 /* [CP] Check Pods Manifest.lock */,
 				FCEA450418B061320009B4DC /* Sources */,
 				FCEA450518B061320009B4DC /* Frameworks */,
 				FCEA450618B061320009B4DC /* Resources */,
+				97AF02D8152130B438910B70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -444,6 +316,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEA454018B061320009B4DC /* Build configuration list for PBXNativeTarget "Animal AgeTests" */;
 			buildPhases = (
+				32081260525455DE7E2B82A7 /* [CP] Check Pods Manifest.lock */,
 				FCEA452818B061320009B4DC /* Sources */,
 				FCEA452918B061320009B4DC /* Frameworks */,
 				FCEA452A18B061320009B4DC /* Resources */,
@@ -501,9 +374,7 @@
 			files = (
 				FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */,
 				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
-				FC4074771E8A186F00D163F5 /* IQKeyboardManager.bundle in Resources */,
 				FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */,
-				FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */,
 				FCEA8B2319EB337600D00340 /* index.html in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
 				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
@@ -521,35 +392,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13F1147D2FEBB05024DC5840 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Animal Age-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32081260525455DE7E2B82A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Animal AgeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97AF02D8152130B438910B70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/RaptureXML/RaptureXML.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RaptureXML.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCEA450418B061320009B4DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC40746A1E8A186F00D163F5 /* IQUIScrollView+Additions.m in Sources */,
 				FCEA8B0E19EB32E300D00340 /* Calc.m in Sources */,
-				FC40746C1E8A186F00D163F5 /* IQUIView+Hierarchy.m in Sources */,
-				FC4074721E8A186F00D163F5 /* IQBarButtonItem.m in Sources */,
-				FC4074761E8A186F00D163F5 /* IQUIView+IQKeyboardToolbar.m in Sources */,
-				FC4074691E8A186F00D163F5 /* IQNSArray+Sort.m in Sources */,
-				FC4E63F419EB39160079C0A3 /* ProgressHUD.m in Sources */,
 				FC40747C1E8C5A7100D163F5 /* UISnapNav.m in Sources */,
 				FCEA8B1A19EB332900D00340 /* PickerTableView.m in Sources */,
-				FC4074741E8A186F00D163F5 /* IQTitleBarButtonItem.m in Sources */,
 				FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */,
-				FC4074711E8A186F00D163F5 /* IQTextView.m in Sources */,
 				FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */,
 				FC7E5F971E784ED300434E11 /* NewsTableViewController.m in Sources */,
-				FC40746D1E8A186F00D163F5 /* IQUIViewController+Additions.m in Sources */,
 				FCEA8B2C19EB33A600D00340 /* main.m in Sources */,
 				FC4074431E8A0DDD00D163F5 /* DeviceDetailViewController.m in Sources */,
-				FC7E5F9C1E784EF900434E11 /* RXMLElement.m in Sources */,
-				FC4074731E8A186F00D163F5 /* IQPreviousNextView.m in Sources */,
-				FC40746B1E8A186F00D163F5 /* IQUITextFieldView+Additions.m in Sources */,
-				FC40746F1E8A186F00D163F5 /* IQKeyboardManager.m in Sources */,
-				FC40746E1E8A186F00D163F5 /* IQUIWindow+Hierarchy.m in Sources */,
-				FC4074701E8A186F00D163F5 /* IQKeyboardReturnKeyHandler.m in Sources */,
-				FC4074751E8A186F00D163F5 /* IQToolbar.m in Sources */,
 				FC7E5F951E784ED300434E11 /* DetailNewsController.m in Sources */,
 				FC40741A1E89F77600D163F5 /* DeviceViewController.m in Sources */,
 				FC2C86631C5F200600FFFACD /* AnimalPicker.m in Sources */,
@@ -713,6 +637,7 @@
 		};
 		FCEA453E18B061320009B4DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220FEBBA90CA79F447AE0407 /* Pods-Animal Age.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -734,6 +659,7 @@
 		};
 		FCEA453F18B061320009B4DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -756,6 +682,7 @@
 		};
 		FCEA454118B061320009B4DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4683A661CBC18559919EF827 /* Pods-Animal AgeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animal Age.app/Animal Age";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -779,6 +706,7 @@
 		};
 		FCEA454218B061320009B4DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1AFB3A0FA30C90475CC6FE /* Pods-Animal AgeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animal Age.app/Animal Age";
 				FRAMEWORK_SEARCH_PATHS = (

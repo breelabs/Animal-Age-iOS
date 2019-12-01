@@ -11,7 +11,7 @@
 #import <CoreData/CoreData.h>
 #import "PickerTableView.h"
 #import "Calc.h"
-#import "ProgressHUD.h"
+#import <ProgressHUD/ProgressHUD.h>
 
 @interface AnimalPicker : UIViewController <AnimalPickerControllerDelegate, UIActionSheetDelegate, UITextFieldDelegate, UIBarPositioningDelegate, UINavigationBarDelegate>
 {

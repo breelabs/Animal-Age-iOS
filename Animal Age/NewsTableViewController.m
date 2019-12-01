@@ -7,7 +7,7 @@
 //
 
 #import "NewsTableViewController.h"
-#import "RXMLElement.h"
+#import <RaptureXML/RXMLElement.h>
 #import "DetailNewsController.h"
 
 #define URLFluxXmlNEWS @"http://www.vetstreet.com/rss/news-feed.jsp?Categories=siteContentTags:dog-news:cat-news:inspiring-stories:animal-news"
