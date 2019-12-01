@@ -32,23 +32,13 @@
 		FC4E63F419EB39160079C0A3 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4E63F219EB39160079C0A3 /* ProgressHUD.m */; };
 		FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6F8B5C1E89F3E700DB48F9 /* Model.xcdatamodeld */; };
 		FC7E5F951E784ED300434E11 /* DetailNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F8E1E784ED300434E11 /* DetailNewsController.m */; };
-		FC7E5F961E784ED300434E11 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F901E784ED300434E11 /* NewsTableViewCell.m */; };
 		FC7E5F971E784ED300434E11 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F921E784ED300434E11 /* NewsTableViewController.m */; };
 		FC7E5F9C1E784EF900434E11 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F9B1E784EF900434E11 /* RXMLElement.m */; };
-		FC7E5FA31E7850C800434E11 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5FA21E7850C800434E11 /* MBProgressHUD.m */; };
 		FC7E5FA51E78514200434E11 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA41E78514200434E11 /* libxml2.2.tbd */; };
 		FC7E5FA71E78516A00434E11 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA61E78516A00434E11 /* libxml2.2.dylib */; };
 		FC7E5FA91E78517800434E11 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA81E78517800434E11 /* libz.tbd */; };
 		FC7E5FAB1E78518200434E11 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FAA1E78518200434E11 /* libstdc++.tbd */; };
 		FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */; };
-		FC8F8C911FB8D46B0015E5E8 /* star-gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C851FB8D46B0015E5E8 /* star-gray@2x.png */; };
-		FC8F8C921FB8D46B0015E5E8 /* SARate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8F8C861FB8D46B0015E5E8 /* SARate.m */; };
-		FC8F8C931FB8D46B0015E5E8 /* SARateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8F8C871FB8D46B0015E5E8 /* SARateViewController.m */; };
-		FC8F8C941FB8D46B0015E5E8 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C891FB8D46B0015E5E8 /* iRate.bundle */; };
-		FC8F8C951FB8D46B0015E5E8 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8F8C8A1FB8D46B0015E5E8 /* iRate.m */; };
-		FC8F8C961FB8D46B0015E5E8 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C8C1FB8D46B0015E5E8 /* star@2x.png */; };
-		FC8F8C971FB8D46B0015E5E8 /* star-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C8E1FB8D46B0015E5E8 /* star-gray.png */; };
-		FC8F8C981FB8D46B0015E5E8 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C901FB8D46B0015E5E8 /* star.png */; };
 		FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450B18B061320009B4DC /* Foundation.framework */; };
 		FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450D18B061320009B4DC /* CoreGraphics.framework */; };
 		FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
@@ -125,31 +115,15 @@
 		FC6F8B5D1E89F3E700DB48F9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		FC7E5F8D1E784ED300434E11 /* DetailNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNewsController.h; sourceTree = "<group>"; };
 		FC7E5F8E1E784ED300434E11 /* DetailNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNewsController.m; sourceTree = "<group>"; };
-		FC7E5F8F1E784ED300434E11 /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
-		FC7E5F901E784ED300434E11 /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
 		FC7E5F911E784ED300434E11 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
 		FC7E5F921E784ED300434E11 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
 		FC7E5F9A1E784EF900434E11 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
 		FC7E5F9B1E784EF900434E11 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
-		FC7E5FA01E7850C800434E11 /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
-		FC7E5FA11E7850C800434E11 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		FC7E5FA21E7850C800434E11 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		FC7E5FA41E78514200434E11 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		FC7E5FA61E78516A00434E11 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
 		FC7E5FA81E78517800434E11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		FC7E5FAA1E78518200434E11 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FC8F8C851FB8D46B0015E5E8 /* star-gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-gray@2x.png"; sourceTree = "<group>"; };
-		FC8F8C861FB8D46B0015E5E8 /* SARate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARate.m; sourceTree = "<group>"; };
-		FC8F8C871FB8D46B0015E5E8 /* SARateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARateViewController.m; sourceTree = "<group>"; };
-		FC8F8C891FB8D46B0015E5E8 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
-		FC8F8C8A1FB8D46B0015E5E8 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
-		FC8F8C8B1FB8D46B0015E5E8 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
-		FC8F8C8C1FB8D46B0015E5E8 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
-		FC8F8C8D1FB8D46B0015E5E8 /* SARate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARate.h; sourceTree = "<group>"; };
-		FC8F8C8E1FB8D46B0015E5E8 /* star-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-gray.png"; sourceTree = "<group>"; };
-		FC8F8C8F1FB8D46B0015E5E8 /* SARateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARateViewController.h; sourceTree = "<group>"; };
-		FC8F8C901FB8D46B0015E5E8 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		FCEA450818B061320009B4DC /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA450B18B061320009B4DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCEA450D18B061320009B4DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -323,12 +297,8 @@
 		FC744A8819E4F712002C799A /* Premade Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FC7E5FA01E7850C800434E11 /* MBProgressHUD-Prefix.pch */,
-				FC7E5FA11E7850C800434E11 /* MBProgressHUD.h */,
-				FC7E5FA21E7850C800434E11 /* MBProgressHUD.m */,
 				FC7E5F9A1E784EF900434E11 /* RXMLElement.h */,
 				FC7E5F9B1E784EF900434E11 /* RXMLElement.m */,
-				FC8F8C841FB8D46B0015E5E8 /* SARate */,
 				FC4074441E8A186F00D163F5 /* IQKeyboardManager */,
 				FC4E63F519EB391B0079C0A3 /* ProgressHUD */,
 			);
@@ -340,38 +310,10 @@
 			children = (
 				FC7E5F8D1E784ED300434E11 /* DetailNewsController.h */,
 				FC7E5F8E1E784ED300434E11 /* DetailNewsController.m */,
-				FC7E5F8F1E784ED300434E11 /* NewsTableViewCell.h */,
-				FC7E5F901E784ED300434E11 /* NewsTableViewCell.m */,
 				FC7E5F911E784ED300434E11 /* NewsTableViewController.h */,
 				FC7E5F921E784ED300434E11 /* NewsTableViewController.m */,
 			);
 			name = News;
-			sourceTree = "<group>";
-		};
-		FC8F8C841FB8D46B0015E5E8 /* SARate */ = {
-			isa = PBXGroup;
-			children = (
-				FC8F8C851FB8D46B0015E5E8 /* star-gray@2x.png */,
-				FC8F8C861FB8D46B0015E5E8 /* SARate.m */,
-				FC8F8C871FB8D46B0015E5E8 /* SARateViewController.m */,
-				FC8F8C881FB8D46B0015E5E8 /* iRate */,
-				FC8F8C8C1FB8D46B0015E5E8 /* star@2x.png */,
-				FC8F8C8D1FB8D46B0015E5E8 /* SARate.h */,
-				FC8F8C8E1FB8D46B0015E5E8 /* star-gray.png */,
-				FC8F8C8F1FB8D46B0015E5E8 /* SARateViewController.h */,
-				FC8F8C901FB8D46B0015E5E8 /* star.png */,
-			);
-			path = SARate;
-			sourceTree = "<group>";
-		};
-		FC8F8C881FB8D46B0015E5E8 /* iRate */ = {
-			isa = PBXGroup;
-			children = (
-				FC8F8C891FB8D46B0015E5E8 /* iRate.bundle */,
-				FC8F8C8A1FB8D46B0015E5E8 /* iRate.m */,
-				FC8F8C8B1FB8D46B0015E5E8 /* iRate.h */,
-			);
-			path = iRate;
 			sourceTree = "<group>";
 		};
 		FCEA44FF18B061320009B4DC = {
@@ -558,18 +500,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */,
-				FC8F8C961FB8D46B0015E5E8 /* star@2x.png in Resources */,
-				FC8F8C911FB8D46B0015E5E8 /* star-gray@2x.png in Resources */,
-				FC8F8C941FB8D46B0015E5E8 /* iRate.bundle in Resources */,
 				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
 				FC4074771E8A186F00D163F5 /* IQKeyboardManager.bundle in Resources */,
 				FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */,
-				FC8F8C981FB8D46B0015E5E8 /* star.png in Resources */,
 				FC4E63F319EB39160079C0A3 /* ProgressHUD.bundle in Resources */,
 				FCEA8B2319EB337600D00340 /* index.html in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
 				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
-				FC8F8C971FB8D46B0015E5E8 /* star-gray.png in Resources */,
 				FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,8 +538,6 @@
 				FC4074741E8A186F00D163F5 /* IQTitleBarButtonItem.m in Sources */,
 				FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */,
 				FC4074711E8A186F00D163F5 /* IQTextView.m in Sources */,
-				FC8F8C931FB8D46B0015E5E8 /* SARateViewController.m in Sources */,
-				FC7E5FA31E7850C800434E11 /* MBProgressHUD.m in Sources */,
 				FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */,
 				FC7E5F971E784ED300434E11 /* NewsTableViewController.m in Sources */,
 				FC40746D1E8A186F00D163F5 /* IQUIViewController+Additions.m in Sources */,
@@ -611,13 +546,10 @@
 				FC7E5F9C1E784EF900434E11 /* RXMLElement.m in Sources */,
 				FC4074731E8A186F00D163F5 /* IQPreviousNextView.m in Sources */,
 				FC40746B1E8A186F00D163F5 /* IQUITextFieldView+Additions.m in Sources */,
-				FC7E5F961E784ED300434E11 /* NewsTableViewCell.m in Sources */,
 				FC40746F1E8A186F00D163F5 /* IQKeyboardManager.m in Sources */,
 				FC40746E1E8A186F00D163F5 /* IQUIWindow+Hierarchy.m in Sources */,
 				FC4074701E8A186F00D163F5 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				FC4074751E8A186F00D163F5 /* IQToolbar.m in Sources */,
-				FC8F8C951FB8D46B0015E5E8 /* iRate.m in Sources */,
-				FC8F8C921FB8D46B0015E5E8 /* SARate.m in Sources */,
 				FC7E5F951E784ED300434E11 /* DetailNewsController.m in Sources */,
 				FC40741A1E89F77600D163F5 /* DeviceViewController.m in Sources */,
 				FC2C86631C5F200600FFFACD /* AnimalPicker.m in Sources */,
@@ -698,7 +630,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -752,7 +684,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

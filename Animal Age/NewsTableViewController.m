@@ -36,10 +36,6 @@
     NewsTbView.delegate = self;
     NewsTbView.dataSource = self;
     
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [MBProgressHUD showHUDAddedTo:self.tableView.superview animated:YES];
-        HUD.delegate = self;
-    });
     
     [self initData];
     //[self setTitle:@"Latest News"];
@@ -80,17 +76,17 @@
         
         for (int i=0; i<rxmlIndividualNew.count; i++) {
             NSString *title = [NSString stringWithString:[[rxmlIndividualNew objectAtIndex:i] child:@"title"].text];
-            NSString *desc = [NSString stringWithString:[[rxmlIndividualNew objectAtIndex:i] child:@"description"].text];
+            NSString *desc = [NSString stringWithString:[[rxmlIndividualNew objectAtIndex:i] child:@"encoded"].text];
             
             [titleArray addObject:title];
             [descArray addObject:desc];
         }
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.tableView reloadData];
-            [MBProgressHUD hideHUDForView:self.tableView.superview animated:YES];
+            [self.refreshControl endRefreshing];
         });
         
-        [self.refreshControl endRefreshing];
+        
         
     }];
     [dataTask resume];
@@ -133,10 +129,10 @@
         }
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.tableView reloadData];
-            [MBProgressHUD hideHUDForView:self.tableView.superview animated:YES];
+            [self.refreshControl endRefreshing];
         });
        
-        [self.refreshControl endRefreshing];
+        
         
     }];
     [dataTask resume];

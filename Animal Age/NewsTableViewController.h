@@ -7,14 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MBProgressHUD.h"
 
-@interface NewsTableViewController : UITableViewController <MBProgressHUDDelegate, UITableViewDelegate,UITableViewDataSource, UIBarPositioningDelegate, UINavigationBarDelegate>
+@interface NewsTableViewController : UITableViewController <UITableViewDelegate,UITableViewDataSource, UIBarPositioningDelegate, UINavigationBarDelegate>
 {
     NSArray *_objects;
     NSMutableData *_responseData;
     NSMutableData *responseData;
-    MBProgressHUD *HUD;
 }
 
 

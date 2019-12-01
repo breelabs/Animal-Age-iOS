@@ -9,21 +9,6 @@
 #import "AnimalPicker.h"
 #import "AppDelegate.h"
 
-#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
-#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
-
-#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
-#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
-#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
-#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
-
-#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
-#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
-#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
-#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
-#define IS_IPHONE_X  (IS_IPHONE && SCREEN_MAX_LENGTH == 812.0)
-
 @interface AnimalPicker ()
 
 @property (strong, nonatomic) NSArray *animalArray;
@@ -49,16 +34,10 @@
 
 - (IBAction)save:(id)sender {
     
-    
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"What is your pets name?" message:@"Save your pets name in the database." preferredStyle:UIAlertControllerStyleAlert]; // 7
     
     UIAlertAction *defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
-        NSLog(@"You pressed button OK");
-        
-        
-        
         [ProgressHUD show:nil];
-        
         
         NSManagedObjectContext *context = [self managedObjectContext];
         
@@ -66,10 +45,7 @@
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
         [dateFormatter setDateFormat:@"MM/dd/YY"];
         NSString *dateString = [dateFormatter stringFromDate:currDate];
-        
-        
-        
-        // Create a new managed object
+
         NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"List" inManagedObjectContext:context];
         [newDevice setValue:self->resultLabel.text forKey:@"age"];
         [newDevice setValue:self->AnimalButt.currentTitle forKey:@"name"];
@@ -80,61 +56,39 @@
         UIImage *image = [UIImage imageNamed:@"cute.png"];
         NSData *imageData = UIImagePNGRepresentation(image);
         [newDevice setValue:imageData forKey:@"img"];
-        
-        
-        
+                
         [self performSelector:@selector(dogAnswer:) withObject:nil afterDelay:.50];
         
         NSError *error = nil;
-        // Save the object to persistent store
         if (![context save:&error]) {
             NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
         }
+
         
-        
-        
-        
-    }]; // 8
+    }];
     
-    [alert addAction:defaultAction]; // 9
+    [alert addAction:defaultAction];
     
     [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
         textField.placeholder = @"Pet Name";
-    }]; // 10
+    }];
     
-    [self presentViewController:alert animated:YES completion:nil]; // 11
-    
-    
-    
-   
+    [self presentViewController:alert animated:YES completion:nil];
     
 }
-
-
 -(void)hideHud:(NSTimer *)timer {
-    
     [ProgressHUD dismiss];
 }
-
 -(void)dogAnswer:(NSTimer *)timer {
-    
     [ProgressHUD showSuccess:nil];
-    
     [self performSelector:@selector(hideHud:) withObject:nil afterDelay:.85];
-    
 }
-
-
-
 - (UIBarPosition)positionForBar:(id<UIBarPositioning>)bar {
     return UIBarPositionTopAttached;
 }
-
 - (void)viewDidLoad
 {
-
     [super viewDidLoad];
-
     self.navigationbar.delegate = self;
     
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
@@ -151,29 +105,20 @@
     
     [backView setHidden:YES];
     
-    if(IS_IPHONE_4_OR_LESS)
-    {
-        [calcText setText:@""];
-    }
-    else
-    {
-        if (flipValue == 0 ) {
-            NSString *results = resultLabel.text;
-            NSString *animal = AnimalButt.currentTitle;
-            [calcText setText:[NSString stringWithFormat:@"You are %@ years old in %@ years", results, animal]];
-        } else {
-            NSString *results = resultLabel.text;
-            NSString *animal = AnimalButt2.currentTitle;
-            [calcText setText:[NSString stringWithFormat:@"You are %@ years old in %@ years", results, animal]];
-        }
-        
+    if (flipValue == 0 ) {
+        NSString *results = resultLabel.text;
+        NSString *animal = AnimalButt.currentTitle;
+        [calcText setText:[NSString stringWithFormat:@"You are %@ years old in %@ years", results, animal]];
+    } else {
+        NSString *results = resultLabel.text;
+        NSString *animal = AnimalButt2.currentTitle;
+        [calcText setText:[NSString stringWithFormat:@"You are %@ years old in %@ years", results, animal]];
     }
     
     #pragma mark - Button Style
     
     // R: 76 G: 76 B: 76
     UIColor *buttColor = [UIColor whiteColor];
-   // UIColor *butbackcolor = [UIColor clearColor];
     UIColor *grey = [UIColor colorWithRed:0.74 green:0.76 blue:0.78 alpha:1.0];
     
     CALayer * layer = [AnimalButt layer];
@@ -281,10 +226,9 @@
     
 
     
-    if (@available(iOS 11, *)) {
+   
         UIEdgeInsets insets = [UIApplication sharedApplication].delegate.window.safeAreaInsets;
         if (insets.top > 0) {
-            // We're running on an iPhone with a notch.
             
             [resultLabel setFont:[UIFont systemFontOfSize:200]];
             
@@ -303,7 +247,6 @@
             textFrame.origin.x = 10;
             calcText.frame = textFrame;
             
-        }
     }
     
     
@@ -372,7 +315,6 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
