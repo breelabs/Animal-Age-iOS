@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		4E646AC40F9EA169148FE23E /* Pods_Animal_AgeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A2B6832B9FFC342ED6568D /* Pods_Animal_AgeTests.framework */; };
 		D4C3DB00A35ABCB0D8DB7CE0 /* Pods_Animal_Age.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */; };
+		FC261B4F23943E810068502A /* UISnapNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC261B4E23943E810068502A /* UISnapNav.swift */; };
 		FC2C86631C5F200600FFFACD /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1019EB32F800D00340 /* AnimalPicker.m */; };
 		FC4074171E89F61700D163F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4074161E89F61700D163F5 /* CoreData.framework */; };
 		FC40741A1E89F77600D163F5 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074191E89F77600D163F5 /* DeviceViewController.m */; };
 		FC4074431E8A0DDD00D163F5 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074421E8A0DDD00D163F5 /* DeviceDetailViewController.m */; };
-		FC40747C1E8C5A7100D163F5 /* UISnapNav.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40747B1E8C5A7100D163F5 /* UISnapNav.m */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
 		FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6F8B5C1E89F3E700DB48F9 /* Model.xcdatamodeld */; };
 		FC7E5F951E784ED300434E11 /* DetailNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E5F8E1E784ED300434E11 /* DetailNewsController.m */; };
@@ -60,13 +60,12 @@
 		81A2B6832B9FFC342ED6568D /* Pods_Animal_AgeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_AgeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1AFB3A0FA30C90475CC6FE /* Pods-Animal AgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal AgeTests.release.xcconfig"; path = "Target Support Files/Pods-Animal AgeTests/Pods-Animal AgeTests.release.xcconfig"; sourceTree = "<group>"; };
 		F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.release.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
+		FC261B4E23943E810068502A /* UISnapNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISnapNav.swift; sourceTree = "<group>"; };
 		FC4074161E89F61700D163F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FC4074181E89F77600D163F5 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
 		FC4074191E89F77600D163F5 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
 		FC4074411E8A0DDD00D163F5 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
 		FC4074421E8A0DDD00D163F5 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
-		FC40747A1E8C5A7100D163F5 /* UISnapNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISnapNav.h; sourceTree = "<group>"; };
-		FC40747B1E8C5A7100D163F5 /* UISnapNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISnapNav.m; sourceTree = "<group>"; };
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC6F8B5D1E89F3E700DB48F9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		FC7E5F8D1E784ED300434E11 /* DetailNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNewsController.h; sourceTree = "<group>"; };
@@ -163,10 +162,9 @@
 		FC4074791E8A807400D163F5 /* GUI */ = {
 			isa = PBXGroup;
 			children = (
+				FC261B4E23943E810068502A /* UISnapNav.swift */,
 				FCEA8B1219EB32F800D00340 /* AppDelegate.m */,
 				FCEA8B1119EB32F800D00340 /* AppDelegate.h */,
-				FC40747A1E8C5A7100D163F5 /* UISnapNav.h */,
-				FC40747B1E8C5A7100D163F5 /* UISnapNav.m */,
 				FCEA8B0C19EB32E300D00340 /* Calc.h */,
 				FCEA8B0D19EB32E300D00340 /* Calc.m */,
 			);
@@ -342,6 +340,7 @@
 				TargetAttributes = {
 					FCEA450718B061320009B4DC = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
+						LastSwiftMigration = 1120;
 					};
 					FCEA452B18B061320009B4DC = {
 						TestTargetID = FCEA450718B061320009B4DC;
@@ -467,12 +466,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEA8B0E19EB32E300D00340 /* Calc.m in Sources */,
-				FC40747C1E8C5A7100D163F5 /* UISnapNav.m in Sources */,
 				FCEA8B1A19EB332900D00340 /* PickerTableView.m in Sources */,
 				FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */,
 				FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */,
 				FC7E5F971E784ED300434E11 /* NewsTableViewController.m in Sources */,
 				FCEA8B2C19EB33A600D00340 /* main.m in Sources */,
+				FC261B4F23943E810068502A /* UISnapNav.swift in Sources */,
 				FC4074431E8A0DDD00D163F5 /* DeviceDetailViewController.m in Sources */,
 				FC7E5F951E784ED300434E11 /* DetailNewsController.m in Sources */,
 				FC40741A1E89F77600D163F5 /* DeviceViewController.m in Sources */,
@@ -584,6 +583,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -630,6 +631,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -640,6 +643,7 @@
 			baseConfigurationReference = 220FEBBA90CA79F447AE0407 /* Pods-Animal Age.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -651,6 +655,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.AnimalAge-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -662,6 +668,7 @@
 			baseConfigurationReference = F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -674,6 +681,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.AnimalAge-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -684,6 +692,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4683A661CBC18559919EF827 /* Pods-Animal AgeTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animal Age.app/Animal Age";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -708,6 +717,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB1AFB3A0FA30C90475CC6FE /* Pods-Animal AgeTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animal Age.app/Animal Age";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

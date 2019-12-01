@@ -323,7 +323,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="AOj-fJ-jPR" customClass="NewsTableViewCell">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="AOj-fJ-jPR">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AOj-fJ-jPR" id="WyS-1C-41i">
@@ -552,7 +552,7 @@
         <!--Age Tracker-->
         <scene sceneID="mpW-RA-l1b">
             <objects>
-                <navigationController id="TRh-Ih-zGv" customClass="UISnapNav" sceneMemberID="viewController">
+                <navigationController id="TRh-Ih-zGv" customClass="UISnapNav" customModule="Animal_Age" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Age Tracker" image="tracker" selectedImage="tracker" id="LDs-nB-HsT"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="1W9-LF-cUV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -565,6 +565,7 @@
                         </textAttributes>
                     </navigationBar>
                     <connections>
+                        <outlet property="navigationbar" destination="1W9-LF-cUV" id="hdI-XZ-nI7"/>
                         <segue destination="EcF-Nt-GYf" kind="relationship" relationship="rootViewController" id="JBd-jJ-v7Z"/>
                     </connections>
                 </navigationController>
@@ -707,7 +708,7 @@
         <!--Animal News-->
         <scene sceneID="NWh-QO-BW3">
             <objects>
-                <navigationController id="lTl-n1-7Po" customClass="UISnapNav" sceneMemberID="viewController">
+                <navigationController id="lTl-n1-7Po" customClass="UISnapNav" customModule="Animal_Age" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Animal News" image="news" selectedImage="news" id="LNV-qc-FrN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="5OU-66-DcH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -721,6 +722,7 @@
                         </textAttributes>
                     </navigationBar>
                     <connections>
+                        <outlet property="navigationbar" destination="5OU-66-DcH" id="Kbm-BC-M3R"/>
                         <segue destination="2M5-jZ-J5O" kind="relationship" relationship="rootViewController" id="iJS-5x-adf"/>
                     </connections>
                 </navigationController>
@@ -731,7 +733,7 @@
         <!--Animal Age-->
         <scene sceneID="ndI-q6-8E4">
             <objects>
-                <navigationController title="Animal Age" automaticallyAdjustsScrollViewInsets="NO" id="vMQ-fe-MDr" customClass="UISnapNav" sceneMemberID="viewController">
+                <navigationController title="Animal Age" automaticallyAdjustsScrollViewInsets="NO" id="vMQ-fe-MDr" customClass="UISnapNav" customModule="Animal_Age" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Animal Age" image="paw" selectedImage="paw" id="J3j-F7-44A"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="KL9-xn-evK">
@@ -747,6 +749,7 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <outlet property="delegate" destination="KL9-xn-evK" id="qJg-qV-9Ot"/>
+                        <outlet property="navigationbar" destination="KL9-xn-evK" id="0oF-cO-1eW"/>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="zXk-62-5fA"/>
                     </connections>
                 </navigationController>

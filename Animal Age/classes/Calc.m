@@ -15,10 +15,6 @@
 - (void)viewDidLoad
 {
     self.displayingFront = YES;
-    
-    
-    
-
     [self showflip:nil];
 }
 
@@ -64,7 +60,6 @@
 }
 
 -(IBAction)closeKeyboard {
-	//Here we are closing the keyboard for both of the textfields.
 	[PeopleString resignFirstResponder];
 }
 
@@ -95,14 +90,7 @@
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     NSString*  flipin = [defaults objectForKey:@"flipPref"];
     int flipValue = [flipin doubleValue];
-    
-    
-    
-    
-    
     NSString *buttonTitle = AnimalButt.currentTitle;
-
-    
 	NSString *secondString = PeopleString.text;
     NSString *thirdString = PeopleString2.text;
     
