@@ -19,9 +19,18 @@
     [super viewDidLoad];
     
     
+    NSAttributedString *attributedString = [[NSAttributedString alloc]
+                          initWithData: [self.selecteddesc dataUsingEncoding:NSUnicodeStringEncoding]
+                               options: @{ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType }
+                    documentAttributes: nil
+                                 error: nil
+                ];
+    textView.attributedText = attributedString;
+    
+    
     imgView.image = self.selectedimage;
     lablView.text = self.selectedlabel;
-    textView.text = self.selecteddesc;
+    
     
     lablView.textContainer.maximumNumberOfLines = 2;
     lablView.textContainer.lineBreakMode = NSLineBreakByTruncatingTail;
@@ -51,15 +60,22 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
+    
+    NSAttributedString *attributedString = [[NSAttributedString alloc]
+                          initWithData: [self.selecteddesc dataUsingEncoding:NSUnicodeStringEncoding]
+                               options: @{ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType }
+                    documentAttributes: nil
+                                 error: nil
+                ];
+    self.textView.attributedText = attributedString;
+    
     self.imgView.image = self.selectedimage;
     self.lablView.text = self.selectedlabel;
-    self.textView.text = self.selecteddesc;
     
     lablView.textContainer.maximumNumberOfLines = 2;
     lablView.textContainer.lineBreakMode = NSLineBreakByTruncatingTail;
     
     [lablView setText:selectedlabel];
-    [textView setText:selecteddesc];
     
     [textView setFont:[UIFont systemFontOfSize:17]];
     
