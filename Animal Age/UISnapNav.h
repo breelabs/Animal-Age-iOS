@@ -1,6 +1,6 @@
 //
 //  UISnapNav.h
-//  BeFit iOS
+//  Animal Age Converter
 //
 //  Created by Jon on 3/8/17.
 //  Copyright © 2017 Jon Brown. All rights reserved.

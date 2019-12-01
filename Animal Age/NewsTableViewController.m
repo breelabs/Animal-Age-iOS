@@ -1,6 +1,6 @@
 //
 //  NewsTableViewController.m
-//  Mac Gurus iOS
+//  Animal Age Converter
 //
 //  Created by Jon on 9/18/16.
 //  Copyright © 2016 jonbrown.org. All rights reserved.
