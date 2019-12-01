@@ -27,16 +27,12 @@
                 ];
     textView.attributedText = attributedString;
     
-    
     imgView.image = self.selectedimage;
     lablView.text = self.selectedlabel;
     
-    
     lablView.textContainer.maximumNumberOfLines = 2;
     lablView.textContainer.lineBreakMode = NSLineBreakByTruncatingTail;
-    
-    //NSLog(@"TEST3  %@", self.selectedimage);
-    
+        
     [super viewDidLoad];
     
 #pragma mark - Button Style
@@ -50,7 +46,6 @@
     [layer setBorderWidth:1.0];
     [layer setBorderColor:[buttColor CGColor]];
 
-    // Do any additional setup after loading the view.
 }
 
 -(IBAction)Dismiss:(UIButton *)sender
@@ -90,17 +85,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

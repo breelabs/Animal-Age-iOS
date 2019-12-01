@@ -98,10 +98,7 @@
     NSLog(@"Flip Status: %d", flipValue);
     
 
-    calcText.numberOfLines = 2;
-    [calcText setMinimumScaleFactor:3.0/[UIFont labelFontSize]];
-    calcText.adjustsFontSizeToFitWidth = YES;
-    calcText.lineBreakMode = NSLineBreakByWordWrapping;
+
     
     [backView setHidden:YES];
     
@@ -224,28 +221,24 @@
     [numberToolbar2 sizeToFit];
     HumanAge2.inputAccessoryView = numberToolbar2;
     
-
+    [resultLabel setFont:[UIFont systemFontOfSize:200]];
     
    
         UIEdgeInsets insets = [UIApplication sharedApplication].delegate.window.safeAreaInsets;
         if (insets.top > 0) {
             
-            [resultLabel setFont:[UIFont systemFontOfSize:200]];
+           
             
             CGRect mycviewFrame = graphView.frame;
-            mycviewFrame.origin.y = 100;
+            mycviewFrame.origin.y = 50;
             mycviewFrame.origin.x = 0;
             graphView.frame = mycviewFrame;
             
             CGRect ageFrame = AgeButt.frame;
-            ageFrame.origin.y = 41;
+            ageFrame.origin.y = -10;
             ageFrame.origin.x = 10;
             AgeButt.frame = ageFrame;
             
-            CGRect textFrame = calcText.frame;
-            textFrame.origin.y = -47;
-            textFrame.origin.x = 10;
-            calcText.frame = textFrame;
             
     }
     
