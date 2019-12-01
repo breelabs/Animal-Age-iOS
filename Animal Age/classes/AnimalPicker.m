@@ -21,9 +21,7 @@
     
     NSManagedObjectContext *context = nil;
     id delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    // call "persistentContainer" not "managedObjectContext"
     if( [delegate performSelector:@selector(persistentContainer)] ){
-        // call viewContext from persistentContainer not "managedObjectContext"
         context = [[delegate persistentContainer] viewContext];
     }
     
