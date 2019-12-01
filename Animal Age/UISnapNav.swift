@@ -14,13 +14,9 @@ class UISnapNav: UINavigationController, UINavigationBarDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         navigationbar.delegate = self
-
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .any, barMetrics: .default)
-
         UINavigationBar.appearance().shadowImage = UIImage()
-
     }
 
     override func didReceiveMemoryWarning() {
