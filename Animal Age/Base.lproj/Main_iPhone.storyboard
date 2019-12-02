@@ -167,7 +167,7 @@
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <wkWebViewConfiguration key="configuration" allowsAirPlayForMediaPlayback="NO" allowsPictureInPictureMediaPlayback="NO">
-                                                    <dataDetectorTypes key="dataDetectorTypes"/>
+                                                    <dataDetectorTypes key="dataDetectorTypes" none="YES"/>
                                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                                     <wkPreferences key="preferences"/>
                                                 </wkWebViewConfiguration>
@@ -576,7 +576,7 @@
         <!--Root View Controller-->
         <scene sceneID="zpK-Od-Qah">
             <objects>
-                <tableViewController id="2M5-jZ-J5O" customClass="NewsTableViewController" sceneMemberID="viewController">
+                <tableViewController id="2M5-jZ-J5O" customClass="NewsTableViewController" customModule="Animal_Age" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="i6n-Tr-Ktm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -604,7 +604,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </refreshControl>
                     <connections>
-                        <outlet property="NewsTbView" destination="i6n-Tr-Ktm" id="cTy-8p-cVi"/>
+                        <outlet property="newsTbView" destination="i6n-Tr-Ktm" id="gX6-wm-Gqg"/>
                         <segue destination="QXy-2i-QD6" kind="modal" identifier="detailNews" modalTransitionStyle="flipHorizontal" id="GCG-YQ-ZFu"/>
                     </connections>
                 </tableViewController>
@@ -615,7 +615,7 @@
         <!--Detail News Controller-->
         <scene sceneID="V51-25-WZN">
             <objects>
-                <viewController id="QXy-2i-QD6" customClass="DetailNewsController" sceneMemberID="viewController">
+                <viewController id="QXy-2i-QD6" customClass="DetailNewsController" customModule="Animal_Age" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JI0-8g-K02"/>
                         <viewControllerLayoutGuide type="bottom" id="ryW-H0-sDM"/>
@@ -641,7 +641,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="Dismiss:" destination="QXy-2i-QD6" eventType="touchUpInside" id="dkf-Ay-sof"/>
+                                    <action selector="DismissWithSender:" destination="QXy-2i-QD6" eventType="touchUpInside" id="33k-s2-zAk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziN-or-OOL">
@@ -653,15 +653,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3h-s2-mj8">
-                                <rect key="frame" x="8" y="174" width="359" height="404"/>
+                                <rect key="frame" x="8" y="166" width="359" height="420"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                    <fragment content="Story">
                                         <attributes>
-                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <font key="NSFont" size="18" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -679,14 +678,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd7-IP-o5h">
-                                <rect key="frame" x="8" y="105" width="359" height="58"/>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Headline" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd7-IP-o5h">
+                                <rect key="frame" x="8" y="115" width="359" height="37"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.43921568630000002" green="0.4941176471" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -695,15 +693,15 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="customButtonHome" destination="BFy-66-z7l" id="Gx3-4E-oAb"/>
-                        <outlet property="imgView" destination="YLE-Sf-5c5" id="aqv-Ah-8cS"/>
-                        <outlet property="lablView" destination="gd7-IP-o5h" id="nhE-Ym-xCM"/>
-                        <outlet property="textView" destination="a3h-s2-mj8" id="0ZR-tw-8JD"/>
+                        <outlet property="customButtonHome" destination="BFy-66-z7l" id="VDd-g1-mlo"/>
+                        <outlet property="imgView" destination="YLE-Sf-5c5" id="K6X-JB-bST"/>
+                        <outlet property="lablView" destination="gd7-IP-o5h" id="X5H-HE-sro"/>
+                        <outlet property="textView" destination="a3h-s2-mj8" id="oEw-1N-PhV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QkC-C9-K1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1095.6521739130435" y="1985.4910714285713"/>
+            <point key="canvasLocation" x="1095.2" y="1984.8575712143929"/>
         </scene>
         <!--Animal News-->
         <scene sceneID="NWh-QO-BW3">
