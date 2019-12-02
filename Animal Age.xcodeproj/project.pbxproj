@@ -10,10 +10,7 @@
 		4E646AC40F9EA169148FE23E /* Pods_Animal_AgeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A2B6832B9FFC342ED6568D /* Pods_Animal_AgeTests.framework */; };
 		D4C3DB00A35ABCB0D8DB7CE0 /* Pods_Animal_Age.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */; };
 		FC261B4F23943E810068502A /* UISnapNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC261B4E23943E810068502A /* UISnapNav.swift */; };
-		FC2C86631C5F200600FFFACD /* AnimalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1019EB32F800D00340 /* AnimalPicker.m */; };
 		FC4074171E89F61700D163F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4074161E89F61700D163F5 /* CoreData.framework */; };
-		FC40741A1E89F77600D163F5 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074191E89F77600D163F5 /* DeviceViewController.m */; };
-		FC4074431E8A0DDD00D163F5 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4074421E8A0DDD00D163F5 /* DeviceDetailViewController.m */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
 		FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6F8B5C1E89F3E700DB48F9 /* Model.xcdatamodeld */; };
 		FC7E5FA51E78514200434E11 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA41E78514200434E11 /* libxml2.2.tbd */; };
@@ -23,6 +20,12 @@
 		FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */; };
 		FCE158E823949A36005DBE89 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158E723949A36005DBE89 /* NewsTableViewController.swift */; };
 		FCE158EA23949A56005DBE89 /* DetailNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158E923949A56005DBE89 /* DetailNewsController.swift */; };
+		FCE158F12394B398005DBE89 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158EB2394B397005DBE89 /* DeviceViewController.swift */; };
+		FCE158F22394B398005DBE89 /* PickerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158EC2394B397005DBE89 /* PickerTableView.swift */; };
+		FCE158F32394B398005DBE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158ED2394B397005DBE89 /* AppDelegate.swift */; };
+		FCE158F42394B398005DBE89 /* DeviceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158EE2394B397005DBE89 /* DeviceDetailViewController.swift */; };
+		FCE158F52394B398005DBE89 /* AnimalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158EF2394B397005DBE89 /* AnimalPicker.swift */; };
+		FCE158F62394B398005DBE89 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158F02394B398005DBE89 /* Calc.swift */; };
 		FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450B18B061320009B4DC /* Foundation.framework */; };
 		FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450D18B061320009B4DC /* CoreGraphics.framework */; };
 		FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
@@ -35,12 +38,8 @@
 		FCEA453018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
 		FCEA453818B061320009B4DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA453618B061320009B4DC /* InfoPlist.strings */; };
 		FCEA453A18B061320009B4DC /* Animal_AgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA453918B061320009B4DC /* Animal_AgeTests.m */; };
-		FCEA8B0E19EB32E300D00340 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B0D19EB32E300D00340 /* Calc.m */; };
-		FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1219EB32F800D00340 /* AppDelegate.m */; };
-		FCEA8B1A19EB332900D00340 /* PickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B1919EB332900D00340 /* PickerTableView.m */; };
 		FCEA8B2319EB337600D00340 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B2119EB337600D00340 /* index.html */; };
 		FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */; };
-		FCEA8B2C19EB33A600D00340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8B2B19EB33A600D00340 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +61,6 @@
 		F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.release.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
 		FC261B4E23943E810068502A /* UISnapNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISnapNav.swift; sourceTree = "<group>"; };
 		FC4074161E89F61700D163F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		FC4074181E89F77600D163F5 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
-		FC4074191E89F77600D163F5 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
-		FC4074411E8A0DDD00D163F5 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
-		FC4074421E8A0DDD00D163F5 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC6F8B5D1E89F3E700DB48F9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		FC7E5FA41E78514200434E11 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
@@ -75,6 +70,12 @@
 		FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCE158E723949A36005DBE89 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		FCE158E923949A56005DBE89 /* DetailNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsController.swift; sourceTree = "<group>"; };
+		FCE158EB2394B397005DBE89 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		FCE158EC2394B397005DBE89 /* PickerTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTableView.swift; sourceTree = "<group>"; };
+		FCE158ED2394B397005DBE89 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCE158EE2394B397005DBE89 /* DeviceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetailViewController.swift; sourceTree = "<group>"; };
+		FCE158EF2394B397005DBE89 /* AnimalPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalPicker.swift; sourceTree = "<group>"; };
+		FCE158F02394B398005DBE89 /* Calc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
 		FCEA450818B061320009B4DC /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA450B18B061320009B4DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCEA450D18B061320009B4DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,17 +91,8 @@
 		FCEA453518B061320009B4DC /* Animal AgeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal AgeTests-Info.plist"; sourceTree = "<group>"; };
 		FCEA453718B061320009B4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCEA453918B061320009B4DC /* Animal_AgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal_AgeTests.m; sourceTree = "<group>"; };
-		FCEA8B0C19EB32E300D00340 /* Calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calc.h; path = classes/Calc.h; sourceTree = "<group>"; };
-		FCEA8B0D19EB32E300D00340 /* Calc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calc.m; path = classes/Calc.m; sourceTree = "<group>"; };
-		FCEA8B0F19EB32F800D00340 /* AnimalPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalPicker.h; path = classes/AnimalPicker.h; sourceTree = "<group>"; };
-		FCEA8B1019EB32F800D00340 /* AnimalPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalPicker.m; path = classes/AnimalPicker.m; sourceTree = "<group>"; };
-		FCEA8B1119EB32F800D00340 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = classes/AppDelegate.h; sourceTree = "<group>"; };
-		FCEA8B1219EB32F800D00340 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = classes/AppDelegate.m; sourceTree = "<group>"; };
-		FCEA8B1819EB332900D00340 /* PickerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerTableView.h; path = classes/PickerTableView.h; sourceTree = "<group>"; };
-		FCEA8B1919EB332900D00340 /* PickerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerTableView.m; path = classes/PickerTableView.m; sourceTree = "<group>"; };
 		FCEA8B2119EB337600D00340 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = htdocs/index.html; sourceTree = "<group>"; };
 		FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "htdocs/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
-		FCEA8B2B19EB33A600D00340 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = classes/main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,38 +138,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		FC4074781E8A806700D163F5 /* Tracker */ = {
-			isa = PBXGroup;
-			children = (
-				FC4074411E8A0DDD00D163F5 /* DeviceDetailViewController.h */,
-				FC4074421E8A0DDD00D163F5 /* DeviceDetailViewController.m */,
-				FC4074181E89F77600D163F5 /* DeviceViewController.h */,
-				FC4074191E89F77600D163F5 /* DeviceViewController.m */,
-			);
-			name = Tracker;
-			sourceTree = "<group>";
-		};
-		FC4074791E8A807400D163F5 /* GUI */ = {
-			isa = PBXGroup;
-			children = (
-				FC261B4E23943E810068502A /* UISnapNav.swift */,
-				FCEA8B1219EB32F800D00340 /* AppDelegate.m */,
-				FCEA8B1119EB32F800D00340 /* AppDelegate.h */,
-				FCEA8B0C19EB32E300D00340 /* Calc.h */,
-				FCEA8B0D19EB32E300D00340 /* Calc.m */,
-			);
-			name = GUI;
-			sourceTree = "<group>";
-		};
-		FC7E5F991E784ED900434E11 /* News */ = {
-			isa = PBXGroup;
-			children = (
-				FCE158E723949A36005DBE89 /* NewsTableViewController.swift */,
-				FCE158E923949A56005DBE89 /* DetailNewsController.swift */,
-			);
-			name = News;
-			sourceTree = "<group>";
-		};
 		FCEA44FF18B061320009B4DC = {
 			isa = PBXGroup;
 			children = (
@@ -220,10 +180,15 @@
 		FCEA451118B061320009B4DC /* Animal Age */ = {
 			isa = PBXGroup;
 			children = (
-				FCEFEAD718B1E2F8008B33B8 /* Animal Picker */,
-				FC4074791E8A807400D163F5 /* GUI */,
-				FC4074781E8A806700D163F5 /* Tracker */,
-				FC7E5F991E784ED900434E11 /* News */,
+				FCE158EF2394B397005DBE89 /* AnimalPicker.swift */,
+				FCE158ED2394B397005DBE89 /* AppDelegate.swift */,
+				FCE158F02394B398005DBE89 /* Calc.swift */,
+				FCE158EE2394B397005DBE89 /* DeviceDetailViewController.swift */,
+				FCE158EB2394B397005DBE89 /* DeviceViewController.swift */,
+				FCE158EC2394B397005DBE89 /* PickerTableView.swift */,
+				FC261B4E23943E810068502A /* UISnapNav.swift */,
+				FCE158E723949A36005DBE89 /* NewsTableViewController.swift */,
+				FCE158E923949A56005DBE89 /* DetailNewsController.swift */,
 				FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */,
 				FCEA452018B061320009B4DC /* Main_iPad.storyboard */,
 				FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */,
@@ -240,7 +205,6 @@
 				FC6F8B5C1E89F3E700DB48F9 /* Model.xcdatamodeld */,
 				FCEA451318B061320009B4DC /* Animal Age-Info.plist */,
 				FCEA451418B061320009B4DC /* InfoPlist.strings */,
-				FCEA8B2B19EB33A600D00340 /* main.m */,
 				FCEA451918B061320009B4DC /* Animal Age-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -271,17 +235,6 @@
 				FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */,
 			);
 			name = htdocs;
-			sourceTree = "<group>";
-		};
-		FCEFEAD718B1E2F8008B33B8 /* Animal Picker */ = {
-			isa = PBXGroup;
-			children = (
-				FCEA8B1819EB332900D00340 /* PickerTableView.h */,
-				FCEA8B1919EB332900D00340 /* PickerTableView.m */,
-				FCEA8B0F19EB32F800D00340 /* AnimalPicker.h */,
-				FCEA8B1019EB32F800D00340 /* AnimalPicker.m */,
-			);
-			name = "Animal Picker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,17 +414,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEA8B0E19EB32E300D00340 /* Calc.m in Sources */,
 				FCE158EA23949A56005DBE89 /* DetailNewsController.swift in Sources */,
-				FCEA8B1A19EB332900D00340 /* PickerTableView.m in Sources */,
 				FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */,
-				FCEA8B1419EB32F800D00340 /* AppDelegate.m in Sources */,
-				FCEA8B2C19EB33A600D00340 /* main.m in Sources */,
+				FCE158F32394B398005DBE89 /* AppDelegate.swift in Sources */,
 				FC261B4F23943E810068502A /* UISnapNav.swift in Sources */,
-				FC4074431E8A0DDD00D163F5 /* DeviceDetailViewController.m in Sources */,
+				FCE158F12394B398005DBE89 /* DeviceViewController.swift in Sources */,
 				FCE158E823949A36005DBE89 /* NewsTableViewController.swift in Sources */,
-				FC40741A1E89F77600D163F5 /* DeviceViewController.m in Sources */,
-				FC2C86631C5F200600FFFACD /* AnimalPicker.m in Sources */,
+				FCE158F42394B398005DBE89 /* DeviceDetailViewController.swift in Sources */,
+				FCE158F52394B398005DBE89 /* AnimalPicker.swift in Sources */,
+				FCE158F22394B398005DBE89 /* PickerTableView.swift in Sources */,
+				FCE158F62394B398005DBE89 /* Calc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
