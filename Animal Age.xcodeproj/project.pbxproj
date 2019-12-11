@@ -18,6 +18,7 @@
 		FC7E5FA91E78517800434E11 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA81E78517800434E11 /* libz.tbd */; };
 		FC7E5FAB1E78518200434E11 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FAA1E78518200434E11 /* libstdc++.tbd */; };
 		FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */; };
+		FC9F55F0239CE91F009A237A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9F55EF239CE91F009A237A /* Main_iPhone.storyboard */; };
 		FCE158E823949A36005DBE89 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158E723949A36005DBE89 /* NewsTableViewController.swift */; };
 		FCE158EA23949A56005DBE89 /* DetailNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158E923949A56005DBE89 /* DetailNewsController.swift */; };
 		FCE158F12394B398005DBE89 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158EB2394B397005DBE89 /* DeviceViewController.swift */; };
@@ -30,8 +31,6 @@
 		FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450D18B061320009B4DC /* CoreGraphics.framework */; };
 		FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
 		FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA451418B061320009B4DC /* InfoPlist.strings */; };
-		FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */; };
-		FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEA452018B061320009B4DC /* Main_iPad.storyboard */; };
 		FCEA452718B061320009B4DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEA452618B061320009B4DC /* Images.xcassets */; };
 		FCEA452E18B061320009B4DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA452D18B061320009B4DC /* XCTest.framework */; };
 		FCEA452F18B061320009B4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450B18B061320009B4DC /* Foundation.framework */; };
@@ -68,6 +67,7 @@
 		FC7E5FA81E78517800434E11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		FC7E5FAA1E78518200434E11 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC9F55EF239CE91F009A237A /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 		FCE158E723949A36005DBE89 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		FCE158E923949A56005DBE89 /* DetailNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsController.swift; sourceTree = "<group>"; };
 		FCE158EB2394B397005DBE89 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
@@ -83,8 +83,6 @@
 		FCEA451318B061320009B4DC /* Animal Age-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal Age-Info.plist"; sourceTree = "<group>"; };
 		FCEA451518B061320009B4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCEA451918B061320009B4DC /* Animal Age-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal Age-Prefix.pch"; sourceTree = "<group>"; };
-		FCEA451E18B061320009B4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		FCEA452118B061320009B4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		FCEA452618B061320009B4DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCEA452C18B061320009B4DC /* Animal AgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animal AgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA452D18B061320009B4DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -189,8 +187,7 @@
 				FC261B4E23943E810068502A /* UISnapNav.swift */,
 				FCE158E723949A36005DBE89 /* NewsTableViewController.swift */,
 				FCE158E923949A56005DBE89 /* DetailNewsController.swift */,
-				FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */,
-				FCEA452018B061320009B4DC /* Main_iPad.storyboard */,
+				FC9F55EF239CE91F009A237A /* Main_iPhone.storyboard */,
 				FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */,
 				FCEFEAC818B1BF6C008B33B8 /* htdocs */,
 				FCEA452618B061320009B4DC /* Images.xcassets */,
@@ -321,11 +318,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */,
-				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
 				FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */,
 				FCEA8B2319EB337600D00340 /* index.html in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
-				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
+				FC9F55F0239CE91F009A237A /* Main_iPhone.storyboard in Resources */,
 				FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,22 +448,6 @@
 				FCEA451518B061320009B4DC /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCEA451E18B061320009B4DC /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		FCEA452018B061320009B4DC /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCEA452118B061320009B4DC /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		FCEA453618B061320009B4DC /* InfoPlist.strings */ = {
