@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E646AC40F9EA169148FE23E /* Pods_Animal_AgeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A2B6832B9FFC342ED6568D /* Pods_Animal_AgeTests.framework */; };
+		041995AE23A09CB50020B63B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041995AD23A09CB40020B63B /* WebKit.framework */; };
 		D4C3DB00A35ABCB0D8DB7CE0 /* Pods_Animal_Age.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */; };
 		FC261B4F23943E810068502A /* UISnapNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC261B4E23943E810068502A /* UISnapNav.swift */; };
 		FC4074171E89F61700D163F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4074161E89F61700D163F5 /* CoreData.framework */; };
@@ -53,11 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041995AD23A09CB40020B63B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		220FEBBA90CA79F447AE0407 /* Pods-Animal Age.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.debug.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.debug.xcconfig"; sourceTree = "<group>"; };
-		4683A661CBC18559919EF827 /* Pods-Animal AgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal AgeTests.debug.xcconfig"; path = "Target Support Files/Pods-Animal AgeTests/Pods-Animal AgeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Age.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81A2B6832B9FFC342ED6568D /* Pods_Animal_AgeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_AgeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1AFB3A0FA30C90475CC6FE /* Pods-Animal AgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal AgeTests.release.xcconfig"; path = "Target Support Files/Pods-Animal AgeTests/Pods-Animal AgeTests.release.xcconfig"; sourceTree = "<group>"; };
 		F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.release.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
 		FC261B4E23943E810068502A /* UISnapNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISnapNav.swift; sourceTree = "<group>"; };
 		FC4074161E89F61700D163F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -100,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041995AE23A09CB50020B63B /* WebKit.framework in Frameworks */,
 				FC7E5FAB1E78518200434E11 /* libstdc++.tbd in Frameworks */,
 				FC7E5FA91E78517800434E11 /* libz.tbd in Frameworks */,
 				FC7E5FA51E78514200434E11 /* libxml2.2.tbd in Frameworks */,
@@ -120,7 +119,6 @@
 				FCEA452E18B061320009B4DC /* XCTest.framework in Frameworks */,
 				FCEA453018B061320009B4DC /* UIKit.framework in Frameworks */,
 				FCEA452F18B061320009B4DC /* Foundation.framework in Frameworks */,
-				4E646AC40F9EA169148FE23E /* Pods_Animal_AgeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +130,6 @@
 			children = (
 				220FEBBA90CA79F447AE0407 /* Pods-Animal Age.debug.xcconfig */,
 				F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */,
-				4683A661CBC18559919EF827 /* Pods-Animal AgeTests.debug.xcconfig */,
-				CB1AFB3A0FA30C90475CC6FE /* Pods-Animal AgeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -161,6 +157,7 @@
 		FCEA450A18B061320009B4DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				041995AD23A09CB40020B63B /* WebKit.framework */,
 				FC4074161E89F61700D163F5 /* CoreData.framework */,
 				FC7E5FAA1E78518200434E11 /* libstdc++.tbd */,
 				FC7E5FA81E78517800434E11 /* libz.tbd */,
@@ -172,7 +169,6 @@
 				FCEA450F18B061320009B4DC /* UIKit.framework */,
 				FCEA452D18B061320009B4DC /* XCTest.framework */,
 				5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */,
-				81A2B6832B9FFC342ED6568D /* Pods_Animal_AgeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -263,7 +259,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEA454018B061320009B4DC /* Build configuration list for PBXNativeTarget "Animal AgeTests" */;
 			buildPhases = (
-				32081260525455DE7E2B82A7 /* [CP] Check Pods Manifest.lock */,
 				FCEA452818B061320009B4DC /* Sources */,
 				FCEA452918B061320009B4DC /* Frameworks */,
 				FCEA452A18B061320009B4DC /* Resources */,
@@ -284,7 +279,7 @@
 		FCEA450018B061320009B4DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Jon Brown";
 				TargetAttributes = {
 					FCEA450718B061320009B4DC = {
@@ -357,28 +352,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Animal Age-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		32081260525455DE7E2B82A7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Animal AgeTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -579,6 +552,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -594,6 +568,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animal Age/Animal Age-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
@@ -619,6 +594,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animal Age/Animal Age-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -638,7 +614,6 @@
 		};
 		FCEA454118B061320009B4DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4683A661CBC18559919EF827 /* Pods-Animal AgeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animal Age.app/Animal Age";
@@ -663,7 +638,6 @@
 		};
 		FCEA454218B061320009B4DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB1AFB3A0FA30C90475CC6FE /* Pods-Animal AgeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animal Age.app/Animal Age";

@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '11.1'
 
 target 'Animal Age' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -9,10 +9,5 @@ target 'Animal Age' do
   pod 'IQKeyboardManager'
   pod 'ProgressHUD'
   pod 'RaptureXML'
-  
-  target 'Animal AgeTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end

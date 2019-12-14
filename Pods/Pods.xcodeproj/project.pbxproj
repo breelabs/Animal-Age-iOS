@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0ADD06452D4874B5159685AA36ECB872 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9CB3183E6F4CDAC7888ACE46E0C958 /* IQUIView+IQKeyboardToolbar.m */; };
-		0D101249E8D789F8846B9DB0AD839AB5 /* Pods-Animal AgeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3D9C8133F995E0B67A062CDABA1B0 /* Pods-Animal AgeTests-dummy.m */; };
-		1D10312112F25F2CD58FF26AF7DC7A50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
 		1FBD457F5CE5013A61DCFE50240D4C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
 		203662AC9DF46479DCE23544E5FD32C5 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D0C50B58D70EC43022910C95232950 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26A99F34CB706D2AC3D1FC7510601DCA /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 566EF54818594F9D3587D317B94CDAAD /* IQToolbar.m */; };
@@ -18,7 +16,7 @@
 		3763CA9FE6BC8101EA23E8EF852B7B99 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC05C87707ED8C2805364EFCCC94473 /* IQKeyboardManager-dummy.m */; };
 		384BD67256D5D4B6B0ABB54D2AF51E3D /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager.bundle */; };
 		42E8489C1582635F029345E8F6495CEC /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B43B56864664E6A8EB29F6DC0766111 /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CF5336AD4AB48B2C0317B3E2C01B6F3 /* Pods-Animal Age-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC645CDDEBC4930F791B127200AD36A0 /* Pods-Animal Age-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CF5336AD4AB48B2C0317B3E2C01B6F3 /* Pods-Animal Age-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E33F46F3D8C0AC7532492326E64F17 /* Pods-Animal Age-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50BCB90F65498A511D9868319735FED1 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C28F2364504C63C9866D2B798C50E /* IQKeyboardManager.m */; };
 		527206EDBEE3C4980B7787CD4DD47D29 /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = C37C83EC39713F31751AFF35E5DB2008 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5945E66C20F6539D005D85F3044066C4 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225C41501B67441859E1F2D9469702D /* IQBarButtonItem.m */; };
@@ -30,7 +28,7 @@
 		8731AE67852483ABBCBE207857773FA7 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CBAF1B097DB35B0F2C530895FDEF4A /* IQUIView+Hierarchy.m */; };
 		88FECB916B679210C9D416599F9780CA /* RaptureXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F40246AC22FB42ED5FC053AECC76C7A /* RaptureXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ADC598F07F4C47BD8B71A08B011C974 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E45CCC09037F3DE23E4C065043445044 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CEA2E6A62B0BCEE1BF88A3CE6962427 /* Pods-Animal Age-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BE5298FF173E17F70F7BE3E90DB46 /* Pods-Animal Age-dummy.m */; };
+		8CEA2E6A62B0BCEE1BF88A3CE6962427 /* Pods-Animal Age-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F759289EDDFE3C3800E3829805380992 /* Pods-Animal Age-dummy.m */; };
 		967DD47A591A95CD20388BD29A3A7216 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B5872C9BBA20C7264E308C42E43DC5 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		96F9E10DB0A7B4C34504CAB08C13DCA6 /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = D23555244C2DE97FCFBF2A9663E82236 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97D8B52950F10E88EF79CCE635FF59F1 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFA252C1189FF7E50C06AFA48E541F0 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,7 +57,6 @@
 		F6F24A610A3A287A36CF1E98C2B1BDA2 /* IQKeyboardManager.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851D71A24C70CE81627579232F164FFB /* IQKeyboardManager.xcassets */; };
 		F7F7D67566A9D6A88BCED49952A4BFF0 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B668F7DD00E40A4EAA9A23A395E8D37 /* IQUIScrollView+Additions.m */; };
 		F80124E7C770FAD318674EC96936C0FB /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 64618F4019418CDD9614F6D0147065AD /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBE2D7015154BB52DA8E4E76D66EF705 /* Pods-Animal AgeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7A5325B3698B2B9A2AEA56BA314F5B /* Pods-Animal AgeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,46 +88,38 @@
 			remoteGlobalIDString = 8883E581FE4D8E0D53CEBD44C7B2244E;
 			remoteInfo = RaptureXML;
 		};
-		EB96879FD7FF1E67797A47DF0E1BA046 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 97FFC99BBA231540E746F12CBC302B8B;
-			remoteInfo = "Pods-Animal Age";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		012BE5298FF173E17F70F7BE3E90DB46 /* Pods-Animal Age-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animal Age-dummy.m"; sourceTree = "<group>"; };
-		013DC2D8A06C61CF1E17DA4738131E8F /* Pods-Animal Age.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal Age.debug.xcconfig"; sourceTree = "<group>"; };
 		01B3A24D3505D61C52D7115BAB2F7684 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
 		0D3287058D2F13BD484A454154BEA62B /* ProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDFE6A261AEDEED931205388681D463 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
 		109138F9685E93A54E48392F45359539 /* ProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = ProgressHUD/ProgressHUD/ProgressHUD.m; sourceTree = "<group>"; };
-		14C768CB6AC3729BD06045ECD4D07E65 /* Pods-Animal Age-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal Age-Info.plist"; sourceTree = "<group>"; };
 		1533A7186A258F40092A2F1377145F25 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
-		1760EB0589696DF083EDF8120C8DC086 /* Pods-Animal AgeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animal AgeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		18B65BD0347607C37B23A455D96D483D /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
+		1541AF89C33E5C0F8EB27BC51AE40713 /* Pods-Animal Age-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animal Age-frameworks.sh"; sourceTree = "<group>"; };
 		1D6FE84C00857D08459BDAAB4FCC8E6B /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
 		1FFA252C1189FF7E50C06AFA48E541F0 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
 		20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		213B4C849A948EA1C03A2DD6D5493BAC /* Pods-Animal Age-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal Age-Info.plist"; sourceTree = "<group>"; };
+		24F1A88D4CB804AD811A948AA180FBBE /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
 		2A74D57127AFE3DE19DD33A59A5A9ED1 /* ProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = ProgressHUD/ProgressHUD/ProgressHUD.bundle; sourceTree = "<group>"; };
 		2E2D79E84CD5D68E561D5D1B45436013 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
 		31A26028AE1AB5D66F8D03069F011167 /* ProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		3213D0ED54E6EE839695B1DB35A80DC1 /* ProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		3225C41501B67441859E1F2D9469702D /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
-		38A3D9C8133F995E0B67A062CDABA1B0 /* Pods-Animal AgeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animal AgeTests-dummy.m"; sourceTree = "<group>"; };
+		3E3C1B5496F3D842FC074B1589DE81AA /* Pods-Animal Age-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal Age-acknowledgements.plist"; sourceTree = "<group>"; };
 		45CBAF1B097DB35B0F2C530895FDEF4A /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
-		47F0A91F80F10B52A9F74AE7061551BB /* Pods-Animal Age-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animal Age-frameworks.sh"; sourceTree = "<group>"; };
-		49E8D6B0C6E2CC9FA6E707A49E9A75AE /* Pods_Animal_AgeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_AgeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A7A5325B3698B2B9A2AEA56BA314F5B /* Pods-Animal AgeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animal AgeTests-umbrella.h"; sourceTree = "<group>"; };
+		4A58C2F3A95B29513F344D8DF331DA91 /* Pods-Animal Age-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animal Age-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4A8C28F2364504C63C9866D2B798C50E /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
 		4B43B56864664E6A8EB29F6DC0766111 /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
 		51CDEF9FF7A49570451DE577A078C6B5 /* ProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressHUD.modulemap; sourceTree = "<group>"; };
 		51EE4865ECCF5DE4D9B2D86C6941A81C /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		531979FE160256013C29AB769115A5D8 /* Pods-Animal Age.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Animal Age.modulemap"; sourceTree = "<group>"; };
+		53F3075157ED10B57BF33F7757D2367F /* Pods-Animal Age.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal Age.debug.xcconfig"; sourceTree = "<group>"; };
 		543FB705304CFBB54FBC57082D25D84D /* RaptureXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RaptureXML-dummy.m"; sourceTree = "<group>"; };
 		566EF54818594F9D3587D317B94CDAAD /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
 		56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		56E33F46F3D8C0AC7532492326E64F17 /* Pods-Animal Age-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animal Age-umbrella.h"; sourceTree = "<group>"; };
 		5AC05C87707ED8C2805364EFCCC94473 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
 		618A59AD818829005E86FC66B5535638 /* RaptureXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RaptureXML-prefix.pch"; sourceTree = "<group>"; };
 		63D0C50B58D70EC43022910C95232950 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
@@ -143,21 +132,16 @@
 		762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7989CF72922E639A9B111A910DA0BAB5 /* ProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = ProgressHUD/ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
 		7B956933A7F3DFB96449FAC982C3BA55 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
-		7BD028C3149C12E9C034547B0CE7EBE3 /* Pods-Animal AgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal AgeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		851D71A24C70CE81627579232F164FFB /* IQKeyboardManager.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = IQKeyboardManager.xcassets; path = IQKeyboardManager/Resources/IQKeyboardManager.xcassets; sourceTree = "<group>"; };
-		87015A474A021E12E47D897A3B78F8DC /* Pods-Animal AgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal AgeTests.release.xcconfig"; sourceTree = "<group>"; };
 		878D4E270C4FEA9E058D4825C95B78E9 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
 		8CE64FD5A072F23C13ECE62AB91CCBA2 /* RaptureXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RaptureXML.modulemap; sourceTree = "<group>"; };
-		8F36056334A4104A44E208B91D6AD69C /* Pods-Animal Age.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Animal Age.modulemap"; sourceTree = "<group>"; };
 		8F40246AC22FB42ED5FC053AECC76C7A /* RaptureXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RaptureXML-umbrella.h"; sourceTree = "<group>"; };
 		8F9CB3183E6F4CDAC7888ACE46E0C958 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
-		95EB08D9C26D27A7250CEB3A4F501F65 /* Pods-Animal Age-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animal Age-acknowledgements.markdown"; sourceTree = "<group>"; };
 		98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B668F7DD00E40A4EAA9A23A395E8D37 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
 		9BA892B4F9E221EB6191B3195DDFEDA2 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2C8036CC4438A7223231C337D7B7857 /* RXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXMLElement.h; path = RaptureXML/RXMLElement.h; sourceTree = "<group>"; };
-		A456DFD65B92AF4BDE0FF4D93D01E2DB /* Pods-Animal Age-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal Age-acknowledgements.plist"; sourceTree = "<group>"; };
 		A4B5872C9BBA20C7264E308C42E43DC5 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
 		A4E0A807D170D1683AE83559C9DC331B /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
 		A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQKeyboardManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,19 +149,16 @@
 		BAA95DDF1E4D0F85147115DA4B261A2D /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
 		C2B5E597F1A3B6E22027754062409854 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
 		C37C83EC39713F31751AFF35E5DB2008 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
-		C5B3FB734B10ACFA13B853FF6F1132CD /* Pods-Animal AgeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal AgeTests-Info.plist"; sourceTree = "<group>"; };
 		C85A89E7DECFBA529C17DD552E9B71FD /* ProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		CC645CDDEBC4930F791B127200AD36A0 /* Pods-Animal Age-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animal Age-umbrella.h"; sourceTree = "<group>"; };
 		CD5BC9467A4DE1B45BD2473FC213DE57 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
 		CEB764B563B5C34637176A7DD9023BAE /* RaptureXML-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RaptureXML-Info.plist"; sourceTree = "<group>"; };
 		D23555244C2DE97FCFBF2A9663E82236 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
 		D327DF98720E81A6138E35A462A7E150 /* RaptureXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RaptureXML.xcconfig; sourceTree = "<group>"; };
 		D41BBD206D9CAE3C023F9B87743CFC17 /* ProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		D4C09203D003B1FC0C47033266A5FF87 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
-		DA7343EF81A9F7FE642ADCD58B2301A5 /* Pods-Animal AgeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal AgeTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DBDCAE0299AD825A9C0FDB1B120B58B9 /* RXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXMLElement.m; path = RaptureXML/RXMLElement.m; sourceTree = "<group>"; };
-		DEAFEB371A423B4459ABC27A865A9BE8 /* Pods-Animal AgeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Animal AgeTests.modulemap"; sourceTree = "<group>"; };
 		E45CCC09037F3DE23E4C065043445044 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		F759289EDDFE3C3800E3829805380992 /* Pods-Animal Age-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animal Age-dummy.m"; sourceTree = "<group>"; };
 		F9BBFD32B7C8F99008FB759C5C2A39C5 /* ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
 		FC3E77DBA2113CF94076EA21B71BC32E /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Age.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD88B1547557D86BAB050701371408E3 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
@@ -209,14 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				31ACF20ABB656B0A804CC834B71241B1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CD186E9A28EEB29B70A9CB9473E62DC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D10312112F25F2CD58FF26AF7DC7A50 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,58 +248,12 @@
 			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
-		03BF0C4F6FCBCE6730786CE147456B19 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager.bundle */,
-				98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */,
-				FC3E77DBA2113CF94076EA21B71BC32E /* Pods_Animal_Age.framework */,
-				49E8D6B0C6E2CC9FA6E707A49E9A75AE /* Pods_Animal_AgeTests.framework */,
-				0D3287058D2F13BD484A454154BEA62B /* ProgressHUD.framework */,
-				755C19A9E8E60375466C4267199DE557 /* RaptureXML.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		0C3CB5EC47F165EC148EB8B13997CBCD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				851D71A24C70CE81627579232F164FFB /* IQKeyboardManager.xcassets */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		129BCA8297E1F475D3E7A3B534F1D0B8 /* Pods-Animal AgeTests */ = {
-			isa = PBXGroup;
-			children = (
-				DEAFEB371A423B4459ABC27A865A9BE8 /* Pods-Animal AgeTests.modulemap */,
-				1760EB0589696DF083EDF8120C8DC086 /* Pods-Animal AgeTests-acknowledgements.markdown */,
-				DA7343EF81A9F7FE642ADCD58B2301A5 /* Pods-Animal AgeTests-acknowledgements.plist */,
-				38A3D9C8133F995E0B67A062CDABA1B0 /* Pods-Animal AgeTests-dummy.m */,
-				C5B3FB734B10ACFA13B853FF6F1132CD /* Pods-Animal AgeTests-Info.plist */,
-				4A7A5325B3698B2B9A2AEA56BA314F5B /* Pods-Animal AgeTests-umbrella.h */,
-				7BD028C3149C12E9C034547B0CE7EBE3 /* Pods-Animal AgeTests.debug.xcconfig */,
-				87015A474A021E12E47D897A3B78F8DC /* Pods-Animal AgeTests.release.xcconfig */,
-			);
-			name = "Pods-Animal AgeTests";
-			path = "Target Support Files/Pods-Animal AgeTests";
-			sourceTree = "<group>";
-		};
-		16E76A7AF71A484363D77C643ACA2D2C /* Pods-Animal Age */ = {
-			isa = PBXGroup;
-			children = (
-				8F36056334A4104A44E208B91D6AD69C /* Pods-Animal Age.modulemap */,
-				95EB08D9C26D27A7250CEB3A4F501F65 /* Pods-Animal Age-acknowledgements.markdown */,
-				A456DFD65B92AF4BDE0FF4D93D01E2DB /* Pods-Animal Age-acknowledgements.plist */,
-				012BE5298FF173E17F70F7BE3E90DB46 /* Pods-Animal Age-dummy.m */,
-				47F0A91F80F10B52A9F74AE7061551BB /* Pods-Animal Age-frameworks.sh */,
-				14C768CB6AC3729BD06045ECD4D07E65 /* Pods-Animal Age-Info.plist */,
-				CC645CDDEBC4930F791B127200AD36A0 /* Pods-Animal Age-umbrella.h */,
-				013DC2D8A06C61CF1E17DA4738131E8F /* Pods-Animal Age.debug.xcconfig */,
-				18B65BD0347607C37B23A455D96D483D /* Pods-Animal Age.release.xcconfig */,
-			);
-			name = "Pods-Animal Age";
-			path = "Target Support Files/Pods-Animal Age";
 			sourceTree = "<group>";
 		};
 		216D11D6253026459814863746CC99A1 /* iOS */ = {
@@ -382,6 +309,23 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		67507A0A3DFBCBB33B83AA11C08EE77A /* Pods-Animal Age */ = {
+			isa = PBXGroup;
+			children = (
+				531979FE160256013C29AB769115A5D8 /* Pods-Animal Age.modulemap */,
+				4A58C2F3A95B29513F344D8DF331DA91 /* Pods-Animal Age-acknowledgements.markdown */,
+				3E3C1B5496F3D842FC074B1589DE81AA /* Pods-Animal Age-acknowledgements.plist */,
+				F759289EDDFE3C3800E3829805380992 /* Pods-Animal Age-dummy.m */,
+				1541AF89C33E5C0F8EB27BC51AE40713 /* Pods-Animal Age-frameworks.sh */,
+				213B4C849A948EA1C03A2DD6D5493BAC /* Pods-Animal Age-Info.plist */,
+				56E33F46F3D8C0AC7532492326E64F17 /* Pods-Animal Age-umbrella.h */,
+				53F3075157ED10B57BF33F7757D2367F /* Pods-Animal Age.debug.xcconfig */,
+				24F1A88D4CB804AD811A948AA180FBBE /* Pods-Animal Age.release.xcconfig */,
+			);
+			name = "Pods-Animal Age";
+			path = "Target Support Files/Pods-Animal Age";
+			sourceTree = "<group>";
+		};
 		7D7D47D3D4EBA5C0B3D458273F7C11C6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,13 +340,24 @@
 			path = "../Target Support Files/RaptureXML";
 			sourceTree = "<group>";
 		};
-		980E4C3BC937B4812978C89CF2465FB7 /* Targets Support Files */ = {
+		8FB4FE961AED33D08103002A4B131C95 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				16E76A7AF71A484363D77C643ACA2D2C /* Pods-Animal Age */,
-				129BCA8297E1F475D3E7A3B534F1D0B8 /* Pods-Animal AgeTests */,
+				67507A0A3DFBCBB33B83AA11C08EE77A /* Pods-Animal Age */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB1679ECC83734219254A2E6F4B572C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager.bundle */,
+				98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */,
+				FC3E77DBA2113CF94076EA21B71BC32E /* Pods_Animal_Age.framework */,
+				0D3287058D2F13BD484A454154BEA62B /* ProgressHUD.framework */,
+				755C19A9E8E60375466C4267199DE557 /* RaptureXML.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		AEEA6F9463C30BE4F9912F2366EDD72D /* ProgressHUD */ = {
@@ -445,22 +400,14 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				50635F4C0509B7A5A8B786C055805A4D /* Pods */,
-				03BF0C4F6FCBCE6730786CE147456B19 /* Products */,
-				980E4C3BC937B4812978C89CF2465FB7 /* Targets Support Files */,
+				AB1679ECC83734219254A2E6F4B572C6 /* Products */,
+				8FB4FE961AED33D08103002A4B131C95 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B972AA14B4CD32B8D5EFC3589781F9A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBE2D7015154BB52DA8E4E76D66EF705 /* Pods-Animal AgeTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0EC9DB7EF6238F0BB7F8AA126B5A10E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,25 +495,6 @@
 			productReference = A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		6DF734C599C07FC99E74054A8DA22B0C /* Pods-Animal AgeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A00CCC436C5FDD23FF7F13BF4C46EE74 /* Build configuration list for PBXNativeTarget "Pods-Animal AgeTests" */;
-			buildPhases = (
-				0B972AA14B4CD32B8D5EFC3589781F9A /* Headers */,
-				CDBB54AFE64363E421C09A2C739F3D79 /* Sources */,
-				5CD186E9A28EEB29B70A9CB9473E62DC /* Frameworks */,
-				265BE63F9961F23C8C446102C1FD2D09 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6F8EA20F5EC34D8913395C6884F1CAAF /* PBXTargetDependency */,
-			);
-			name = "Pods-Animal AgeTests";
-			productName = "Pods-Animal AgeTests";
-			productReference = 49E8D6B0C6E2CC9FA6E707A49E9A75AE /* Pods_Animal_AgeTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8883E581FE4D8E0D53CEBD44C7B2244E /* RaptureXML */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2ED31FA37420919C522608D89533DD6 /* Build configuration list for PBXNativeTarget "RaptureXML" */;
@@ -632,7 +560,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1130;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -640,17 +568,15 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 03BF0C4F6FCBCE6730786CE147456B19 /* Products */;
+			productRefGroup = AB1679ECC83734219254A2E6F4B572C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */,
 				05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */,
 				97FFC99BBA231540E746F12CBC302B8B /* Pods-Animal Age */,
-				6DF734C599C07FC99E74054A8DA22B0C /* Pods-Animal AgeTests */,
 				022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */,
 				8883E581FE4D8E0D53CEBD44C7B2244E /* RaptureXML */,
 			);
@@ -659,13 +585,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		04E1FFDC3BB479862ADFF875E30228CE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		265BE63F9961F23C8C446102C1FD2D09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -751,14 +670,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDBB54AFE64363E421C09A2C739F3D79 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D101249E8D789F8846B9DB0AD839AB5 /* Pods-Animal AgeTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CF73F5850FC73E7D9EF4D6DDF2F10D13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -776,12 +687,6 @@
 			name = IQKeyboardManager;
 			target = FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */;
 			targetProxy = 55A0A03B452DD19EBD9AED798F4D74AE /* PBXContainerItemProxy */;
-		};
-		6F8EA20F5EC34D8913395C6884F1CAAF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Animal Age";
-			target = 97FFC99BBA231540E746F12CBC302B8B /* Pods-Animal Age */;
-			targetProxy = EB96879FD7FF1E67797A47DF0E1BA046 /* PBXContainerItemProxy */;
 		};
 		9B306B7C1836CDE2CB3518A64E698B7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -804,41 +709,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00A2A624D1BA2D64779B46B603325312 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87015A474A021E12E47D897A3B78F8DC /* Pods-Animal AgeTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Animal AgeTests/Pods-Animal AgeTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Animal AgeTests/Pods-Animal AgeTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0B7A5F84027F22E92B8B5B0AA106A43F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51EE4865ECCF5DE4D9B2D86C6941A81C /* IQKeyboardManager.xcconfig */;
@@ -915,43 +785,9 @@
 			};
 			name = Release;
 		};
-		1739464407C55A8D7DFEDA866B62638B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BD028C3149C12E9C034547B0CE7EBE3 /* Pods-Animal AgeTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Animal AgeTests/Pods-Animal AgeTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Animal AgeTests/Pods-Animal AgeTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1B64B88B318392FB8EF603307DD45E79 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18B65BD0347607C37B23A455D96D483D /* Pods-Animal Age.release.xcconfig */;
+			baseConfigurationReference = 24F1A88D4CB804AD811A948AA180FBBE /* Pods-Animal Age.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -986,7 +822,7 @@
 		};
 		2C67AE09A2A82A76862911B4A3EA92AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 013DC2D8A06C61CF1E17DA4738131E8F /* Pods-Animal Age.debug.xcconfig */;
+			baseConfigurationReference = 53F3075157ED10B57BF33F7757D2367F /* Pods-Animal Age.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1081,6 +917,39 @@
 			};
 			name = Debug;
 		};
+		6D73CBA5C396DECD7E6C50ABBC19B6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741B14EE7C737B10A376789BE4AE496A /* ProgressHUD.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = ProgressHUD;
+				PRODUCT_NAME = ProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7C8D01B0D8582CA96B8F73D596E24DC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51EE4865ECCF5DE4D9B2D86C6941A81C /* IQKeyboardManager.xcconfig */;
@@ -1098,10 +967,11 @@
 			};
 			name = Release;
 		};
-		7F99DFBC8863F1F1B2B5825EC4E18965 /* Debug */ = {
+		7DA498DC7F644D3BACCEBF128726AD1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 741B14EE7C737B10A376789BE4AE496A /* ProgressHUD.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1114,7 +984,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
 				PRODUCT_MODULE_NAME = ProgressHUD;
@@ -1256,38 +1126,6 @@
 			};
 			name = Debug;
 		};
-		CAE2023C0CD028FE7901F53B1269CE67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 741B14EE7C737B10A376789BE4AE496A /* ProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = ProgressHUD;
-				PRODUCT_NAME = ProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1327,15 +1165,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A00CCC436C5FDD23FF7F13BF4C46EE74 /* Build configuration list for PBXNativeTarget "Pods-Animal AgeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1739464407C55A8D7DFEDA866B62638B /* Debug */,
-				00A2A624D1BA2D64779B46B603325312 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A2ED31FA37420919C522608D89533DD6 /* Build configuration list for PBXNativeTarget "RaptureXML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1348,8 +1177,8 @@
 		CD4A27565EE13AC433E8F2F3E33E52B4 /* Build configuration list for PBXNativeTarget "ProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F99DFBC8863F1F1B2B5825EC4E18965 /* Debug */,
-				CAE2023C0CD028FE7901F53B1269CE67 /* Release */,
+				7DA498DC7F644D3BACCEBF128726AD1F /* Debug */,
+				6D73CBA5C396DECD7E6C50ABBC19B6D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
