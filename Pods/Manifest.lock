@@ -1,5 +1,5 @@
 PODS:
-  - IQKeyboardManager (6.5.6)
+  - IQKeyboardManager (6.5.9)
   - ProgressHUD (2.70)
   - RaptureXML (1.0.1)
 
@@ -15,10 +15,10 @@ SPEC REPOS:
     - RaptureXML
 
 SPEC CHECKSUMS:
-  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  IQKeyboardManager: 241cc94ccabc9deb8f8bd7d12f00d73288d13ecc
   ProgressHUD: e603e8b8622c47d8818b9fb38b3cfe9d3e7ca421
   RaptureXML: b5c33c04c1a4adfd8ad0d5463329a31820596e82
 
 PODFILE CHECKSUM: 83cdc017cb4e8cf3d2ad1e4d827435f46fde4055
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

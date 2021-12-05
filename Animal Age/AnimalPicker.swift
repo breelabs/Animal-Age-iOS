@@ -14,7 +14,7 @@ import WebKit
 
 class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSheetDelegate, UITextFieldDelegate {
     @IBOutlet var mainArea: UIView!
-    @IBOutlet var graphView: UIWebView!
+    @IBOutlet var graphView: WKWebView!
     @IBOutlet var AnimalButt: UIButton!
     @IBOutlet var AnimalButt2: UIButton!
     @IBOutlet var AgeButt: UIButton!
@@ -106,7 +106,7 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         let defaults = UserDefaults.standard
         defaults.set(true, forKey: "flipPref")
         let flipin = defaults.object(forKey: "flipPref") as? String
@@ -169,10 +169,9 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
 
         // R: 190 G: 190 B: 190
         let myColor = UIColor.clear
-        let backSilver = UIColor(red: 0.93, green: 0.94, blue: 0.95, alpha: 1.0)
         let whiteColor = UIColor.white
 
-        mainArea.backgroundColor = backSilver
+
 
 // MARK: - Set Animal Array
 
