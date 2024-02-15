@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		041995AE23A09CB50020B63B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041995AD23A09CB40020B63B /* WebKit.framework */; };
-		D4C3DB00A35ABCB0D8DB7CE0 /* Pods_Animal_Age.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */; };
+		B16B80144A28916EECFF5DC0 /* Pods_Animal_Age.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52764D8B21154E4EF219108 /* Pods_Animal_Age.framework */; };
 		FC261B4F23943E810068502A /* UISnapNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC261B4E23943E810068502A /* UISnapNav.swift */; };
 		FC4074171E89F61700D163F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4074161E89F61700D163F5 /* CoreData.framework */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
@@ -18,6 +18,7 @@
 		FC7E5FA91E78517800434E11 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA81E78517800434E11 /* libz.tbd */; };
 		FC7E5FAB1E78518200434E11 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FAA1E78518200434E11 /* libstdc++.tbd */; };
 		FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */; };
+		FCBA941B2B7C233D00928C32 /* jquery-3.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCBA941A2B7C233D00928C32 /* jquery-3.7.1.min.js */; };
 		FCE158E823949A36005DBE89 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158E723949A36005DBE89 /* NewsTableViewController.swift */; };
 		FCE158EA23949A56005DBE89 /* DetailNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158E923949A56005DBE89 /* DetailNewsController.swift */; };
 		FCE158F12394B398005DBE89 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158EB2394B397005DBE89 /* DeviceViewController.swift */; };
@@ -31,7 +32,6 @@
 		FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
 		FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA451418B061320009B4DC /* InfoPlist.strings */; };
 		FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */; };
-		FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEA452018B061320009B4DC /* Main_iPad.storyboard */; };
 		FCEA452718B061320009B4DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEA452618B061320009B4DC /* Images.xcassets */; };
 		FCEA452E18B061320009B4DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA452D18B061320009B4DC /* XCTest.framework */; };
 		FCEA452F18B061320009B4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450B18B061320009B4DC /* Foundation.framework */; };
@@ -39,7 +39,6 @@
 		FCEA453818B061320009B4DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA453618B061320009B4DC /* InfoPlist.strings */; };
 		FCEA453A18B061320009B4DC /* Animal_AgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA453918B061320009B4DC /* Animal_AgeTests.m */; };
 		FCEA8B2319EB337600D00340 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B2119EB337600D00340 /* index.html */; };
-		FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +53,9 @@
 
 /* Begin PBXFileReference section */
 		041995AD23A09CB40020B63B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		220FEBBA90CA79F447AE0407 /* Pods-Animal Age.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.debug.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.debug.xcconfig"; sourceTree = "<group>"; };
-		5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Age.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.release.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
+		77A1C860C4389A251A0B72EE /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.release.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
+		B52764D8B21154E4EF219108 /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Age.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7AEA4A168E116EA35AEFEE /* Pods-Animal Age.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.debug.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.debug.xcconfig"; sourceTree = "<group>"; };
 		FC261B4E23943E810068502A /* UISnapNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISnapNav.swift; sourceTree = "<group>"; };
 		FC4074161E89F61700D163F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -66,6 +65,7 @@
 		FC7E5FA81E78517800434E11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		FC7E5FAA1E78518200434E11 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCBA941A2B7C233D00928C32 /* jquery-3.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-3.7.1.min.js"; sourceTree = "<group>"; };
 		FCE158E723949A36005DBE89 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		FCE158E923949A56005DBE89 /* DetailNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsController.swift; sourceTree = "<group>"; };
 		FCE158EB2394B397005DBE89 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +82,6 @@
 		FCEA451518B061320009B4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCEA451918B061320009B4DC /* Animal Age-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal Age-Prefix.pch"; sourceTree = "<group>"; };
 		FCEA451E18B061320009B4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		FCEA452118B061320009B4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		FCEA452618B061320009B4DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCEA452C18B061320009B4DC /* Animal AgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animal AgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA452D18B061320009B4DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -90,7 +89,6 @@
 		FCEA453718B061320009B4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCEA453918B061320009B4DC /* Animal_AgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal_AgeTests.m; sourceTree = "<group>"; };
 		FCEA8B2119EB337600D00340 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = htdocs/index.html; sourceTree = "<group>"; };
-		FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "htdocs/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,7 @@
 				FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */,
 				FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */,
 				FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */,
-				D4C3DB00A35ABCB0D8DB7CE0 /* Pods_Animal_Age.framework in Frameworks */,
+				B16B80144A28916EECFF5DC0 /* Pods_Animal_Age.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,8 +126,8 @@
 		01906470615D2149A1B54087 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				220FEBBA90CA79F447AE0407 /* Pods-Animal Age.debug.xcconfig */,
-				F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */,
+				BA7AEA4A168E116EA35AEFEE /* Pods-Animal Age.debug.xcconfig */,
+				77A1C860C4389A251A0B72EE /* Pods-Animal Age.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -168,7 +166,7 @@
 				FCEA450D18B061320009B4DC /* CoreGraphics.framework */,
 				FCEA450F18B061320009B4DC /* UIKit.framework */,
 				FCEA452D18B061320009B4DC /* XCTest.framework */,
-				5C53B40398CE53B1285D9D35 /* Pods_Animal_Age.framework */,
+				B52764D8B21154E4EF219108 /* Pods_Animal_Age.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,7 +184,6 @@
 				FCE158E723949A36005DBE89 /* NewsTableViewController.swift */,
 				FCE158E923949A56005DBE89 /* DetailNewsController.swift */,
 				FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */,
-				FCEA452018B061320009B4DC /* Main_iPad.storyboard */,
 				FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */,
 				FCEFEAC818B1BF6C008B33B8 /* htdocs */,
 				FCEA452618B061320009B4DC /* Images.xcassets */,
@@ -227,8 +224,8 @@
 		FCEFEAC818B1BF6C008B33B8 /* htdocs */ = {
 			isa = PBXGroup;
 			children = (
+				FCBA941A2B7C233D00928C32 /* jquery-3.7.1.min.js */,
 				FCEA8B2119EB337600D00340 /* index.html */,
-				FCEA8B2219EB337600D00340 /* jquery-1.7.1.min.js */,
 			);
 			name = htdocs;
 			sourceTree = "<group>";
@@ -240,11 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEA453D18B061320009B4DC /* Build configuration list for PBXNativeTarget "Animal Age" */;
 			buildPhases = (
-				13F1147D2FEBB05024DC5840 /* [CP] Check Pods Manifest.lock */,
+				4C87809604050F6ADD07104D /* [CP] Check Pods Manifest.lock */,
 				FCEA450418B061320009B4DC /* Sources */,
 				FCEA450518B061320009B4DC /* Frameworks */,
 				FCEA450618B061320009B4DC /* Resources */,
-				97AF02D8152130B438910B70 /* [CP] Embed Pods Frameworks */,
+				1D437DAB607E2D2B2192CCE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,11 +276,11 @@
 		FCEA450018B061320009B4DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = "Jon Brown";
 				TargetAttributes = {
 					FCEA450718B061320009B4DC = {
-						DevelopmentTeam = 2D4Z7WQ7RS;
 						LastSwiftMigration = 1120;
 					};
 					FCEA452B18B061320009B4DC = {
@@ -315,10 +312,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEA8B2419EB337600D00340 /* jquery-1.7.1.min.js in Resources */,
-				FCEA452218B061320009B4DC /* Main_iPad.storyboard in Resources */,
 				FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */,
 				FCEA8B2319EB337600D00340 /* index.html in Resources */,
+				FCBA941B2B7C233D00928C32 /* jquery-3.7.1.min.js in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
 				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
 				FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */,
@@ -336,7 +332,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13F1147D2FEBB05024DC5840 /* [CP] Check Pods Manifest.lock */ = {
+		1D437DAB607E2D2B2192CCE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/RaptureXML@Frankly/RaptureXML_Frankly.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RaptureXML_Frankly.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C87809604050F6ADD07104D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,28 +374,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		97AF02D8152130B438910B70 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
-				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/RaptureXML/RaptureXML.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RaptureXML.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -435,14 +431,6 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		FCEA452018B061320009B4DC /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCEA452118B061320009B4DC /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		FCEA453618B061320009B4DC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -487,6 +475,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -502,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -544,6 +533,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -552,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -564,21 +554,23 @@
 		};
 		FCEA453E18B061320009B4DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 220FEBBA90CA79F447AE0407 /* Pods-Animal Age.debug.xcconfig */;
+			baseConfigurationReference = BA7AEA4A168E116EA35AEFEE /* Pods-Animal Age.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 7.3.0;
-				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				CURRENT_PROJECT_VERSION = 7.4;
+				DEVELOPMENT_TEAM = F64HQQLAVQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animal Age/Animal Age-Prefix.pch";
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)/**";
 				INFOPLIST_FILE = "Animal Age/Animal Age-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				MARKETING_VERSION = 7.3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 7.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.AnimalAge-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -592,22 +584,23 @@
 		};
 		FCEA453F18B061320009B4DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2F5E66053460ACD28FD4357 /* Pods-Animal Age.release.xcconfig */;
+			baseConfigurationReference = 77A1C860C4389A251A0B72EE /* Pods-Animal Age.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 7.3.0;
-				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				CURRENT_PROJECT_VERSION = 7.4;
+				DEVELOPMENT_TEAM = F64HQQLAVQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animal Age/Animal Age-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)/**";
 				INFOPLIST_FILE = "Animal Age/Animal Age-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				MARKETING_VERSION = 7.3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 7.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.AnimalAge-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

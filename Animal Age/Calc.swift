@@ -410,7 +410,7 @@ class Calc: NSObject {
 
     @objc func dogAnswer(_ timer: Timer?) {
 
-        ProgressHUD.showSuccess(nil)
+        ProgressHUD.succeed()
 
         perform(#selector(hideHud(_:)), with: nil, afterDelay: 0.85)
 
@@ -418,7 +418,7 @@ class Calc: NSObject {
 
     @IBAction func calcWithProg() {
 
-        ProgressHUD.show(nil)
+        ProgressHUD.animate("Loading...")
         calcTapped()
         perform(#selector(dogAnswer(_:)), with: nil, afterDelay: 0.50)
 

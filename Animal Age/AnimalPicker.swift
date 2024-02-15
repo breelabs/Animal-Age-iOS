@@ -38,7 +38,7 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
         alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: {
                 _ in print("FOO ")
             
-            ProgressHUD.show(nil)
+            ProgressHUD.animate("Loading...")
 
             let context = self.managedObjectContext()
 
@@ -96,8 +96,8 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
     }
 
     @objc func dogAnswer(_ timer: Timer?) {
-        ProgressHUD.showSuccess(nil)
-        perform(#selector(Calc.hideHud(_:)), with: nil, afterDelay: 0.85)
+        ProgressHUD.succeed()
+        perform(#selector(Calc.hideHud(_:)), with: nil, afterDelay: 100)
     }
 
     func position(for bar: UIBarPositioning) -> UIBarPosition {

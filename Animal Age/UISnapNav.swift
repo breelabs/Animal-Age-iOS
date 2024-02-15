@@ -15,15 +15,12 @@ class UISnapNav: UINavigationController, UINavigationBarDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationbar.delegate = self
+        
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .any, barMetrics: .default)
         UINavigationBar.appearance().shadowImage = UIImage()
-        
-        
+
         let yellow = UIColor(red: 0.96, green: 0.84, blue: 0.09, alpha: 1.00)
-       
-        
-        
+
         if #available(iOS 15.0, *) {
                 let appearance = UITabBarAppearance()
                 UITabBar.appearance().scrollEdgeAppearance = appearance

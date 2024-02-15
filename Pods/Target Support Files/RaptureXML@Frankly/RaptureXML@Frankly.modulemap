@@ -1,0 +1,6 @@
+framework module RaptureXML_Frankly {
+  umbrella header "RaptureXML@Frankly-umbrella.h"
+
+  export *
+  module * { export * }
+}

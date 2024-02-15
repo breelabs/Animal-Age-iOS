@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import RaptureXML
+import RaptureXML_Frankly
 import UIKit
 
 class NewsTableViewController: UITableViewController {
@@ -202,5 +202,5 @@ class NewsTableViewController: UITableViewController {
     }
 }
 
-let URLFluxXmlNEWS = "http://www.vetstreet.com/rss/news-feed.jsp?Categories=siteContentTags:dog-news:cat-news:inspiring-stories:animal-news"
+let URLFluxXmlNEWS = "https://www.vetstreet.com/feed"
 
