@@ -10,6 +10,8 @@
 		041995AE23A09CB50020B63B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041995AD23A09CB40020B63B /* WebKit.framework */; };
 		B16B80144A28916EECFF5DC0 /* Pods_Animal_Age.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52764D8B21154E4EF219108 /* Pods_Animal_Age.framework */; };
 		FC261B4F23943E810068502A /* UISnapNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC261B4E23943E810068502A /* UISnapNav.swift */; };
+		FC28789E2B7ED63B00BF0892 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = FC28789D2B7ED63B00BF0892 /* ProgressHUD */; };
+		FC2878A12B7ED72B00BF0892 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC2878A02B7ED72B00BF0892 /* IQKeyboardManagerSwift */; };
 		FC4074171E89F61700D163F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4074161E89F61700D163F5 /* CoreData.framework */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
 		FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6F8B5C1E89F3E700DB48F9 /* Model.xcdatamodeld */; };
@@ -105,6 +107,8 @@
 				FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */,
 				FCEA450E18B061320009B4DC /* CoreGraphics.framework in Frameworks */,
 				FCEA451018B061320009B4DC /* UIKit.framework in Frameworks */,
+				FC2878A12B7ED72B00BF0892 /* IQKeyboardManagerSwift in Frameworks */,
+				FC28789E2B7ED63B00BF0892 /* ProgressHUD in Frameworks */,
 				FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */,
 				B16B80144A28916EECFF5DC0 /* Pods_Animal_Age.framework in Frameworks */,
 			);
@@ -248,6 +252,10 @@
 			dependencies = (
 			);
 			name = "Animal Age";
+			packageProductDependencies = (
+				FC28789D2B7ED63B00BF0892 /* ProgressHUD */,
+				FC2878A02B7ED72B00BF0892 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Animal Age";
 			productReference = FCEA450818B061320009B4DC /* Animal Age.app */;
 			productType = "com.apple.product-type.application";
@@ -297,6 +305,10 @@
 				Base,
 			);
 			mainGroup = FCEA44FF18B061320009B4DC;
+			packageReferences = (
+				FC28789C2B7ED63B00BF0892 /* XCRemoteSwiftPackageReference "ProgressHUD.git" */,
+				FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */,
+			);
 			productRefGroup = FCEA450918B061320009B4DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,14 +351,10 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
-				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/RaptureXML@Frankly/RaptureXML_Frankly.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RaptureXML_Frankly.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,6 +694,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC28789C2B7ED63B00BF0892 /* XCRemoteSwiftPackageReference "ProgressHUD.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.1;
+			};
+		};
+		FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC28789D2B7ED63B00BF0892 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC28789C2B7ED63B00BF0892 /* XCRemoteSwiftPackageReference "ProgressHUD.git" */;
+			productName = ProgressHUD;
+		};
+		FC2878A02B7ED72B00BF0892 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FC6F8B5C1E89F3E700DB48F9 /* Model.xcdatamodeld */ = {

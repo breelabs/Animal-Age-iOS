@@ -6,8 +6,6 @@ target 'Animal Age' do
   use_frameworks!
 
   # Pods for Animal Age
-  pod 'IQKeyboardManager'
-  pod 'ProgressHUD'
   pod 'RaptureXML@Frankly'
 
 end

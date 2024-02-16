@@ -1,24 +1,16 @@
 PODS:
-  - IQKeyboardManager (6.5.17)
-  - ProgressHUD (14.1.1)
   - "RaptureXML@Frankly (1.0.4)"
 
 DEPENDENCIES:
-  - IQKeyboardManager
-  - ProgressHUD
   - "RaptureXML@Frankly"
 
 SPEC REPOS:
   trunk:
-    - IQKeyboardManager
-    - ProgressHUD
     - "RaptureXML@Frankly"
 
 SPEC CHECKSUMS:
-  IQKeyboardManager: 904d013844bbae0abe073f015487bfebe5476335
-  ProgressHUD: abb9136ae23c85204236828562cb9a8ec98efb44
   "RaptureXML@Frankly": 585df7d229c6a6a3f5a202d7664c2dd0aba9ef38
 
-PODFILE CHECKSUM: 4bf5d876fe75b19600ba0ff7ff76f889b46164bb
+PODFILE CHECKSUM: df363d311d786ec9ea62ab195521529a6a40f4eb
 
 COCOAPODS: 1.15.2
