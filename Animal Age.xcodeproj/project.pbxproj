@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		041995AE23A09CB50020B63B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041995AD23A09CB40020B63B /* WebKit.framework */; };
-		B16B80144A28916EECFF5DC0 /* Pods_Animal_Age.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52764D8B21154E4EF219108 /* Pods_Animal_Age.framework */; };
 		FC261B4F23943E810068502A /* UISnapNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC261B4E23943E810068502A /* UISnapNav.swift */; };
 		FC28789E2B7ED63B00BF0892 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = FC28789D2B7ED63B00BF0892 /* ProgressHUD */; };
 		FC2878A12B7ED72B00BF0892 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC2878A02B7ED72B00BF0892 /* IQKeyboardManagerSwift */; };
 		FC4074171E89F61700D163F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4074161E89F61700D163F5 /* CoreData.framework */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
+		FC4DE3092B82918D001BAA51 /* FeedItemWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DE3082B82918D001BAA51 /* FeedItemWebViewController.swift */; };
+		FC4DE30B2B82918F001BAA51 /* FeedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DE30A2B82918F001BAA51 /* FeedListViewController.swift */; };
+		FC4DE30D2B829192001BAA51 /* XmlParserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DE30C2B829192001BAA51 /* XmlParserManager.swift */; };
 		FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6F8B5C1E89F3E700DB48F9 /* Model.xcdatamodeld */; };
 		FC7E5FA51E78514200434E11 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA41E78514200434E11 /* libxml2.2.tbd */; };
 		FC7E5FA71E78516A00434E11 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA61E78516A00434E11 /* libxml2.2.dylib */; };
@@ -21,8 +23,6 @@
 		FC7E5FAB1E78518200434E11 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FAA1E78518200434E11 /* libstdc++.tbd */; };
 		FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */; };
 		FCBA941B2B7C233D00928C32 /* jquery-3.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCBA941A2B7C233D00928C32 /* jquery-3.7.1.min.js */; };
-		FCE158E823949A36005DBE89 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158E723949A36005DBE89 /* NewsTableViewController.swift */; };
-		FCE158EA23949A56005DBE89 /* DetailNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158E923949A56005DBE89 /* DetailNewsController.swift */; };
 		FCE158F12394B398005DBE89 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158EB2394B397005DBE89 /* DeviceViewController.swift */; };
 		FCE158F22394B398005DBE89 /* PickerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158EC2394B397005DBE89 /* PickerTableView.swift */; };
 		FCE158F32394B398005DBE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158ED2394B397005DBE89 /* AppDelegate.swift */; };
@@ -55,12 +55,12 @@
 
 /* Begin PBXFileReference section */
 		041995AD23A09CB40020B63B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		77A1C860C4389A251A0B72EE /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.release.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
-		B52764D8B21154E4EF219108 /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Age.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA7AEA4A168E116EA35AEFEE /* Pods-Animal Age.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.debug.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.debug.xcconfig"; sourceTree = "<group>"; };
 		FC261B4E23943E810068502A /* UISnapNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISnapNav.swift; sourceTree = "<group>"; };
 		FC4074161E89F61700D163F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FC410FFD18B25A9F00228D78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC4DE3082B82918D001BAA51 /* FeedItemWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemWebViewController.swift; sourceTree = "<group>"; };
+		FC4DE30A2B82918F001BAA51 /* FeedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewController.swift; sourceTree = "<group>"; };
+		FC4DE30C2B829192001BAA51 /* XmlParserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmlParserManager.swift; sourceTree = "<group>"; };
 		FC6F8B5D1E89F3E700DB48F9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		FC7E5FA41E78514200434E11 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		FC7E5FA61E78516A00434E11 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
@@ -68,8 +68,6 @@
 		FC7E5FAA1E78518200434E11 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCBA941A2B7C233D00928C32 /* jquery-3.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-3.7.1.min.js"; sourceTree = "<group>"; };
-		FCE158E723949A36005DBE89 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
-		FCE158E923949A56005DBE89 /* DetailNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsController.swift; sourceTree = "<group>"; };
 		FCE158EB2394B397005DBE89 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
 		FCE158EC2394B397005DBE89 /* PickerTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTableView.swift; sourceTree = "<group>"; };
 		FCE158ED2394B397005DBE89 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				FC2878A12B7ED72B00BF0892 /* IQKeyboardManagerSwift in Frameworks */,
 				FC28789E2B7ED63B00BF0892 /* ProgressHUD in Frameworks */,
 				FCEA450C18B061320009B4DC /* Foundation.framework in Frameworks */,
-				B16B80144A28916EECFF5DC0 /* Pods_Animal_Age.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,15 +124,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01906470615D2149A1B54087 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BA7AEA4A168E116EA35AEFEE /* Pods-Animal Age.debug.xcconfig */,
-				77A1C860C4389A251A0B72EE /* Pods-Animal Age.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		FCEA44FF18B061320009B4DC = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +131,6 @@
 				FCEA453318B061320009B4DC /* Animal AgeTests */,
 				FCEA450A18B061320009B4DC /* Frameworks */,
 				FCEA450918B061320009B4DC /* Products */,
-				01906470615D2149A1B54087 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,7 +157,6 @@
 				FCEA450D18B061320009B4DC /* CoreGraphics.framework */,
 				FCEA450F18B061320009B4DC /* UIKit.framework */,
 				FCEA452D18B061320009B4DC /* XCTest.framework */,
-				B52764D8B21154E4EF219108 /* Pods_Animal_Age.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,6 +164,9 @@
 		FCEA451118B061320009B4DC /* Animal Age */ = {
 			isa = PBXGroup;
 			children = (
+				FC4DE3082B82918D001BAA51 /* FeedItemWebViewController.swift */,
+				FC4DE30A2B82918F001BAA51 /* FeedListViewController.swift */,
+				FC4DE30C2B829192001BAA51 /* XmlParserManager.swift */,
 				FCE158EF2394B397005DBE89 /* AnimalPicker.swift */,
 				FCE158ED2394B397005DBE89 /* AppDelegate.swift */,
 				FCE158F02394B398005DBE89 /* Calc.swift */,
@@ -185,8 +174,6 @@
 				FCE158EB2394B397005DBE89 /* DeviceViewController.swift */,
 				FCE158EC2394B397005DBE89 /* PickerTableView.swift */,
 				FC261B4E23943E810068502A /* UISnapNav.swift */,
-				FCE158E723949A36005DBE89 /* NewsTableViewController.swift */,
-				FCE158E923949A56005DBE89 /* DetailNewsController.swift */,
 				FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */,
 				FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */,
 				FCEFEAC818B1BF6C008B33B8 /* htdocs */,
@@ -241,11 +228,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEA453D18B061320009B4DC /* Build configuration list for PBXNativeTarget "Animal Age" */;
 			buildPhases = (
-				4C87809604050F6ADD07104D /* [CP] Check Pods Manifest.lock */,
 				FCEA450418B061320009B4DC /* Sources */,
 				FCEA450518B061320009B4DC /* Frameworks */,
 				FCEA450618B061320009B4DC /* Resources */,
-				1D437DAB607E2D2B2192CCE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,8 +291,8 @@
 			);
 			mainGroup = FCEA44FF18B061320009B4DC;
 			packageReferences = (
-				FC28789C2B7ED63B00BF0892 /* XCRemoteSwiftPackageReference "ProgressHUD.git" */,
-				FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */,
+				FC28789C2B7ED63B00BF0892 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = FCEA450918B061320009B4DC /* Products */;
 			projectDirPath = "";
@@ -343,63 +328,21 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1D437DAB607E2D2B2192CCE4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RaptureXML@Frankly/RaptureXML_Frankly.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RaptureXML_Frankly.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4C87809604050F6ADD07104D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Animal Age-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		FCEA450418B061320009B4DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE158EA23949A56005DBE89 /* DetailNewsController.swift in Sources */,
 				FC6F8B5E1E89F3E700DB48F9 /* Model.xcdatamodeld in Sources */,
 				FCE158F32394B398005DBE89 /* AppDelegate.swift in Sources */,
+				FC4DE30B2B82918F001BAA51 /* FeedListViewController.swift in Sources */,
 				FC261B4F23943E810068502A /* UISnapNav.swift in Sources */,
 				FCE158F12394B398005DBE89 /* DeviceViewController.swift in Sources */,
-				FCE158E823949A36005DBE89 /* NewsTableViewController.swift in Sources */,
+				FC4DE30D2B829192001BAA51 /* XmlParserManager.swift in Sources */,
 				FCE158F42394B398005DBE89 /* DeviceDetailViewController.swift in Sources */,
 				FCE158F52394B398005DBE89 /* AnimalPicker.swift in Sources */,
 				FCE158F22394B398005DBE89 /* PickerTableView.swift in Sources */,
+				FC4DE3092B82918D001BAA51 /* FeedItemWebViewController.swift in Sources */,
 				FCE158F62394B398005DBE89 /* Calc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,7 +505,6 @@
 		};
 		FCEA453E18B061320009B4DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA7AEA4A168E116EA35AEFEE /* Pods-Animal Age.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
@@ -592,7 +534,6 @@
 		};
 		FCEA453F18B061320009B4DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77A1C860C4389A251A0B72EE /* Pods-Animal Age.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
@@ -696,7 +637,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FC28789C2B7ED63B00BF0892 /* XCRemoteSwiftPackageReference "ProgressHUD.git" */ = {
+		FC28789C2B7ED63B00BF0892 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/relatedcode/ProgressHUD.git";
 			requirement = {
@@ -704,7 +645,7 @@
 				minimumVersion = 14.1.1;
 			};
 		};
-		FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */ = {
+		FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
 			requirement = {
@@ -717,12 +658,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		FC28789D2B7ED63B00BF0892 /* ProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FC28789C2B7ED63B00BF0892 /* XCRemoteSwiftPackageReference "ProgressHUD.git" */;
+			package = FC28789C2B7ED63B00BF0892 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
 			productName = ProgressHUD;
 		};
 		FC2878A02B7ED72B00BF0892 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */;
+			package = FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

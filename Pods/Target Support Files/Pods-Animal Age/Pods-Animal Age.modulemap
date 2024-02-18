@@ -1,6 +1,0 @@
-framework module Pods_Animal_Age {
-  umbrella header "Pods-Animal Age-umbrella.h"
-
-  export *
-  module * { export * }
-}

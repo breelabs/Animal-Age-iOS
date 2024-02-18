@@ -63,29 +63,47 @@ class DeviceViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: DeviceViewController.tableViewCellIdentifier, for: indexPath)
+        
+       
 
         // Configure the cell...
         let device = devices?[indexPath.row] as? NSManagedObject
-        if let value = device?.value(forKey: "pet_name"), let value1 = device?.value(forKey: "age") {
-            cell.textLabel?.text = "\(value) - Age: \(value1)"
+        if let value = device?.value(forKey: "pet_name") {
+            cell.textLabel?.text = "\(value)"
         }
 
-        cell.textLabel?.numberOfLines = 1 // set the numberOfLines
-        cell.textLabel?.lineBreakMode = .byTruncatingTail
+        cell.textLabel?.numberOfLines = 0 // set the numberOfLines
+        cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 16.0)
+        cell.textLabel?.lineBreakMode = .byWordWrapping
 
-        if let value = device?.value(forKey: "date") {
-            cell.detailTextLabel?.text = "\(value)"
+        if let value = device?.value(forKey: "age") {
+            cell.detailTextLabel?.text = "Age: \(value)"
         }
 
         var image: UIImage? = nil
         if let value = device?.value(forKey: "img") as? Data {
             image = UIImage(data: value)
         }
+        
+        let cellImageLayer: CALayer?  = cell.imageView?.layer
+        
         cell.imageView?.image = image
+        
+        image = resizeImage(image: image!, toTheSize: CGSize(width: 70, height: 70))
+
+       
+
+       cellImageLayer!.cornerRadius = 35
+       cellImageLayer!.masksToBounds = true
+        
+        cell.imageView?.image = image
+        
+        cell.frame.inset(by: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
 
         return cell
     }
 
+    
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         // Return NO if you do not want the specified item to be editable.
@@ -120,6 +138,22 @@ class DeviceViewController: UITableViewController {
             devices?.remove(at: indexPath.row)
             self.tableView.deleteRows(at: [indexPath], with: .fade)
         }
+    }
+    
+    func resizeImage(image:UIImage, toTheSize size:CGSize)->UIImage{
+
+        let scale = CGFloat(max(size.width/image.size.width,
+                                size.height/image.size.height))
+        let width:CGFloat  = image.size.width * scale
+        let height:CGFloat = image.size.height * scale;
+
+        let rr:CGRect = CGRect(x: 0, y: 0, width: width, height: height)
+
+        UIGraphicsBeginImageContextWithOptions(size, false, 0);
+        image.draw(in: rr)
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext();
+        return newImage!
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
