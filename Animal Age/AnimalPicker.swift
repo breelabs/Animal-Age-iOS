@@ -12,7 +12,7 @@ import QuartzCore
 import UIKit
 import WebKit
 
-class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSheetDelegate, UITextFieldDelegate {
+class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSheetDelegate, UITextFieldDelegate, UIScrollViewDelegate {
     @IBOutlet var mainArea: UIView!
     @IBOutlet var graphView: WKWebView!
     @IBOutlet var AnimalButt: UIButton!
@@ -29,6 +29,7 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
     @IBOutlet var backView: UIView!
     @IBOutlet var frontView: UIView!
     @IBOutlet var masterFlip: UIView!
+    @IBOutlet var scrollView: UIScrollView!
     var simpleTableVC: UITableViewController?
 
     @IBAction func save(_ sender: Any) {
@@ -106,8 +107,16 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
         return .topAttached
     }
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scrollView.delegate = self
+        
+        scrollView.addSubview(mainArea)//if the contentView is not already inside your scrollview in your xib/StoryBoard doc
+
+        scrollView.contentSize = mainArea.frame.size //sets ScrollView content size
         
         navigationController?.navigationBar.barStyle = .default
         let appearance = UINavigationBarAppearance()
@@ -144,7 +153,6 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
 
         // R: 76 G: 76 B: 76
         let buttColor = UIColor.white
-        let grey = UIColor(red: 0.74, green: 0.76, blue: 0.78, alpha: 1.0)
 
         let layer = AnimalButt?.layer
         layer?.masksToBounds = true
@@ -162,8 +170,8 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
         calcLayer.masksToBounds = true
         calcLayer.cornerRadius = 4.0 //when radius is 0, the border is a rectangle
         calcLayer.borderWidth = 1.0
-        calcLayer.borderColor = grey.cgColor
-        AgeButt.backgroundColor = grey
+        calcLayer.borderColor = UIColor.white.cgColor
+        AgeButt.backgroundColor = UIColor(named: "BarColor")
 
 
 

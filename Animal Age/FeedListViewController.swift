@@ -28,7 +28,7 @@ class FeedListViewController: UITableViewController, XMLParserDelegate {
 
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 140
-        tableView.backgroundColor = UIColor(red: 246/255, green: 212/255, blue: 48/255, alpha: 1)
+        tableView.backgroundColor = UIColor(named: "Yellow Background")
         self.tableView.dataSource = self
         self.tableView.delegate = self
 
@@ -109,12 +109,12 @@ class FeedListViewController: UITableViewController, XMLParserDelegate {
 
        cell.imageView?.image = image
         cell.textLabel?.text = (myFeed.object(at: indexPath.row) as AnyObject).object(forKey: "title") as? String
-        cell.textLabel?.textColor = UIColor.white
+        cell.textLabel?.textColor = UIColor(named: "Text Color")
         cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 16.0)
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.lineBreakMode = .byWordWrapping
         cell.detailTextLabel?.text = (myFeed.object(at: indexPath.row) as AnyObject).object(forKey: "pubDate") as? String
-        cell.detailTextLabel?.textColor = UIColor.white
+        cell.detailTextLabel?.textColor = UIColor(named: "Text Color")
 
         return cell
     }

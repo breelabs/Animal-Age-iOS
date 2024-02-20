@@ -38,7 +38,7 @@ class DeviceViewController: UITableViewController {
         navigationItem.standardAppearance = appearance
         navigationItem.scrollEdgeAppearance = appearance
         
-        tableView.backgroundColor = UIColor(red: 246/255, green: 212/255, blue: 48/255, alpha: 1)
+        tableView.backgroundColor = UIColor(named: "Yellow Background")
         
         title = "Age Tracker"
     }
@@ -86,7 +86,7 @@ class DeviceViewController: UITableViewController {
         let device = devices?[indexPath.row] as? NSManagedObject
         if let value = device?.value(forKey: "pet_name") {
             cell.textLabel?.text = "\(value)"
-            cell.textLabel?.textColor = UIColor.white
+            cell.textLabel?.textColor = UIColor(named: "Text Color")
         }
 
         cell.textLabel?.numberOfLines = 0 // set the numberOfLines
@@ -95,7 +95,7 @@ class DeviceViewController: UITableViewController {
 
         if let value = device?.value(forKey: "age") {
             cell.detailTextLabel?.text = "Age: \(value)"
-            cell.detailTextLabel?.textColor = UIColor.white
+            cell.detailTextLabel?.textColor = UIColor(named: "Text Color")
         }
 
         var image: UIImage? = nil
