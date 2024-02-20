@@ -64,6 +64,8 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
             self.perform(#selector(Calc.dogAnswer(_:)), with: nil, afterDelay: 0.50)
             
         }))
+        
+        
 
 
         alert.addTextField(configurationHandler: { textField in
@@ -106,6 +108,16 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.barStyle = .default
+        let appearance = UINavigationBarAppearance()
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.backgroundColor = UIColor(named: "BarColor")
+
+        navigationItem.standardAppearance = appearance
+        navigationItem.scrollEdgeAppearance = appearance
+        
         
         let defaults = UserDefaults.standard
         defaults.set(true, forKey: "flipPref")

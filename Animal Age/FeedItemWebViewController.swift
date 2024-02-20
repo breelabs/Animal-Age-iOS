@@ -15,6 +15,17 @@ class FeedItemWebViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.barStyle = .default
+        let appearance = UINavigationBarAppearance()
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.backgroundColor = UIColor(named: "BarColor")
+
+        navigationItem.standardAppearance = appearance
+        navigationItem.scrollEdgeAppearance = appearance
+        
+        
         //selectedFeedURL =  selectedFeedURL?.replacingOccurrences(of: " ", with:"")
         selectedFeedURL =  selectedFeedURL?.replacingOccurrences(of: "\n\t\t", with:"")
         webView.load(URLRequest(url: URL(string: selectedFeedURL! as String)!))

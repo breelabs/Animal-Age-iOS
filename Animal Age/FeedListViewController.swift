@@ -16,6 +16,15 @@ class FeedListViewController: UITableViewController, XMLParserDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.barStyle = .default
+        let appearance = UINavigationBarAppearance()
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.backgroundColor = UIColor(named: "BarColor")
+
+        navigationItem.standardAppearance = appearance
+        navigationItem.scrollEdgeAppearance = appearance
 
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 140

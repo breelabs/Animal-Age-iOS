@@ -28,6 +28,18 @@ class DeviceViewController: UITableViewController {
     override func viewDidLoad() {
 
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.barStyle = .default
+        let appearance = UINavigationBarAppearance()
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.backgroundColor = UIColor(named: "BarColor")
+
+        navigationItem.standardAppearance = appearance
+        navigationItem.scrollEdgeAppearance = appearance
+        
+        tableView.backgroundColor = UIColor(red: 246/255, green: 212/255, blue: 48/255, alpha: 1)
+        
         title = "Age Tracker"
     }
 
@@ -64,12 +76,17 @@ class DeviceViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: DeviceViewController.tableViewCellIdentifier, for: indexPath)
         
-       
+        if indexPath.row % 2 == 0 {
+            cell.backgroundColor = UIColor(white: 1, alpha: 0)
+        } else {
+            cell.backgroundColor = UIColor(white: 1, alpha: 0.1)
+        }
 
         // Configure the cell...
         let device = devices?[indexPath.row] as? NSManagedObject
         if let value = device?.value(forKey: "pet_name") {
             cell.textLabel?.text = "\(value)"
+            cell.textLabel?.textColor = UIColor.white
         }
 
         cell.textLabel?.numberOfLines = 0 // set the numberOfLines
@@ -78,6 +95,7 @@ class DeviceViewController: UITableViewController {
 
         if let value = device?.value(forKey: "age") {
             cell.detailTextLabel?.text = "Age: \(value)"
+            cell.detailTextLabel?.textColor = UIColor.white
         }
 
         var image: UIImage? = nil
