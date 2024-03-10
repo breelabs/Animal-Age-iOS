@@ -10,11 +10,10 @@ import CoreData
 import ProgressHUD
 import QuartzCore
 import UIKit
-import WebKit
+import DGCharts
 
 class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSheetDelegate, UITextFieldDelegate, UIScrollViewDelegate {
     @IBOutlet var mainArea: UIView!
-    @IBOutlet var graphView: WKWebView!
     @IBOutlet var AnimalButt: UIButton!
     @IBOutlet var AnimalButt2: UIButton!
     @IBOutlet var AgeButt: UIButton!
@@ -25,11 +24,20 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
     @IBOutlet var ManView2: UIView!
     @IBOutlet var calcText: UILabel!
     @IBOutlet var resultLabel: UILabel!
-    @IBOutlet var webView: WKWebView!
+    @IBOutlet var webView: HorizontalBarChartView!
     @IBOutlet var backView: UIView!
     @IBOutlet var frontView: UIView!
     @IBOutlet var masterFlip: UIView!
+    @IBOutlet var gradientView: UIView!
     @IBOutlet var scrollView: UIScrollView!
+    @IBOutlet var leg1: UIView!
+    @IBOutlet var label1: UILabel!
+    @IBOutlet var leg2: UIView!
+    @IBOutlet var label2: UILabel!
+    @IBOutlet var leg3: UIView!
+    @IBOutlet var label3: UILabel!
+    @IBOutlet var leg4: UIView!
+    @IBOutlet var label4: UILabel!
     var simpleTableVC: UITableViewController?
 
     @IBAction func save(_ sender: Any) {
@@ -108,9 +116,102 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
     }
 
     
+    func setChart(values: [Double], yvalues: [Double], y2values: [Double], y3values: [Double]) {
+        
+        let pFormatter = NumberFormatter()
+        pFormatter.numberStyle = .percent
+        pFormatter.maximumFractionDigits = 1
+        pFormatter.multiplier = 1
+        pFormatter.percentSymbol = ""
+
+        
+        var dataEntries: [BarChartDataEntry] = []
+        for i in 0..<values.count {
+            let dataEntry = BarChartDataEntry(x: 0, yValues:  [values[i],yvalues[i],y2values[i],y3values[i]], data: "groupChart")
+                   //let dataEntry = BarChartDataEntry(x: Double(i) , y: values[i])
+                   dataEntries.append(dataEntry)
+       }
+        
+        print(dataEntries[0].data as Any)
+        let barChartDataSet = BarChartDataSet(entries: dataEntries)
+        barChartDataSet.drawValuesEnabled = false
+        let barChartData = BarChartData(dataSet: barChartDataSet)
+        barChartData.barWidth = Double(0.40)
+        
+        
+        webView.data = barChartData
+        
+        let colors = [NSUIColor(red: 192/255.0, green: 57/255.0, blue: 43/255.0, alpha: 1.0),
+            NSUIColor(red: 243/255.0, green: 156/255.0, blue: 18/255.0, alpha: 1.0),
+            NSUIColor(red: 39/255.0, green: 174/255.0, blue: 96/255.0, alpha: 1.0),
+            NSUIColor(red: 41/255.0, green: 128/255.0, blue: 185/255.0, alpha: 1.0)]
+        barChartDataSet.colors = colors
+        
+      }
+    
+    
+    func setGradient() {
+        let gradient: CAGradientLayer = CAGradientLayer()
+        gradient.colors = [UIColor(named: "GraphBack")?.cgColor as Any, UIColor(named: "GraphBack")?.cgColor as Any]
+        gradient.locations = [0.0 , 1.0]
+        gradient.startPoint = CGPoint(x: 1.0, y: 0.0)
+        gradient.endPoint = CGPoint(x: 1.0, y: 1.0)
+        gradient.frame = gradientView.layer.bounds
+        gradientView.layer.insertSublayer(gradient, at: 0)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        setGradient()
+        leg1.asCircleOne()
+        leg2.asCircleTwo()
+        label1.text = "Sm."
+        label2.text = "Med."
+        label3.text = "Lg."
+        label4.text = "People."
+        leg3.asCircleThree()
+        leg4.asCircleFour()
+        
+// MARK: - Charts Init
+        
+
+        self.webView.rightAxis.drawAxisLineEnabled = false
+        self.webView.leftAxis.drawAxisLineEnabled = false
+        self.webView.xAxis.drawAxisLineEnabled = false
+        self.webView.rightAxis.drawLabelsEnabled = false
+        self.webView.xAxis.drawLabelsEnabled = false
+        self.webView.xAxis.drawGridLinesEnabled = false
+        self.webView.rightAxis.drawGridLinesEnabled = false
+        self.webView.leftAxis.drawGridLinesEnabled = false
+        self.webView.leftAxis.drawLabelsEnabled = false
+        self.webView.legend.enabled = true
+        self.webView.isUserInteractionEnabled = false
+        self.webView.chartDescription.text = nil
+        self.webView.leftAxis.spaceMin = 0
+        self.webView.leftAxis.spaceMax = 0
+        self.webView.leftAxis.spaceTop = 0
+        self.webView.leftAxis.spaceBottom = 0
+        self.webView.xAxis.spaceMax = 0
+        self.webView.rightAxis.spaceMin = 0
+        self.webView.rightAxis.spaceMax = 0
+        self.webView.rightAxis.spaceTop = 0
+        self.webView.rightAxis.spaceBottom = 0
+        self.webView.xAxis.spaceMin = 0
+        self.webView.xAxis.spaceMax = 0
+        self.webView.autoScaleMinMaxEnabled = false
+        
+        let one = [18.0]
+        let two = [10.0]
+        let three = [8.0]
+        let four = [80.0]
+        setChart(values: one, yvalues: two, y2values: three, y3values: four)
+        webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
+        
+// MARK: - General Load
         
         scrollView.delegate = self
         
@@ -133,9 +234,6 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
         let flipin = defaults.object(forKey: "flipPref") as? String
         let flipValue = Int(Double(flipin ?? "") ?? 0.0)
         print("Flip Status: \(flipValue)")
-
-
-
 
         backView.isHidden = true
 
@@ -173,17 +271,6 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
         calcLayer.borderColor = UIColor.white.cgColor
         AgeButt.backgroundColor = UIColor(named: "BarColor")
 
-
-
-// MARK: - Set WebView
-
-        let path1 = Bundle.main.path(forResource: "index", ofType: "html")
-        var html: String? = nil
-        do {
-            html = try String(contentsOfFile: path1 ?? "", encoding: .utf8)
-        } catch {
-        }
-        graphView.loadHTMLString(html ?? "", baseURL: nil)
 
 // MARK: - Set MainView Color
 
@@ -251,13 +338,6 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
 
         let insets = UIApplication.shared.delegate?.window??.safeAreaInsets
         if (insets?.top ?? 0.0) > 0 {
-
-
-
-            var mycviewFrame = graphView.frame
-            mycviewFrame.origin.y = 50
-            mycviewFrame.origin.x = 0
-            graphView.frame = mycviewFrame
 
             var ageFrame = AgeButt.frame
             ageFrame.origin.y = -10
@@ -329,5 +409,42 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+}
+
+extension UIView {
+    func asCircleOne() {
+        self.layer.cornerRadius = self.frame.width / 2;
+        self.layer.masksToBounds = true
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor.white.cgColor
+        self.layer.backgroundColor = (UIColor(named: "One")?.cgColor as Any as! CGColor)
+    }
+}
+extension UIView {
+    func asCircleTwo() {
+        self.layer.cornerRadius = self.frame.width / 2;
+        self.layer.masksToBounds = true
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor.white.cgColor
+        self.layer.backgroundColor = (UIColor(named: "Two")?.cgColor as Any as! CGColor)
+    }
+}
+extension UIView {
+    func asCircleThree() {
+        self.layer.cornerRadius = self.frame.width / 2;
+        self.layer.masksToBounds = true
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor.white.cgColor
+        self.layer.backgroundColor = (UIColor(named: "Three")?.cgColor as Any as! CGColor)
+    }
+}
+extension UIView {
+    func asCircleFour() {
+        self.layer.cornerRadius = self.frame.width / 2;
+        self.layer.masksToBounds = true
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor.white.cgColor
+        self.layer.backgroundColor = (UIColor(named: "Four")?.cgColor as Any as! CGColor)
     }
 }

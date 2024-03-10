@@ -11,6 +11,7 @@
 		FC261B4F23943E810068502A /* UISnapNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC261B4E23943E810068502A /* UISnapNav.swift */; };
 		FC28789E2B7ED63B00BF0892 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = FC28789D2B7ED63B00BF0892 /* ProgressHUD */; };
 		FC2878A12B7ED72B00BF0892 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC2878A02B7ED72B00BF0892 /* IQKeyboardManagerSwift */; };
+		FC30CE452B9D815600E6AF94 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = FC30CE442B9D815600E6AF94 /* DGCharts */; };
 		FC4074171E89F61700D163F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4074161E89F61700D163F5 /* CoreData.framework */; };
 		FC410FFE18B25A9F00228D78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC410FFD18B25A9F00228D78 /* QuartzCore.framework */; };
 		FC4DE3092B82918D001BAA51 /* FeedItemWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DE3082B82918D001BAA51 /* FeedItemWebViewController.swift */; };
@@ -22,7 +23,6 @@
 		FC7E5FA91E78517800434E11 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FA81E78517800434E11 /* libz.tbd */; };
 		FC7E5FAB1E78518200434E11 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E5FAA1E78518200434E11 /* libstdc++.tbd */; };
 		FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */; };
-		FCBA941B2B7C233D00928C32 /* jquery-3.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCBA941A2B7C233D00928C32 /* jquery-3.7.1.min.js */; };
 		FCE158F12394B398005DBE89 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158EB2394B397005DBE89 /* DeviceViewController.swift */; };
 		FCE158F22394B398005DBE89 /* PickerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158EC2394B397005DBE89 /* PickerTableView.swift */; };
 		FCE158F32394B398005DBE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE158ED2394B397005DBE89 /* AppDelegate.swift */; };
@@ -39,8 +39,6 @@
 		FCEA452F18B061320009B4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450B18B061320009B4DC /* Foundation.framework */; };
 		FCEA453018B061320009B4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA450F18B061320009B4DC /* UIKit.framework */; };
 		FCEA453818B061320009B4DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA453618B061320009B4DC /* InfoPlist.strings */; };
-		FCEA453A18B061320009B4DC /* Animal_AgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA453918B061320009B4DC /* Animal_AgeTests.m */; };
-		FCEA8B2319EB337600D00340 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8B2119EB337600D00340 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +65,6 @@
 		FC7E5FA81E78517800434E11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		FC7E5FAA1E78518200434E11 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FCBA941A2B7C233D00928C32 /* jquery-3.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-3.7.1.min.js"; sourceTree = "<group>"; };
 		FCE158EB2394B397005DBE89 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
 		FCE158EC2394B397005DBE89 /* PickerTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTableView.swift; sourceTree = "<group>"; };
 		FCE158ED2394B397005DBE89 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,8 +84,6 @@
 		FCEA452D18B061320009B4DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FCEA453518B061320009B4DC /* Animal AgeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal AgeTests-Info.plist"; sourceTree = "<group>"; };
 		FCEA453718B061320009B4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FCEA453918B061320009B4DC /* Animal_AgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal_AgeTests.m; sourceTree = "<group>"; };
-		FCEA8B2119EB337600D00340 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = htdocs/index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC30CE452B9D815600E6AF94 /* DGCharts in Frameworks */,
 				041995AE23A09CB50020B63B /* WebKit.framework in Frameworks */,
 				FC7E5FAB1E78518200434E11 /* libstdc++.tbd in Frameworks */,
 				FC7E5FA91E78517800434E11 /* libz.tbd in Frameworks */,
@@ -176,7 +172,6 @@
 				FC261B4E23943E810068502A /* UISnapNav.swift */,
 				FCEA451D18B061320009B4DC /* Main_iPhone.storyboard */,
 				FC8F8C821FB8B6320015E5E8 /* LaunchScreen.storyboard */,
-				FCEFEAC818B1BF6C008B33B8 /* htdocs */,
 				FCEA452618B061320009B4DC /* Images.xcassets */,
 				FCEA451218B061320009B4DC /* Supporting Files */,
 			);
@@ -197,7 +192,6 @@
 		FCEA453318B061320009B4DC /* Animal AgeTests */ = {
 			isa = PBXGroup;
 			children = (
-				FCEA453918B061320009B4DC /* Animal_AgeTests.m */,
 				FCEA453418B061320009B4DC /* Supporting Files */,
 			);
 			path = "Animal AgeTests";
@@ -210,15 +204,6 @@
 				FCEA453618B061320009B4DC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FCEFEAC818B1BF6C008B33B8 /* htdocs */ = {
-			isa = PBXGroup;
-			children = (
-				FCBA941A2B7C233D00928C32 /* jquery-3.7.1.min.js */,
-				FCEA8B2119EB337600D00340 /* index.html */,
-			);
-			name = htdocs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +225,7 @@
 			packageProductDependencies = (
 				FC28789D2B7ED63B00BF0892 /* ProgressHUD */,
 				FC2878A02B7ED72B00BF0892 /* IQKeyboardManagerSwift */,
+				FC30CE442B9D815600E6AF94 /* DGCharts */,
 			);
 			productName = "Animal Age";
 			productReference = FCEA450818B061320009B4DC /* Animal Age.app */;
@@ -293,6 +279,7 @@
 			packageReferences = (
 				FC28789C2B7ED63B00BF0892 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
 				FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				FC30CE432B9D815600E6AF94 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = FCEA450918B061320009B4DC /* Products */;
 			projectDirPath = "";
@@ -310,8 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC8F8C831FB8B6320015E5E8 /* LaunchScreen.storyboard in Resources */,
-				FCEA8B2319EB337600D00340 /* index.html in Resources */,
-				FCBA941B2B7C233D00928C32 /* jquery-3.7.1.min.js in Resources */,
 				FCEA452718B061320009B4DC /* Images.xcassets in Resources */,
 				FCEA451F18B061320009B4DC /* Main_iPhone.storyboard in Resources */,
 				FCEA451618B061320009B4DC /* InfoPlist.strings in Resources */,
@@ -351,7 +336,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEA453A18B061320009B4DC /* Animal_AgeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +639,14 @@
 				minimumVersion = 7.0.1;
 			};
 		};
+		FC30CE432B9D815600E6AF94 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -667,6 +659,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC28789F2B7ED72B00BF0892 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
+		};
+		FC30CE442B9D815600E6AF94 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC30CE432B9D815600E6AF94 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 
