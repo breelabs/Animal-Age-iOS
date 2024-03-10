@@ -8,7 +8,8 @@
 
 import Foundation
 import ProgressHUD
-import WebKit
+import UIKit
+import DGCharts
 
 class Calc: NSObject {
     @IBOutlet var PeopleString: UITextField!
@@ -16,13 +17,52 @@ class Calc: NSObject {
     @IBOutlet var resultLabel: UILabel!
     @IBOutlet var AnimalButt: UIButton!
     @IBOutlet var AnimalButt2: UIButton!
-    @IBOutlet var webView: WKWebView!
+    @IBOutlet var webView: HorizontalBarChartView!
     @IBOutlet var calcText: UILabel!
     @IBOutlet var view: UIView!
     @IBOutlet var masterFlip: UIView!
     @IBOutlet var frontView: UIView!
     @IBOutlet var backView: UIView!
+    @IBOutlet var label1: UILabel!
+    @IBOutlet var label2: UILabel!
+    @IBOutlet var label3: UILabel!
+    @IBOutlet var label4: UILabel!
+    
+    func setChart(values: [Double], yvalues: [Double], y2values: [Double], y3values: [Double]) {
+        
+        let pFormatter = NumberFormatter()
+        pFormatter.numberStyle = .percent
+        pFormatter.maximumFractionDigits = 1
+        pFormatter.multiplier = 1
+        pFormatter.percentSymbol = ""
 
+        
+        var dataEntries: [BarChartDataEntry] = []
+        for i in 0..<values.count {
+            let dataEntry = BarChartDataEntry(x: 0, yValues:  [values[i],yvalues[i],y2values[i],y3values[i]], data: "groupChart")
+                   //let dataEntry = BarChartDataEntry(x: Double(i) , y: values[i])
+                   dataEntries.append(dataEntry)
+       }
+        
+        print(dataEntries[0].data as Any)
+        let barChartDataSet = BarChartDataSet(entries: dataEntries)
+        barChartDataSet.drawValuesEnabled = false
+        let barChartData = BarChartData(dataSet: barChartDataSet)
+        barChartData.barWidth = Double(0.40)
+        
+        
+        webView.data = barChartData
+        
+        let colors = [NSUIColor(red: 192/255.0, green: 57/255.0, blue: 43/255.0, alpha: 1.0),
+            NSUIColor(red: 243/255.0, green: 156/255.0, blue: 18/255.0, alpha: 1.0),
+            NSUIColor(red: 39/255.0, green: 174/255.0, blue: 96/255.0, alpha: 1.0),
+            NSUIColor(red: 41/255.0, green: 128/255.0, blue: 185/255.0, alpha: 1.0)]
+        barChartDataSet.colors = colors
+        
+      }
+    
+    
+    
     @IBAction func calcTapped() {
 
         let defaults = UserDefaults.standard
@@ -88,14 +128,19 @@ class Calc: NSObject {
             }
 
             // Trigger Web View Graph
-
-            let scriptSource = "loadDogData()"
-            webView?.evaluateJavaScript(scriptSource, completionHandler: { result, error in
-                if result != nil {
-                    print("Result: \(result ?? "")")
-                }
-
-            })
+            
+            
+            label1.text = "Sm."
+            label2.text = "Med."
+            label3.text = "Lg."
+            label4.text = "People."
+            let one = [18.0]
+            let two = [10.0]
+            let three = [8.0]
+            let four = [80.0]
+            setChart(values: one, yvalues: two, y2values: three, y3values: four)
+            webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
+            
 
             // Cat Calculation
         } else if (buttonTitle == "Cat") {
@@ -149,13 +194,17 @@ class Calc: NSObject {
 
             // Trigger Web View Graph
 
-            let scriptSource = "loadCatData()"
-            webView?.evaluateJavaScript(scriptSource, completionHandler: { result, error in
-                if result != nil {
-                    print("Result: \(result ?? "")")
-                }
-
-            })
+            
+            label1.text = "Outdoor."
+            label2.text = "Indoor."
+            label3.text = "Wildcat."
+            label4.text = "People."
+            let one = [5.0]
+            let two = [55.0]
+            let three = [30.0]
+            let four = [80.0]
+            setChart(values: one, yvalues: two, y2values: three, y3values: four)
+            webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
 
 
             // Cow Calculation
@@ -193,13 +242,16 @@ class Calc: NSObject {
 
             // Trigger Web View Graph
 
-            let scriptSource = "loadCowData()"
-            webView?.evaluateJavaScript(scriptSource, completionHandler: { result, error in
-                if result != nil {
-                    print("Result: \(result ?? "")")
-                }
-
-            })
+            label1.text = "Organic."
+            label2.text = "Dairy."
+            label3.text = "Wild."
+            label4.text = "People."
+            let one = [20.0]
+            let two = [6.0]
+            let three = [28.0]
+            let four = [80.0]
+            setChart(values: one, yvalues: two, y2values: three, y3values: four)
+            webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
 
             // Rabbit Calculation
         } else if (buttonTitle == "Rabbit") {
@@ -237,13 +289,16 @@ class Calc: NSObject {
 
             // Trigger Web View Graph
 
-            let scriptSource = "loadRabbitData()"
-            webView?.evaluateJavaScript(scriptSource, completionHandler: { result, error in
-                if result != nil {
-                    print("Result: \(result ?? "")")
-                }
-
-            })
+            label1.text = "Farm."
+            label2.text = "Wild."
+            label3.text = "Pet."
+            label4.text = "People."
+            let one = [10.0]
+            let two = [5.0]
+            let three = [19.0]
+            let four = [80.0]
+            setChart(values: one, yvalues: two, y2values: three, y3values: four)
+            webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
 
             // Duck Calculation
         } else if (buttonTitle == "Duck") {
@@ -280,14 +335,17 @@ class Calc: NSObject {
 
 
             // Trigger Web View Graph
-
-            let scriptSource = "loadDuckData()"
-            webView?.evaluateJavaScript(scriptSource, completionHandler: { result, error in
-                if result != nil {
-                    print("Result: \(result ?? "")")
-                }
-
-            })
+            label1.text = "Farm."
+            label2.text = "Wild."
+            label3.text = "Pet."
+            label4.text = "People."
+            let one = [10.0]
+            let two = [18.0]
+            let three = [7.0]
+            let four = [80.0]
+            setChart(values: one, yvalues: two, y2values: three, y3values: four)
+            webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
+           
 
             // Chicken Calculation
         } else {
@@ -323,14 +381,17 @@ class Calc: NSObject {
             }
 
             // Trigger Web View Graph
-
-            let scriptSource = "loadChickenData()"
-            webView?.evaluateJavaScript(scriptSource, completionHandler: { result, error in
-                if result != nil {
-                    print("Result: \(result ?? "")")
-                }
-
-            })
+            label1.text = "Farm."
+            label2.text = "Wild."
+            label3.text = "Pet."
+            label4.text = "People."
+            let one = [10.0]
+            let two = [5.0]
+            let three = [19.0]
+            let four = [80.0]
+            setChart(values: one, yvalues: two, y2values: three, y3values: four)
+            webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
+            
         }
 
 
