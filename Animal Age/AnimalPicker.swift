@@ -39,7 +39,8 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
     @IBOutlet var leg4: UIView!
     @IBOutlet var label4: UILabel!
     var simpleTableVC: UITableViewController?
-
+    @IBOutlet var graphBack: UIView!
+    
     @IBAction func save(_ sender: Any) {
 
         let alert = UIAlertController(title: "What is your pets name?", message: "Save your pets name in the database.", preferredStyle: .alert) // 7
@@ -164,7 +165,7 @@ class AnimalPicker: UIViewController, AnimalPickerControllerDelegate, UIActionSh
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        graphBack.backgroundColor = UIColor(named: "GraphBackDk")
         
         setGradient()
         leg1.asCircleOne()

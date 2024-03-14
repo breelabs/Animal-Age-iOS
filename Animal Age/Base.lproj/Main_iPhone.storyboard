@@ -102,7 +102,7 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fi6-V6-OvS" customClass="HorizontalBarChartView" customModule="DGCharts">
-                                                                <rect key="frame" x="-20" y="-77" width="425" height="199"/>
+                                                                <rect key="frame" x="-20" y="-80" width="425" height="199"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                             </view>
@@ -360,6 +360,7 @@
                         <outlet property="convertButt" destination="Q55-HT-Ksn" id="OZ9-wb-9cb"/>
                         <outlet property="frontView" destination="qo3-eh-mnF" id="IO4-a4-SQU"/>
                         <outlet property="gradientView" destination="YxV-g1-gIQ" id="X6A-Ur-xXI"/>
+                        <outlet property="graphBack" destination="laJ-Lj-1lD" id="iNt-jM-Tnq"/>
                         <outlet property="label1" destination="0lq-an-VOO" id="KeY-Yq-rQg"/>
                         <outlet property="label2" destination="o1c-jK-Tek" id="Kks-9S-d0U"/>
                         <outlet property="label3" destination="Q7d-6T-Rrb" id="0n7-ng-zpm"/>
@@ -989,7 +990,7 @@
             <color red="0.9649999737739563" green="0.83099997043609619" blue="0.18799999356269836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="GraphBack">
-            <color red="0.55294117647058827" green="0.55294117647058827" blue="0.55294117647058827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.55299997329711914" green="0.55299997329711914" blue="0.55299997329711914" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Text Color">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
